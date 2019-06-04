@@ -389,60 +389,67 @@ eigenmode frequency range, which is caused by particle scattering.
 Since this is a form of braking radiation, the authors named it as
 \emph{electrostatic bremsstrahlung}.
 
-Considering the context presented above, the working proposal of
-this PhD Thesis is to put forward the first numerical analysis of
-the new weak turbulence theory for collisional plasmas \cite{YZKS16}
-and explore its applications in the solar physics scope. In
-\Cref{cha:theo-fram} and \Cref{cha:weak-turb}, we make a brief review
-of the basic plasma kinetic theory equations and the weak turbulence
-theory, respectively. In \Cref{noneigenmode}, we introduce the
-new generalization of the weak turbulence theory, which takes into
-account the contribution of noneigenmode fluctuations during the
-derivation of the particle and wave kinetic equations, resulting
-in three new terms. In \Cref{main}, we contextualize the present
-work regarding the theory discussed in the previous chapter and
-present the results obtained so far by appending the two papers
-published in this subject. In \Cref{cha:final}, we summarize the
-results and discuss the perspectives of the present research. Then,
-we propose a schedule for the remaining period until the thesis
-defense. In the end we have three appendices. \Cref{appA} shows
-an improved approximation for the second order susceptibility of
-the electrostatic bremsstrahlung for Langmuir waves. \Cref{appB}
-presents a discussion about the asymptotic equilibrium state of the
-Langmuir waves spectrum, considering a combination of a inverse
-power-law kappa distribution and a Maxwellian distribution, in the
-presence and in the absence of the electrostatic bremsstrahlung.
-The discussion in \Cref{appB} is related with the article appended
-in \Cref{appC}, which is a parallel research and is only slightly
-related with the main subject of this work, that is the study of the
-combined action of collective and collisional processes in weakly
-turbulent plasmas, in the presence of electrostatic oscillations.
+% Considering the context presented above, the working proposal of
+% this PhD Thesis is to put forward the first numerical analysis of
+% the new weak turbulence theory for collisional plasmas \cite{YZKS16}
+% and explore its applications in the solar physics scope. In
+% \Cref{cha:theo-fram} and \Cref{cha:weak-turb}, we make a brief review
+% of the basic plasma kinetic theory equations and the weak turbulence
+% theory, respectively. In \Cref{noneigenmode}, we introduce the
+% new generalization of the weak turbulence theory, which takes into
+% account the contribution of noneigenmode fluctuations during the
+% derivation of the particle and wave kinetic equations, resulting
+% in three new terms. In \Cref{main}, we contextualize the present
+% work regarding the theory discussed in the previous chapter and
+% present the results obtained so far by appending the two papers
+% published in this subject. In \Cref{cha:final}, we summarize the
+% results and discuss the perspectives of the present research. Then,
+% we propose a schedule for the remaining period until the thesis
+% defense. In the end we have three appendices. \Cref{appA} shows
+% an improved approximation for the second order susceptibility of
+% the electrostatic bremsstrahlung for Langmuir waves. \Cref{appB}
+% presents a discussion about the asymptotic equilibrium state of the
+% Langmuir waves spectrum, considering a combination of a inverse
+% power-law kappa distribution and a Maxwellian distribution, in the
+% presence and in the absence of the electrostatic bremsstrahlung.
+% The discussion in \Cref{appB} is related with the article appended
+% in \Cref{appC}, which is a parallel research and is only slightly
+% related with the main subject of this work, that is the study of the
+% combined action of collective and collisional processes in weakly
+% turbulent plasmas, in the presence of electrostatic oscillations.
 
 
-\section{Collective and collisional processes in plasmas}
-\label{sec:collec-coll-proc}
-In order to understand what collective processes are, one has to
-have in mind that a plasma is a many-body system composed mostly
-- or completely - of charged particles, that interact with each
-other through electromagnetic forces. Due to the long range nature
-of the electromagnetic forces, one charge can interact with several
-charges at the same time, that will interact with others, and so
-on. In such arrangement, the particle motion, at a certain volume
-element of the plasma, will be affected not only by the surrounding
-environment, but it will also be influenced by the conditions at
-distant regions of the system. This nonlocal feature of the plasma
-dynamics is called \emph{collective behavior} \cite{chen}.
+\section{Astrophysical plasmas}
+\label{sec:astro-plasma}
+At a first glance, the study of plasmas seems completely unrelated
+with
 
-Collective processes are the outcome of collective behavior, i.e.,
-are processes that occur as a response of the collective behavior
-of the plasma. Such phenomena exists in both neutral (same number of
-negative and positive components), and nonneutral (different quantities
-of negative and positive charges, or have only one charge species)
-plasmas. The dynamics in both cases, however, is dramatically different.
-In this work we are interested only in the first case and, once we
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.5\textwidth]{corona2017.png}
+%    \includegraphics[0.4\textwidth]{}
+    \caption{Solar corona captured during the total solar eclipse of 2017. Credit:
+      \href{https://hdr-astrophotography.com/a-propos/}{Nicolas Lefaudeux}.}
+    \label{fig1}
+  \end{center}
+\end{figure}
 
 
-\section{Kinetic theory}
+% In order to understand what collective processes are, one has to
+% have in mind that a plasma is a many-body system composed mostly
+% - or completely - of charged particles, that interact with each
+% other through electromagnetic forces. Due to the long range nature
+% of the electromagnetic forces, one charge can interact with several
+% charges at the same time, that will interact with others, and so
+% on. In such arrangement, the particle motion, at a certain volume
+% element of the plasma, will be affected not only by the surrounding
+% environment, but it will also be influenced by the conditions at
+% distant regions of the system. This nonlocal characteristic  of the plasma
+% dynamics is called \emph{collective behavior} \cite{chen}.
+
+
+
+\chapter{Kinetic theory}
 \label{sec:kin-theo}
 The kinetic theory is the most fundamental description of the
 plasma dynamics. Based on the concepts and methods of statistical
