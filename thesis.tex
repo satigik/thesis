@@ -381,13 +381,13 @@ The authors used the same standard weak turbulence perturbative method
 but, instead of keeping only the collective eigenmodes in the linear
 and nonlinear wave-particle interactions, they also kept the effects
 of the non-collective fluctuations emitted by thermal particles. The
-outcome is a complete first principles nonlinear description of the
-propagation of electrostatic oscillations in the presence of both wave
-and particle collisional dissipation, and a hitherto unknown process.
-This new effect depicts the emission of electrostatic radiation in the
-eigenmode frequency range, which is caused by particle scattering. 
-Since this is a form of braking radiation, the authors named it as
-\emph{electrostatic bremsstrahlung}.
+outcome is a complete nonlinear description, from first principles, of
+the propagation of electrostatic oscillations in the presence of both
+wave and particle collisional dissipation and a new equation describing
+a hitherto unknown process. This new effect depicts the emission of
+electrostatic radiation, in the eigenmode frequency range, caused by
+particle scattering. Since this is a form of braking radiation, the
+authors named it as \emph{electrostatic bremsstrahlung}.
 
 % Considering the context presented above, the working proposal of
 % this PhD Thesis is to put forward the first numerical analysis of
@@ -429,7 +429,7 @@ electrically charged particles and the electric currents related to their
 motion, respectively. Due to the long-range nature of these self-generated
 fields, one particle affects the movement of several other particles, which
 will interact with other particles, and so on. This \emph{collective behavior}
-\footnote{A detailed description of all the processes and conditions that
+\footnote{A detailed exposition of all the processes and conditions that
   characterize the collective behavior in plasmas, can be accessed in the
   following introductory books \cite{bitt,gurnett2017,chen,DavidsonNonNeutral}.}
 is what characterizes an ionized gas as a plasma, and is also the reason
@@ -440,15 +440,28 @@ the charges, and how they vary in time \cite{chen}.
 
 A complete description of such a complicated dynamics would depend on determining
 the position and momentum of each particle, and their respective microscopic
-electric and magnetic fields, in a time instant. This strategy is not practical
-and in most of the cases not feasible for many-body systems, like the plasma.  
-However, this microscopic description can be dealt through a hierarchy of
+electric and magnetic fields, in a given instant in time. This strategy is not
+practical and in most of the cases not feasible for many-body systems, like the
+plasma. However, this microscopic description can be dealt through a hierarchy of
 approximations, leading to the three main theories of plasma physics: kinetic,
 multi-fluid, and magnetohydrodynamics (MHD). The use of each one of these
-formulations will depend on the phenomenon that needs to be described,
+formulations will depend on the phenomenon that needs to be described. 
 
 
+\section{Kinetic processes in astrophysical plasmas}
+\label{sec:astro-plasma}
 
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.48\textwidth]{corona2017.png}
+    \includegraphics[width=0.4305\textwidth]{high-contrast-corona.png}
+    \caption{Solar corona captured during the total solar eclipse of 2017.
+      {\footnotesize Credit:}
+      \href{https://hdr-astrophotography.com/high-resolution-2017-total-solar-eclipse/}
+      {\footnotesize Nicolas Lefaudeux}{\footnotesize , accessed at 05/06/2019}.}
+    \label{fig1}
+  \end{center}
+\end{figure}
 
 
 The kinetic theory is the most fundamental description of the
@@ -528,21 +541,6 @@ and the nature of the phenomenon under consideration. For low
 amplitude oscillations in a fully ionized plasma, one may employ
 perturbation theory in order to solve the Vlasov equation
 \cite{klimo}.
-
-\section{Kinetic processes in astrophysical plasmas}
-\label{sec:astro-plasma}
-
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.48\textwidth]{corona2017.png}
-    \includegraphics[width=0.4305\textwidth]{high-contrast-corona.png}
-    \caption{Solar corona captured during the total solar eclipse of 2017.
-      {\footnotesize Credit:}
-      \href{https://hdr-astrophotography.com/high-resolution-2017-total-solar-eclipse/}
-      {\footnotesize Nicolas Lefaudeux}{\footnotesize , accessed at 05/06/2019}.}
-    \label{fig1}
-  \end{center}
-\end{figure}
 
 \section{Low amplitude electrostatic oscillations}
 We are interested in the presence of high-frequency electrostatic
@@ -662,7 +660,7 @@ term and a small first-order fluctuation
   \end{split}
 \end{equation}
 where the zero-order electric field is assumed to be zero and
-$F_a$ is the equilibrium velocity distribution.
+$F_a$ is the equilibrium velocity distribution function.
 
 Substituting \eqref{pert-nl} in \eqref{vlasov-nl} we obtain
 \begin{equation} 
@@ -703,13 +701,13 @@ quasilinear approximation.
 % quasilinear approximation."
 % Sabrina: OK
 Thus, at this point, one must choose whether the quasilinear approach
-is enough or if a nonlinear formulation is necessary. In the first case
+is enough, or if a nonlinear formulation is necessary. In the first case
 all terms proportional to $\delta {\bf E} \delta f_a$ are neglected in
 the equation for the fluctuations\footnote{See subsection 3.1.2 of
   \cite{Tigik2015}.}. We shall keep these terms and proceed with the
 nonlinear approach.
 
-Now we assume the fluctuations may be decomposed in terms of the
+Now, we assume the fluctuations may be decomposed in terms of the
 Fourier-Laplace transformation over the fast time-scale of the
 fluctuations, while amplitudes of the spectra vary in a slow
 time-scale
