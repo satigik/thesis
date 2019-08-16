@@ -3,6 +3,7 @@
 \documentclass[12pt,a4paper,ruledheader]{report}
 \usepackage[inner=2.0cm,outer=2.0cm,top=3.0cm,bottom=2.0cm]{geometry}
 \usepackage{enumerate}
+\usepackage[inline]{enumitem}
 %\usepackage{chngcntr}
 \usepackage[toc]{appendix}
 \usepackage{pdflscape}
@@ -317,10 +318,10 @@ so-called \emph{bump-in-tail instability}. Besides being recurrently used
 in textbooks as an illustrative example of the quasilinear diffusion process
 \cite{akhi2,chen,gurnett2017}, the bump-in-tail instability also has an
 essential role in the study of type II and type III radio bursts
-\cite{Emslie1984,Hannah2009,ZVST11,Hannah2011,KK12,RR14,BNKR14}. In this
-context, the relevance of a more accurate description of nonlinear kinetic
-instabilities in plasmas, represented here by the beam-plasma interaction,
-becomes clear.
+\cite{Emslie1984,Hannah2009,ZVST11,Hannah2011,KK12,Reid2014,BNKR14}. In
+this context, the relevance of a more accurate description of nonlinear
+kinetic instabilities in plasmas, represented here by the beam-plasma
+interaction, becomes clear.
 
 The next step towards a more complete description of weakly-turbulent
 processes in plasmas is the inclusion of collisional effects in the
@@ -2551,10 +2552,10 @@ Spitzer formula, that is independent of the wave-number, is highly overestimated
 when compared with the rigorous expression, which has to be integrated in the
 wave-number space. The Spitzer approximation is largely applied to the modeling
 and interpretation of several solar phenomena observed by space-probes \cite{
-  Vinas2000,Hannah2009,ZVST11,KRB12,KF13,RR14,Reid2015}, a fact that emphasizes
-the necessity of the development of a mathematically rigorous theory able to
-describe hybrid situations involving collective oscillations and collisional
-interactions.
+  Vinas2000,Hannah2009,ZVST11,KRB12,KF13,Reid2014,Reid2015}, a fact that
+emphasizes the necessity of the development of a mathematically rigorous
+theory able to describe hybrid situations involving collective oscillations
+and collisional interactions.
 
 The second study, discussed in \Cref{sec:gen-supr}, was focused on the
 consequences of taking into account the hitherto unknown effect of
@@ -3351,10 +3352,10 @@ in remote astrophysical environments \cite{NAP10477}.
 The theory developed during this graduate research analyses the combined
 action of nonlinear kinetic instabilities and collisional processes in
 the context of solar physics. To contextualize our work within the solar
-plasma research, in this appendix, we present a brief review of the
-current state-of-the-art of solar and space physics research, followed
-by a discussion on the solar plasma phenomena related to our study.
-
+plasma research, in \autoref{sec:solar-physics} we present a brief review
+of the current research in solar and space physics, and in \autoref{res}
+we discuss how our work is related to what is pointed in the previous
+section.
 
 \section{Solar and space physics}
 \label{sec:solar-physics}
@@ -3447,7 +3448,6 @@ infrastructure such as electric power grids \cite{NAP13060}.
   \end{center}
 \end{figure}
 
-
 \subsection{The solar corona}
 \label{sec:corona}
 The source of the tenuous magnetized plasma permeating the heliosphere, and
@@ -3471,20 +3471,11 @@ in a classical case of an answer that brings a more troublesome question.
 Since then, several mechanisms have been proposed \cite{Parker1988,Scudder92b,
   Vinas2000,PP14}, not only to comprehend the heating of the solar corona,
 but also the acceleration of the solar wind. Another unsolved problem that is
-directly connected to the inverted temperature profile of the solar corona, is
-regarding where and how the non-Maxwellian velocity distribution functions with
-suprathermal tails, observed in the solar wind, are formed.
-
-In \cite{Tigik2017a} ...
-present a new fundamental mechanism that is capable
-the formation of suprathermal tails in the electron velocity distribution function 
-
-proposing a fundamental mechanism,
-the electrostatic bremsstrahlung, that might take electrons out of the thermal
-equilibrium
-
-
-\begin{figure}[hb]
+directly connected to the inverted temperature profile of the solar corona and
+particle acceleration in the Sun, is regarding where and how the non-Maxwellian
+velocity distribution functions with suprathermal tails, observed in the solar
+wind, are formed.
+\begin{figure}
   \begin{center}
     \includegraphics[width=0.892\textwidth]{corona2017.png}
     \includegraphics[width=0.892\textwidth]{corona2019.png}
@@ -3500,11 +3491,42 @@ equilibrium
 \end{figure}
 
 
+\section{How all of this is related to our research?}
+\label{res}
+The work 
 
 
 
+In \cite{Tigik2017a} ...
+present a new fundamental mechanism that is capable
+the formation of suprathermal tails in the electron velocity distribution function 
+
+proposing a fundamental mechanism,
+the electrostatic bremsstrahlung, that might take electrons out of the thermal
+equilibrium
 
 
+In \cite{Tigik2016a} we show for the first time that binary collisions
+impacts the dynamics of the plasma-beam instability in the same timescale
+of nonlinear processes associated to the emission and amplification of
+electrostatic, high-frequency plasma waves associated to electrons, also
+called .  
+
+
+
+% As pointed in the introduction, the kinetic theory of plasmas is mostly
+% concerned with processes that involve waves and oscillatory instabilities.
+% Kinetic instabilities depend on the inter-particle displacement and the
+% electrostatic and electromagnetic oscillatory modes that arise as a response.
+% This kind of physics cannot be described using a macroscopic approach like
+% magnetohydrodynamics (MHD), that treat the plasma as magnetized, incompressible
+% fluid. A single-particle description is also out of the question because it
+% is both mathematically and computationally prohibitive. Statistical mechanics,
+% however, suits very well for the problem. But, as the reader could have noticed,
+% the kinetic description of plasmas is quite cumbersome and requires a lot of
+% approximations to get to any result. This does not mean that kinetic theory is
+% incapable to provide a reliable description of kinetic oscillatory instabilities
+% and micro-turbulent processes in real-world plasmas.
 
 
 \end{appendix}
