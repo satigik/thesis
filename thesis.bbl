@@ -1,0 +1,812 @@
+\begin{thebibliography}{100}
+
+\bibitem{akhi1967}
+A.I. Akhiezer, I.A. Akhiezer, R.V. Polovin, and D.~Haar.
+\newblock {\em Collective oscillations in a plasma}.
+\newblock International series of monographs in natural philosophy. Cambridge
+  MIT Press, 1967.
+\newblock URL: \url{https://books.google.com.br/books?id=1y1RAAAAMAAJ}.
+
+\bibitem{klimo}
+YU.~L. Klimontovich.
+\newblock {\em The Statistical Theory of Non-equilibrium Processes in Plasma}.
+\newblock International series of monographs in natural philosophy. M.I.T.
+  Press, 1967.
+\newblock URL: \url{https://books.google.com.br/books?id=YiVRAAAAMAAJ}.
+
+\bibitem{bitt}
+J.A. Bittencourt.
+\newblock {\em Fundamentals of Plasma Physics}.
+\newblock Springer New York, 2013.
+\newblock \href {http://dx.doi.org/10.1007/978-1-4757-4030-1}
+  {\path{doi:10.1007/978-1-4757-4030-1}}.
+
+\bibitem{chen}
+F.~F. Chen.
+\newblock {\em Introduction to Plasma Physics and Controlled Fusion}.
+\newblock Springer, 3rd edition, 2016.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-22309-4}
+  {\path{doi:10.1007/978-3-319-22309-4}}.
+
+\bibitem{gurnett2017}
+Donald~A. Gurnett and Amitava Bhattacharjee.
+\newblock {\em Introduction to Plasma Physics: With Space, Laboratory and
+  Astrophysical Applications}.
+\newblock Cambridge University Press, 2 edition, 2017.
+\newblock \href {http://dx.doi.org/10.1017/9781139226059}
+  {\path{doi:10.1017/9781139226059}}.
+
+\bibitem{akhi2}
+A.I. Akhiezer.
+\newblock {\em Plasma Electrodynamics: Non-linear theory and fluctuations}.
+\newblock International series of monographs in natural philosophy. Pergamon
+  Press, 1975.
+\newblock URL: \url{https://books.google.com.br/books?id=27bvAAAAMAAJ}.
+
+\bibitem{Kadomtsev1965}
+B.~B. {Kadomtsev}.
+\newblock {\em {Plasma turbulence}}.
+\newblock Academic Press, New York, 1965.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1965pltu.book.....K}.
+
+\bibitem{Tsytovich1967}
+V.~N. {Tsytovich}.
+\newblock {Reviews of Topical Problems: Nonlinear Effects in a Plasma}.
+\newblock {\em Soviet Physics Uspekhi}, 9:805--836, June 1967.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1967SvPhU...9..805T}, \href
+  {http://dx.doi.org/10.1070/PU1967v009n06ABEH003226}
+  {\path{doi:10.1070/PU1967v009n06ABEH003226}}.
+
+\bibitem{saggal}
+R.~Z. Sagdeev and A.~A. Galeev.
+\newblock {\em Nonlinear Plasma Theory}.
+\newblock Frontiers in physics. W. A. Benjamin, 1969.
+\newblock URL: \url{https://books.google.com.br/books?id=xT3wAAAAIAAJ}.
+
+\bibitem{tsynlep}
+V.~N. Tsytovich.
+\newblock {\em Non Linear Effects in Plasmas}.
+\newblock Plenum Press, New York, 1970.
+\newblock URL: \url{https://books.google.com.br/books?id=OAhRAAAAMAAJ}.
+
+\bibitem{david}
+R.~C. Davidson.
+\newblock {\em Methods in Nonlinear Plasma Theory}.
+\newblock Pure and applied physics. Academic Press, New York, 1972.
+\newblock URL: \url{https://books.google.com.br/books?id=0lFRAAAAMAAJ}.
+
+\bibitem{tsyitotp}
+V.~N. Tsytovich.
+\newblock {\em An Introduction to the Theory of Plasma Turbulence}.
+\newblock International series of monographs in natural philosophy. Pergamon
+  Press, 1972.
+\newblock URL: \url{https://books.google.com.br/books?id=JuGZAAAAIAAJ}.
+
+\bibitem{tsytotp}
+V.~N. Tsytovich.
+\newblock {\em Theory of Turbulent Plasma}.
+\newblock Studies in Soviet science : Physical sciences. Consultants Bureau,
+  New York, 1977.
+\newblock URL: \url{https://books.google.com.br/books?id=2S9RAAAAMAAJ}.
+
+\bibitem{mel}
+D.~B. Melrose.
+\newblock {\em Instabilities in Space and Laboratory Plasmas}.
+\newblock Cambrige University Press, 1986.
+\newblock URL: \url{https://books.google.com.br/books?id=yVimB3mZv2UC}.
+
+\bibitem{Grognard1982}
+R.~J-M. Grognard.
+\newblock Numerical simulation of the weak turbulence excited by a beam of
+  electrons in the interplanetary plasma.
+\newblock {\em Solar Physics}, 81(1):173--180, Nov 1982.
+\newblock URL: \url{https://doi.org/10.1007/BF00151988}, \href
+  {http://dx.doi.org/10.1007/BF00151988} {\path{doi:10.1007/BF00151988}}.
+
+\bibitem{McClements87b}
+K.~G. McClements.
+\newblock {The quasi-linear relaxation and bremsstrahlung of thick target
+  electron beams in solar flares}.
+\newblock {\em Astronomy \& Astrophysics}, 175:255--262, March 1987.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1987A%26A...175..255M}.
+
+\bibitem{Hanssen1991}
+Alfred Hanssen.
+\newblock Resonance broadening modification of weak plasma turbulence theory.
+\newblock {\em Journal of Geophysical Research: Space Physics},
+  96(A2):1867--1871, 1991.
+\newblock URL: \url{http://dx.doi.org/10.1029/90JA02307}, \href
+  {http://dx.doi.org/10.1029/90JA02307} {\path{doi:10.1029/90JA02307}}.
+
+\bibitem{Edney2001}
+S.~D. Edney and P.~A. Robinson.
+\newblock Analytic treatment of weak-turbulence {L}angmuir wave electrostatic
+  decay.
+\newblock {\em Physics of Plasmas}, 8(2):428--440, 2001.
+\newblock URL: \url{https://doi.org/10.1063/1.1339839}, \href
+  {http://dx.doi.org/10.1063/1.1339839} {\path{doi:10.1063/1.1339839}}.
+
+\bibitem{Kontar2001}
+E.~P. {Kontar}.
+\newblock {Dynamics of electron beams in the inhomogeneous solar corona
+  plasma}.
+\newblock {\em Solar Physics}, 202:131--149, August 2001.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2001SoPh..202..131K}, \href
+  {http://dx.doi.org/10.1023/A:1011894830942}
+  {\path{doi:10.1023/A:1011894830942}}.
+
+\bibitem{Kontar2002}
+E.~P. Kontar and H.~L. P\'ecseli.
+\newblock Nonlinear development of electron-beam-driven weak turbulence in an
+  inhomogeneous plasma.
+\newblock {\em Phys. Rev. E}, 65:066408, Jun 2002.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevE.65.066408}, \href
+  {http://dx.doi.org/10.1103/PhysRevE.65.066408}
+  {\path{doi:10.1103/PhysRevE.65.066408}}.
+
+\bibitem{THD13}
+J.~M. TenBarge, G.~G. Howes, and W.~Dorland.
+\newblock Collisionless damping at electron scales in solar wind turbulence.
+\newblock {\em The Astrophysical Journal}, 774(2), Sep 10 2013.
+\newblock \href {http://dx.doi.org/10.1088/0004-637X/774/2/139}
+  {\path{doi:10.1088/0004-637X/774/2/139}}.
+
+\bibitem{Yoon00}
+P.~H. {Yoon}.
+\newblock {Generalized weak turbulence theory}.
+\newblock {\em Phys. Plasmas}, 7:4858--4871, December 2000.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2000PhPl....7.4858Y}, \href
+  {http://dx.doi.org/10.1063/1.1318358} {\path{doi:10.1063/1.1318358}}.
+
+\bibitem{Yoon05a}
+Peter~H. Yoon.
+\newblock Effects of spontaneous fluctuations on the generalized weak
+  turbulence theory.
+\newblock {\em Physics of Plasmas}, 12(4):042306, 2005.
+\newblock \href {http://dx.doi.org/10.1063/1.1864073}
+  {\path{doi:10.1063/1.1864073}}.
+
+\bibitem{Yoon06}
+P.~H. {Yoon}.
+\newblock {Statistical theory of electromagnetic weak turbulence}.
+\newblock {\em Phys. Plasmas}, 13(2):022302, February 2006.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2006PhPl...13b2302Y}, \href
+  {http://dx.doi.org/10.1063/1.2167587} {\path{doi:10.1063/1.2167587}}.
+
+\bibitem{Yoon2012b}
+P.~H. Yoon, L.~F. Ziebell, R.~Gaelzer, and J.~Pavan.
+\newblock Electromagnetic weak turbulence theory revisited.
+\newblock {\em Physics of Plasmas}, 19(10):102303, 2012.
+\newblock URL: \url{https://doi.org/10.1063/1.4757224}, \href
+  {http://dx.doi.org/10.1063/1.4757224} {\path{doi:10.1063/1.4757224}}.
+
+\bibitem{ZGPY08}
+L.~F. {Ziebell}, R.~{Gaelzer}, J.~{Pavan}, and P.~H. {Yoon}.
+\newblock {Two-dimensional nonlinear dynamics of beam plasma instability}.
+\newblock {\em Plasma Physics and Controlled Fusion}, 50(8):085011, August
+  2008.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2008PPCF...50h5011Z}, \href
+  {http://dx.doi.org/10.1088/0741-3335/50/8/085011}
+  {\path{doi:10.1088/0741-3335/50/8/085011}}.
+
+\bibitem{Ziebell2012}
+L.~F. Ziebell, P.~H. Yoon, R.~Gaelzer, and J.~Pavan.
+\newblock Langmuir condensation by spontaneous scattering off electrons in two
+  dimensions.
+\newblock {\em Plasma Physics and Controlled Fusion}, 54(5):055012, 2012.
+\newblock URL: \url{http://stacks.iop.org/0741-3335/54/i=5/a=055012}.
+
+\bibitem{YZGLW12}
+P.~H. Yoon, L.~F. Ziebell, R.~Gaelzer, R.~P. Lin, and L.~Wang.
+\newblock Langmuir turbulence and suprathermal electrons.
+\newblock {\em Space Science Reviews}, 173(1):459--489, 2012.
+\newblock URL: \url{http://dx.doi.org/10.1007/s11214-012-9867-3}, \href
+  {http://dx.doi.org/10.1007/s11214-012-9867-3}
+  {\path{doi:10.1007/s11214-012-9867-3}}.
+
+\bibitem{ZYGP14a}
+L.~F. Ziebell, P.~H. Yoon, R.~Gaelzer, and J.~{Pavan}.
+\newblock {Plasma Emission by Weak Turbulence Processes}.
+\newblock {\em Astrophysical Journal Letters}, 795:L32, November 2014.
+\newblock \href {http://dx.doi.org/10.1088/2041-8205/795/2/L32}
+  {\path{doi:10.1088/2041-8205/795/2/L32}}.
+
+\bibitem{ZYGP14b}
+L.~F. Ziebell, P.~H. Yoon, R.~Gaelzer, and J.~Pavan.
+\newblock Transition from thermal to turbulent equilibrium with a resulting
+  electromagnetic spectrum.
+\newblock {\em Phys. Plasmas}, 21(1):012306, January 2014.
+\newblock \href {http://dx.doi.org/10.1063/1.4863453}
+  {\path{doi:10.1063/1.4863453}}.
+
+\bibitem{ZYSGP14c}
+L.~F. Ziebell, P.~H. Yoon, F.~J.~R. Sim{\~o}es, R.~Gaelzer, and J.~Pavan.
+\newblock Spontaneous emission of electromagnetic radiation in turbulent
+  plasmas.
+\newblock {\em Phys. Plasmas}, 21(1):010701, January 2014.
+\newblock \href {http://dx.doi.org/10.1063/1.4861619}
+  {\path{doi:10.1063/1.4861619}}.
+
+\bibitem{ZYPGP15}
+L.~F. Ziebell, P.~H. Yoon, L.~T. Petruzzellis, R.~Gaelzer, and J.~Pavan.
+\newblock Plasma emission by nonlinear electromagnetic processes.
+\newblock {\em The Astrophysical Journal}, 806:237, June 2015.
+\newblock \href {http://dx.doi.org/10.1088/0004-637X/806/2/237}
+  {\path{doi:10.1088/0004-637X/806/2/237}}.
+
+\bibitem{ZPYGP16}
+L.~F. Ziebell, L.~T. Petruzzellis, P.~H. Yoon, R.~Gaelzer, and J.~Pavan.
+\newblock Plasma emission by counter-streaming electron beams.
+\newblock {\em The Astrophysical Journal}, 818(1):61, 2016.
+\newblock URL: \url{http://stacks.iop.org/0004-637X/818/i=1/a=61}.
+
+\bibitem{ZiebellGY01}
+L.~F. Ziebell, R.~Gaelzer, and Peter~H. Yoon.
+\newblock Nonlinear development of weak beam-plasma instability.
+\newblock {\em Phys. Plasmas}, 8(9):3982--3995, Sept. 2001.
+\newblock \href {http://dx.doi.org/10.1063/1.1389863}
+  {\path{doi:10.1063/1.1389863}}.
+
+\bibitem{GaelzerZY02}
+R.~Gaelzer, L.~F. Ziebell, and Peter~H. Yoon.
+\newblock Generation of harmonic {L}angmuir mode by beam plasma instability.
+\newblock {\em Phys. Plasmas}, 9(1):96--110, Jan 2002.
+\newblock \href {http://dx.doi.org/10.1063/1.1421371}
+  {\path{doi:10.1063/1.1421371}}.
+
+\bibitem{GZVYR08}
+R.~Gaelzer, L.~F. Ziebell, A.~F. Viñas, P.~H. Yoon, and C.-M. Ryu.
+\newblock Asymmetric solar wind electron superthermal distributions.
+\newblock {\em The Astrophysical Journal}, 677(1):676, 2008.
+\newblock URL: \url{http://stacks.iop.org/0004-637X/677/i=1/a=676}.
+
+\bibitem{Emslie1984}
+A.~G. Emslie and D.~F. Smith.
+\newblock {Microwave signature of thick-target electron beams in solar flares}.
+\newblock {\em The Astrophysical Journal}, 279:882--895, April 1984.
+\newblock \href {http://dx.doi.org/10.1086/161959} {\path{doi:10.1086/161959}}.
+
+\bibitem{Hannah2009}
+I.~G. Hannah, E.~P. Kontar, and O.~K. Sirenko.
+\newblock The effect of wave-particle interactions on low-energy cutoffs in
+  solar flare electron spectra.
+\newblock {\em Astrophysical Journal Letters}, 707(1):L45--L50, Dec 10 2009.
+\newblock \href {http://dx.doi.org/10.1088/0004-637X/707/1/L45}
+  {\path{doi:10.1088/0004-637X/707/1/L45}}.
+
+\bibitem{ZVST11}
+Valentina~V. Zharkova and Taras~V. Siversky.
+\newblock The effects of electron-beam-induced electric field on the generation
+  of {L}angmuir turbulence in flaring atmospheres.
+\newblock {\em The Astrophysical Journal}, 733(1), May 2011.
+\newblock \href {http://dx.doi.org/10.1088/0004-637X/733/1/33}
+  {\path{doi:10.1088/0004-637X/733/1/33}}.
+
+\bibitem{Hannah2011}
+I.~G. Hannah and E.~P. Kontar.
+\newblock The spectral difference between solar flare {HXR} coronal and
+  footpoint sources due to wave-particle interactions.
+\newblock {\em Astronomy \& Astrophysics}, 529, May 2011.
+\newblock \href {http://dx.doi.org/10.1051/0004-6361/201015710}
+  {\path{doi:10.1051/0004-6361/201015710}}.
+
+\bibitem{KK12}
+M.~Karlický and E.~P. Kontar.
+\newblock Electron acceleration during three-dimensional relaxation of an
+  electron beam-return current plasma system in a magnetic field.
+\newblock {\em Astronomy \& Astrophysics}, 544, Aug 2012.
+\newblock \href {http://dx.doi.org/10.1051/0004-6361/201219400}
+  {\path{doi:10.1051/0004-6361/201219400}}.
+
+\bibitem{Reid2014}
+Hamish Andrew~Sinclair Reid and Heather Ratcliffe.
+\newblock A review of solar type {III} radio bursts.
+\newblock {\em Research in Astronomy and Astrophysics}, 14(7):773--804, Jul
+  2014.
+\newblock URL: \url{https://doi.org/10.1088%2F1674-4527%2F14%2F7%2F003}, \href
+  {http://dx.doi.org/10.1088/1674-4527/14/7/003}
+  {\path{doi:10.1088/1674-4527/14/7/003}}.
+
+\bibitem{BNKR14}
+Nicolas~H. Bian, Eduard~P. Kontar, and Heather Ratcliffe.
+\newblock Resonance broadening due to particle scattering and mode coupling in
+  the quasi-linear relaxation of electron beams.
+\newblock {\em Journal of Geophysical Research - Space Physics},
+  119(6):4239--4255, Jun 2014.
+\newblock \href {http://dx.doi.org/10.1002/2013JA019664}
+  {\path{doi:10.1002/2013JA019664}}.
+
+\bibitem{Yoon2012c}
+Peter~H. Yoon, Jinhy Hong, Sunjung Kim, Junggi Lee, Junhyun Lee, Jongsun Park,
+  Kyungsun Park, and Jungjoon Seough.
+\newblock Asymmetric solar wind electron distributions.
+\newblock {\em The Astrophysical Journal}, 755(2):112, 2012.
+\newblock URL: \url{http://stacks.iop.org/0004-637X/755/i=2/a=112}.
+
+\bibitem{Tigik2016a}
+S.~F. Tigik, L.~F. Ziebell, P.~H. Yoon, and E.~P. Kontar.
+\newblock Two-dimensional time evolution of beam-plasma instability in the
+  presence of binary collisions.
+\newblock {\em Astronomy \& Astrophysics}, 586:A19, February 2016.
+\newblock \href {http://dx.doi.org/10.1051/0004-6361/201527271}
+  {\path{doi:10.1051/0004-6361/201527271}}.
+
+\bibitem{PK95}
+L.~J. {Porter} and J.~A. {Klimchuk}.
+\newblock {Soft X-Ray Loops and Coronal Heating}.
+\newblock {\em The Astrophysical Journal}, 454:499, November 1995.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1995ApJ...454..499P}, \href
+  {http://dx.doi.org/10.1086/176501} {\path{doi:10.1086/176501}}.
+
+\bibitem{Kohl1998}
+J.~L. Kohl, G.~Noci, E.~Antonucci, G.~Tondello, M.~C.~E. Huber, S.~R. Cranmer,
+  L.~Strachan, A.~V Panasyuk, L.~D. Gardner, M.~Romoli, S.~Fineschi,
+  D.~Dobrzycka, J.~C. Raymond, P.~Nicolosi, O.~H.~W. Siegmund, D.~Spadaro,
+  C.~Benna, A.~Ciaravella, S.~Giordano, S.~R. Habbal, M.~Karovska, X.~Li,
+  R.~Martin, J.~G. Michels, A.~Modigliani, G.~Naletto, R.~H. O'Neal,
+  C.~Pernechele, G.~Poletto, P.~L. Smith, and R.~M. Suleiman.
+\newblock Uvcs/soho empirical determinations of anisotropic velocity
+  distributions in the solar corona.
+\newblock {\em Astrophysical Journal Letters}, 501(1):L127, 1998.
+\newblock URL: \url{http://stacks.iop.org/1538-4357/501/i=1/a=L127}.
+
+\bibitem{Veronig05}
+Astrid~M. Veronig, John~C. Brown, and Laura Bone.
+\newblock Evidence for a solar coronal thick-target hard {X}-ray source
+  observed by {RHESSI}.
+\newblock {\em Advances in Space Research}, 35(10):1683 -- 1689, 2005.
+\newblock URL:
+  \url{http://www.sciencedirect.com/science/article/pii/S0273117705001353},
+  \href {http://dx.doi.org/10.1016/j.asr.2005.01.065}
+  {\path{doi:10.1016/j.asr.2005.01.065}}.
+
+\bibitem{Brown2006}
+John~C. Brown, A.~Gordon Emslie, Gordon~D. Holman, Christopher~M. Johns-Krull,
+  Eduard~P. Kontar, Robert~P. Lin, Anna~Maria Massone, and Michele Piana.
+\newblock Evaluation of algorithms for reconstructing electron spectra from
+  their bremsstrahlung hard x-ray spectra.
+\newblock {\em The Astrophysical Journal}, 643(1):523, 2006.
+\newblock URL: \url{http://stacks.iop.org/0004-637X/643/i=1/a=523}.
+
+\bibitem{Kontar2011}
+E.~P. Kontar, J.~C. Brown, A.~G. Emslie, W.~Hajdas, G.~D. Holman, G.~J.
+  Hurford, J.~Ka{\v{s}}parov{\'a}, P.~C.~V. Mallik, A.~M. Massone, M.~L.
+  McConnell, M.~Piana, M.~Prato, E.~J. Schmahl, and E.~Suarez-Garcia.
+\newblock Deducing electron properties from hard x-ray observations.
+\newblock {\em Space Science Reviews}, 159(1):301--355, 2011.
+\newblock URL: \url{http://dx.doi.org/10.1007/s11214-011-9804-x}, \href
+  {http://dx.doi.org/10.1007/s11214-011-9804-x}
+  {\path{doi:10.1007/s11214-011-9804-x}}.
+
+\bibitem{KKDSSK11}
+{Kulinová, A.}, {Kašparová, J.}, {Dzifčáková, E.}, {Sylwester, J.},
+  {Sylwester, B.}, and {Karlický, M.}
+\newblock Diagnostics of non-thermal distributions in solar flare spectra
+  observed by {RESIK} and {RHESSI}.
+\newblock {\em Astronomy \& Astrophysics}, 533:A81, 2011.
+\newblock URL: \url{https://doi.org/10.1051/0004-6361/201116741}, \href
+  {http://dx.doi.org/10.1051/0004-6361/201116741}
+  {\path{doi:10.1051/0004-6361/201116741}}.
+
+\bibitem{YZKS16}
+P.~H. Yoon, L.~F. Ziebell, E.~P. Kontar, and R.~Schlickeiser.
+\newblock Weak turbulence theory for collisional plasmas.
+\newblock {\em Physical Review E}, 93:033203, Mar 2016.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.93.033203}
+  {\path{doi:10.1103/PhysRevE.93.033203}}.
+
+\bibitem{klimon}
+YU.~L. Klimontovich.
+\newblock {\em Kinetic Theory of Non Ideal Gases and Nonideal Plasmas}.
+\newblock International series in natural philosophy. Pergamon Press, 1982.
+\newblock URL: \url{https://books.google.com.br/books?id=RdLvAAAAMAAJ}.
+
+\bibitem{Tigik2015}
+S.~F. Tigik.
+\newblock An{\'a}lise n{\~a}o linear da intera{\c{c}}{\~a}o feixe-plasma na
+  presen{\c{c}}a de colis{\~o}es bin{\'a}rias.
+\newblock Master's thesis, Universidade Federal do Rio Grande do Sul, Instituto
+  de F{\'i}sica, September 2015.
+\newblock URL: \url{http://hdl.handle.net/10183/127986}.
+
+\bibitem{Tigik2017a}
+S.~F. Tigik, L.~F. Ziebell, and P.~H. Yoon.
+\newblock Generation of suprathermal electrons by collective processes in
+  collisional plasma.
+\newblock {\em The Astrophysical Journal Letters}, 849(2):L30, 2017.
+\newblock URL: \url{http://stacks.iop.org/2041-8205/849/i=2/a=L30}.
+
+\bibitem{Tigik2016b}
+S.~F. Tigik, L.~F. Ziebell, and P.~H. Yoon.
+\newblock Collisional damping rates for plasma waves.
+\newblock {\em Physics of Plasmas}, 23(6):064504, 2016.
+\newblock \href {http://dx.doi.org/10.1063/1.4953802}
+  {\path{doi:10.1063/1.4953802}}.
+
+\bibitem{Gaffey1976}
+J.~D. {Gaffey}, Jr.
+\newblock {Energetic ion distribution resulting from neutral beam injection in
+  tokamaks}.
+\newblock {\em Journal of Plasma Physics}, 16:149--169, October 1976.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1976JPlPh..16..149G}, \href
+  {http://dx.doi.org/10.1017/S0022377800020134}
+  {\path{doi:10.1017/S0022377800020134}}.
+
+\bibitem{Vinas2000}
+Adolfo~F. Viñas, Hung~K. Wong, and Alexander~J. Klimas.
+\newblock Generation of electron suprathermal tails in the upper solar
+  atmosphere: Implications for coronal heating.
+\newblock {\em The Astrophysical Journal}, 528(1):509, 2000.
+\newblock URL: \url{http://stacks.iop.org/0004-637X/528/i=1/a=509}.
+
+\bibitem{KRB12}
+E.~P. Kontar, H.~Ratcliffe, and N.~H. Bian.
+\newblock Wave-particle interactions in non-uniform plasma and the
+  interpretation of hard x-ray spectra in solar flares.
+\newblock {\em Astronomy \& Astrophysics}, 539:A43, Mar 2012.
+\newblock URL: \url{http://dx.doi.org/10.1051/0004-6361/201118216}, \href
+  {http://dx.doi.org/10.1051/0004-6361/201118216}
+  {\path{doi:10.1051/0004-6361/201118216}}.
+
+\bibitem{KF13}
+H.~Khalilpour and G.~Foroutan.
+\newblock Simulation study of collisional effects on the propagation of a hot
+  electron beam and generation of {L}angmuir turbulence for application in type
+  {III} radio bursts.
+\newblock {\em Journal of Plasma Physics}, 79(3):239--248, Jun 2013.
+\newblock \href {http://dx.doi.org/10.1017/S0022377812000876}
+  {\path{doi:10.1017/S0022377812000876}}.
+
+\bibitem{Reid2015}
+{Reid, Hamish A. S.} and {Kontar, Eduard P.}
+\newblock Stopping frequency of type {III} solar radio bursts in expanding
+  magnetic flux tubes.
+\newblock {\em Astronomy \& Astrophysics}, 577:A124, 2015.
+\newblock URL: \url{https://doi.org/10.1051/0004-6361/201425309}, \href
+  {http://dx.doi.org/10.1051/0004-6361/201425309}
+  {\path{doi:10.1051/0004-6361/201425309}}.
+
+\bibitem{Parker1958a}
+E.~N. {Parker}.
+\newblock {Dynamics of the Interplanetary Gas and Magnetic Fields.}
+\newblock {\em The Astrophysical Journal}, 128:664, November 1958.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1958ApJ...128..664P}, \href
+  {http://dx.doi.org/10.1086/146579} {\path{doi:10.1086/146579}}.
+
+\bibitem{Vasyliunas68}
+Vytenis~M. Vasyliunas.
+\newblock A survey of low-energy electrons in the evening sector of the
+  magnetosphere with {OGO} 1 and {OGO} 3.
+\newblock {\em Journal of Geophysical Research}, 73(9):2839--2884, 1968.
+\newblock URL: \url{http://dx.doi.org/10.1029/JA073i009p02839}, \href
+  {http://dx.doi.org/10.1029/JA073i009p02839}
+  {\path{doi:10.1029/JA073i009p02839}}.
+
+\bibitem{Coroniti1974}
+F.~V. {Coroniti}.
+\newblock {Energetic Electrons in Jupiter's Magnetosphere}.
+\newblock {\em The Astrophysical Journal Supplement}, 27:261, March 1974.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1974ApJS...27..261C}, \href
+  {http://dx.doi.org/10.1086/190296} {\path{doi:10.1086/190296}}.
+
+\bibitem{FABMG75}
+W.~C. Feldman, J.~R. Asbridge, S.~J. Bame, M.~D. Montgomery, and S.~P. Gary.
+\newblock Solar wind electrons.
+\newblock {\em Journal of Geophysical Research}, 80(31):4181--4196, 1975.
+\newblock URL: \url{http://dx.doi.org/10.1029/JA080i031p04181}, \href
+  {http://dx.doi.org/10.1029/JA080i031p04181}
+  {\path{doi:10.1029/JA080i031p04181}}.
+
+\bibitem{Lin1998}
+R.~P. Lin.
+\newblock Wind observations of suprathermal electrons in the interplanetary
+  medium.
+\newblock {\em Space Science Reviews}, 86(1):61--78, 1998.
+\newblock URL: \url{http://dx.doi.org/10.1023/A:1005048428480}, \href
+  {http://dx.doi.org/10.1023/A:1005048428480}
+  {\path{doi:10.1023/A:1005048428480}}.
+
+\bibitem{Horne2005}
+R.~B. {Horne}, R.~M. {Thorne}, Y.~Y. {Shprits}, N.~P. {Meredith}, S.~A.
+  {Glauert}, A.~J. {Smith}, S.~G. {Kanekal}, D.~N. {Baker}, M.~J.
+  {Engebretson}, J.~L. {Posch}, M.~{Spasojevic}, U.~S. {Inan}, J.~S. {Pickett},
+  and P.~M.~E. {Decreau}.
+\newblock {Wave acceleration of electrons in the Van Allen radiation belts}.
+\newblock {\em Nature}, 437:227--230, September 2005.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2005Natur.437..227H}, \href
+  {http://dx.doi.org/10.1038/nature03939} {\path{doi:10.1038/nature03939}}.
+
+\bibitem{Clark2015}
+G.~{Clark}, T.~W. {Broiles}, J.~L. {Burch}, G.~A. {Collinson}, T.~{Cravens},
+  R.~A. {Frahm}, J.~{Goldstein}, R.~{Goldstein}, K.~{Mandt}, P.~{Mokashi},
+  M.~{Samara}, and C.~J. {Pollock}.
+\newblock {Suprathermal electron environment of comet
+  67P/Churyumov-Gerasimenko: Observations from the Rosetta Ion and Electron
+  Sensor}.
+\newblock {\em Astronomy \& Astrophysics}, 583:A24, November 2015.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2015A%26A...583A..24C}, \href
+  {http://dx.doi.org/10.1051/0004-6361/201526351}
+  {\path{doi:10.1051/0004-6361/201526351}}.
+
+\bibitem{Padovani2015}
+M.~{Padovani}, P.~{Hennebelle}, A.~{Marcowith}, and K.~{Ferri{\`e}re}.
+\newblock {Cosmic-ray acceleration in young protostars}.
+\newblock {\em Astronomy \& Astrophysics}, 582:L13, October 2015.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2015A%26A...582L..13P}, \href
+  {http://arxiv.org/abs/1509.06416} {\path{arXiv:1509.06416}}, \href
+  {http://dx.doi.org/10.1051/0004-6361/201526874}
+  {\path{doi:10.1051/0004-6361/201526874}}.
+
+\bibitem{deSoria2016}
+M.~{de Soria-Santacruz}, H.~B. {Garrett}, R.~W. {Evans}, I.~{Jun}, W.~{Kim},
+  C.~{Paranicas}, and A.~{Drozdov}.
+\newblock An empirical model of the high-energy electron environment at
+  jupiter.
+\newblock {\em Journal of Geophysical Research (Space Phys.)}, 121:9732--9743,
+  October 2016.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2016JGRA..121.9732D}, \href
+  {http://dx.doi.org/10.1002/2016JA023059} {\path{doi:10.1002/2016JA023059}}.
+
+\bibitem{Padovani2017}
+M.~{Padovani}, A.~{Marcowith}, P.~{Hennebelle}, and K.~{Ferri{\`e}re}.
+\newblock {The plasma physics of cosmic rays in star-forming regions}.
+\newblock {\em Plasma Phys. and Contr. Fus.}, 59(1):014002, January 2017.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/2017PPCF...59a4002P}, \href
+  {http://dx.doi.org/10.1088/0741-3335/59/1/014002}
+  {\path{doi:10.1088/0741-3335/59/1/014002}}.
+
+\bibitem{Deca2017}
+J.~{Deca}, A.~{Divin}, P.~{Henri}, A.~{Eriksson}, S.~{Markidis},
+  V.~{Olshevsky}, and M.~{Hor{\'a}nyi}.
+\newblock Electron and ion dynamics of the solar wind interaction with a weakly
+  outgassing comet.
+\newblock {\em Physical Review Letters}, 118:205101, May 2017.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRevLett.118.205101},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.118.205101}
+  {\path{doi:10.1103/PhysRevLett.118.205101}}.
+
+\bibitem{Scudder92a}
+J.~D. {Scudder}.
+\newblock {On the causes of temperature change in inhomogeneous low-density
+  astrophysical plasmas}.
+\newblock {\em The Astrophysical Journal}, 398:299--318, October 1992a.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1992ApJ...398..299S}, \href
+  {http://dx.doi.org/10.1086/171858} {\path{doi:10.1086/171858}}.
+
+\bibitem{Scudder92b}
+J.~D. {Scudder}.
+\newblock {Why all stars should possess circumstellar temperature inversions}.
+\newblock {\em The Astrophysical Journal}, 398:319--349, October 1992b.
+\newblock \href {http://dx.doi.org/10.1086/171859} {\path{doi:10.1086/171859}}.
+
+\bibitem{Anderson94}
+S.~W. Anderson.
+\newblock {Coulomb collisions and coronal heating by velocity filtration}.
+\newblock {\em The Astrophysical Journal}, 437:860--866, December 1994.
+\newblock \href {http://dx.doi.org/10.1086/175046} {\path{doi:10.1086/175046}}.
+
+\bibitem{Scudder94}
+J.~D. {Scudder}.
+\newblock {Ion and electron suprathermal tail strengths in the transition
+  region: Support for the velocity filtration model of the corona}.
+\newblock {\em The Astrophysical Journal}, 427:446--452, May 1994.
+\newblock \href {http://dx.doi.org/10.1086/174155} {\path{doi:10.1086/174155}}.
+
+\bibitem{Scudder96}
+J.~D. Scudder.
+\newblock Electron and ion temperature gradients and suprathermal tail
+  strengths at {P}arker's solar wind sonic critical point.
+\newblock {\em Journal of Geophysical Research}, 101(A5):11039--11053, 1996.
+\newblock \href {http://dx.doi.org/10.1029/96JA00188}
+  {\path{doi:10.1029/96JA00188}}.
+
+\bibitem{DS99}
+John~C. Dorelli and Jack~D. Scudder.
+\newblock Electron heat flow carried by kappa distributions in the solar
+  corona.
+\newblock {\em Journal of Geophysical Research}, 26(23):3537--3540, 1999.
+\newblock URL: \url{http://dx.doi.org/10.1029/1999GL010687}, \href
+  {http://dx.doi.org/10.1029/1999GL010687} {\path{doi:10.1029/1999GL010687}}.
+
+\bibitem{DS03}
+John~C. Dorelli and Jack~D. Scudder.
+\newblock Electron heat flow in the solar corona: Implications of
+  non-{M}axwellian velocity distributions, the solar gravitational field, and
+  {C}oulomb collisions.
+\newblock {\em Journal of Geophysical Research}, 108(A7), 2003.
+\newblock 1294.
+\newblock URL: \url{http://dx.doi.org/10.1029/2002JA009484}, \href
+  {http://dx.doi.org/10.1029/2002JA009484} {\path{doi:10.1029/2002JA009484}}.
+
+\bibitem{Teles15}
+Tarc\'{\i}sio~N. Teles, Shamik Gupta, Pierfrancesco Di~Cintio, and Lapo
+  Casetti.
+\newblock Temperature inversion in long-range interacting systems.
+\newblock {\em Physical Review E}, 92:020101, Aug 2015.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevE.92.020101}
+  {\path{doi:10.1103/PhysRevE.92.020101}}.
+
+\bibitem{Tigik2017b}
+S.~F. Tigik, L.~T. Petruzzellis, L.~F. Ziebell, P.~H. Yoon, and R.~Gaelzer.
+\newblock Weakly turbulent plasma processes in the presence of inverse
+  power-law velocity tail population.
+\newblock {\em Physics of Plasmas}, 24(11):112902, 2017.
+\newblock \href {http://dx.doi.org/10.1063/1.5009931}
+  {\path{doi:10.1063/1.5009931}}.
+
+\bibitem{peratt2014}
+A.L. Peratt.
+\newblock {\em Physics of the Plasma Universe}.
+\newblock Springer New York, 2014.
+\newblock URL: \url{https://books.google.com.br/books?id=To--jwEACAAJ}.
+
+\bibitem{tsypa}
+S.S.A. Kaplan and V.N. Tsytovich.
+\newblock {\em Plasma Astrophysics}.
+\newblock International series of monographs in natural philosophy, v. 59.
+  Pergamon Press, 1973.
+\newblock URL: \url{https://books.google.com.br/books?id=UzasAAAAIAAJ}.
+
+\bibitem{may}
+May-Britt Kallenrode.
+\newblock {\em Space Physics: an introduction to plasmas and particles in the
+  heliosphere and magnetospheres}.
+\newblock Springer-Verlag Berlin Heidelberg, 3rd edition, 2004.
+
+\bibitem{Alfven1950}
+H.~Alfven and H.~Alfv{\'e}n.
+\newblock {\em Cosmical Electrodynamics}.
+\newblock International series of monographs on physics. Clarendon Press, 1950.
+\newblock URL: \url{https://books.google.com.br/books?id=3tYgAAAAMAAJ}.
+
+\bibitem{Parker1956}
+Eugene~N. Parker.
+\newblock Modulation of primary cosmic-ray intensity.
+\newblock {\em Phys. Rev.}, 103:1518--1533, Sep 1956.
+\newblock URL: \url{https://link.aps.org/doi/10.1103/PhysRev.103.1518}, \href
+  {http://dx.doi.org/10.1103/PhysRev.103.1518}
+  {\path{doi:10.1103/PhysRev.103.1518}}.
+
+\bibitem{Alfven1961}
+H.~{Alfv{\'e}n}.
+\newblock {On the origin of cosmic magnetic fields.}
+\newblock {\em The Astrophysical Journal}, 133:1049, May 1961.
+\newblock \href {http://dx.doi.org/10.1086/147108} {\path{doi:10.1086/147108}}.
+
+\bibitem{Gailitis1964}
+A.~K. {Gailitis} and V.~N. {Tsytovich}.
+\newblock Acceleration by radiation and the generation of fast particles under
+  cosmic conditions. {III}. {T}ime variations in the intensity of radio
+  sources.
+\newblock {\em Soviet Astronomy}, 8:359, Dec 1964.
+\newblock URL: \url{http://cdsads.u-strasbg.fr/abs/1964SvA.....8..359G}.
+
+\bibitem{Alfven1971}
+Hannes Alfvén.
+\newblock {Plasma physics applied to cosmology.}
+\newblock {\em Physics Today}, 24(2):28--33, 1971.
+\newblock URL: \url{https://doi.org/10.1063/1.3022564}, \href
+  {http://dx.doi.org/10.1063/1.3022564} {\path{doi:10.1063/1.3022564}}.
+
+\bibitem{Donnert2014}
+J.~Donnert and G.~Brunetti.
+\newblock {An efficient Fokker–Planck solver and its application to
+  stochastic particle acceleration in galaxy clusters}.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  443(4):3564--3577, 08 2014.
+\newblock URL: \url{https://doi.org/10.1093/mnras/stu1417}, \href
+  {http://dx.doi.org/10.1093/mnras/stu1417} {\path{doi:10.1093/mnras/stu1417}}.
+
+\bibitem{Pezzi2018}
+O.~Pezzi, S.~Servidio, D.~Perrone, F.~Valentini, L.~Sorriso-Valvo, A.~Greco,
+  W.~H. Matthaeus, and P.~Veltri.
+\newblock Velocity-space cascade in magnetized plasmas: Numerical simulations.
+\newblock {\em Physics of Plasmas}, 25(6):060704, 2018.
+\newblock URL: \url{https://doi.org/10.1063/1.5027685}, \href
+  {http://dx.doi.org/10.1063/1.5027685} {\path{doi:10.1063/1.5027685}}.
+
+\bibitem{Howes2018}
+Gregory~G. Howes.
+\newblock Laboratory space physics: Investigating the physics of space plasmas
+  in the laboratory.
+\newblock {\em Physics of Plasmas}, 25(5):055501, 2018.
+\newblock URL: \url{https://doi.org/10.1063/1.5025421}, \href
+  {http://dx.doi.org/10.1063/1.5025421} {\path{doi:10.1063/1.5025421}}.
+
+\bibitem{Peterson2019}
+Ethan~E. Peterson, Douglass~A. Endrizzi, Matthew Beidler, Kyle~J. Bunkers,
+  Michael Clark, Jan Egedal, Ken Flanagan, Karsten~J. McCollam, Jason Milhone,
+  Joseph Olson, Carl~R. Sovinec, Roger Waleffe, John Wallace, and Cary~B.
+  Forest.
+\newblock A laboratory model for the {P}arker spiral and magnetized stellar
+  winds.
+\newblock {\em Nature Physics}, 2019.
+\newblock URL: \url{https://doi.org/10.1038/s41567-019-0592-7}, \href
+  {http://dx.doi.org/10.1038/s41567-019-0592-7}
+  {\path{doi:10.1038/s41567-019-0592-7}}.
+
+\bibitem{NAP10477}
+National~Research Council.
+\newblock {\em The Sun to the Earth -- and Beyond: A Decadal Research Strategy
+  in Solar and Space Physics}.
+\newblock The National Academies Press, Washington, DC, 2003.
+\newblock URL:
+  \url{https://www.nap.edu/catalog/10477/the-sun-to-the-earth-and-beyond-a-decadal-research},
+  \href {http://dx.doi.org/10.17226/10477} {\path{doi:10.17226/10477}}.
+
+\bibitem{Dialynas2017}
+K.~Dialynas, S.~M. Krimigis, D.~G. Mitchell, R.~B. Decker, and E.~C. Roelof.
+\newblock The bubble-like shape of the heliosphere observed by {V}oyager and
+  {C}assini.
+\newblock {\em Nature Astronomy}, 1:0115, Apr 2017.
+\newblock Letter.
+\newblock URL: \url{https://doi.org/10.1038/s41550-017-0115}.
+
+\bibitem{NAP13060}
+National~Research Council.
+\newblock {\em Solar and Space Physics: A Science for a Technological Society}.
+\newblock The National Academies Press, Washington, DC, 2013.
+\newblock URL:
+  \url{https://www.nap.edu/catalog/13060/solar-and-space-physics-a-science-for-a-technological-society},
+  \href {http://dx.doi.org/10.17226/13060} {\path{doi:10.17226/13060}}.
+
+\bibitem{chapman1929cosmical}
+S~Chapman.
+\newblock Cosmical magnetic phenomena.
+\newblock {\em Nature}, 124:19--26, 1929.
+
+\bibitem{Koskinen2011}
+Hannu Koskinen.
+\newblock {\em Physics of Space Storms: From the Solar Surface to the Earth}.
+\newblock Springer Praxis Books. Springer-Verlag Berlin Heidelberg, 1 edition,
+  2011.
+\newblock URL: \url{https://doi.org/10.1007/978-3-642-00319-6}, \href
+  {http://dx.doi.org/10.1007/978-3-642-00319-6}
+  {\path{doi:10.1007/978-3-642-00319-6}}.
+
+\bibitem{Cranmer2017}
+Steven~R. Cranmer, Sarah~E. Gibson, and Pete Riley.
+\newblock Origins of the ambient solar wind: Implications for space weather.
+\newblock {\em Space Science Reviews}, 212(3):1345--1384, Nov 2017.
+\newblock URL: \url{https://doi.org/10.1007/s11214-017-0416-y}, \href
+  {http://dx.doi.org/10.1007/s11214-017-0416-y}
+  {\path{doi:10.1007/s11214-017-0416-y}}.
+
+\bibitem{Klein2017}
+Karl-Ludwig Klein and Silvia Dalla.
+\newblock Acceleration and propagation of solar energetic particles.
+\newblock {\em Space Science Reviews}, 212(3):1107--1136, Nov 2017.
+\newblock URL: \url{https://doi.org/10.1007/s11214-017-0382-4}, \href
+  {http://dx.doi.org/10.1007/s11214-017-0382-4}
+  {\path{doi:10.1007/s11214-017-0382-4}}.
+
+\bibitem{BenzA2002}
+Benz~A. O.
+\newblock {\em Plasma Astrophysics: Kinetic Processes in Solar and Stellar
+  Coronae}, volume 279 of {\em Astrophysics And Space Science Library Series}.
+\newblock Springer, 2nd edition, 2002.
+
+\bibitem{Hunter1942}
+A.~Hunter.
+\newblock Origin of the coronium lines.
+\newblock {\em Nature}, 150(3817):756--759, 1942.
+\newblock URL: \url{https://doi.org/10.1038/150756a0}, \href
+  {http://dx.doi.org/10.1038/150756a0} {\path{doi:10.1038/150756a0}}.
+
+\bibitem{Parker1988}
+E.~N. {Parker}.
+\newblock {Nanoflares and the solar X-ray corona}.
+\newblock {\em The Astrophysical Journal}, 330:474--479, July 1988.
+\newblock URL: \url{http://adsabs.harvard.edu/abs/1988ApJ...330..474P}, \href
+  {http://dx.doi.org/10.1086/166485} {\path{doi:10.1086/166485}}.
+
+\bibitem{PP14}
+V.~Pierrard and M.~Pieters.
+\newblock Coronal heating and solar wind acceleration for electrons, protons,
+  and minor ions obtained from kinetic models based on kappa distributions.
+\newblock {\em Journal of Geophysical Research}, 119(12):9441--9455, 2014.
+\newblock 2014JA020678.
+\newblock URL: \url{http://dx.doi.org/10.1002/2014JA020678}, \href
+  {http://dx.doi.org/10.1002/2014JA020678} {\path{doi:10.1002/2014JA020678}}.
+
+\end{thebibliography}
