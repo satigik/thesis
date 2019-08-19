@@ -174,7 +174,7 @@
     em plasmas. Por um longo tempo, esta teoria tratou exclusivamente
     do estudo de processos oscilatórios e de sua influência na dinâmica
     do plasma. Entretanto, a escala de tempo de longa duração dos
-    processos não lineares, sugere que processos colisionais podem ter
+    processos não lineares sugere que processos colisionais podem ter
     algum efeito na dinâmica do plasma, atuando em conjunto com os
     efeitos dos processos coletivos não-lineares. Em um trabalho recente
     [P. H. Yoon et al., Phys. Rev. E 93:033203 (2016)], efeitos colisionais
@@ -192,12 +192,12 @@
     solar. O primeiro trabalho a ser discutido se refere à nova equação para o 
     amortecimento colisional, e nele comparamos o resultado da integração
     numérica dessa expressão, com a largamente usada \emph{fórmula de Spitzer}.
-    Com isso conseguimos mostrar que a aproximação de Spitzer super-estima
+    Com isso conseguimos mostrar que a aproximação de Spitzer superestima
     em muito a intensidade da atenuação colisional das ondas de plasma. Além
     disso, a falta de relevância da taxa de amortecimento colisional fica
     demonstrada quando a comparamos com a taxa de amortecimento não colisional
-    (de Landau). No segundo trabalho, nós analizamos o até então ignorado efeito
-    de \emph{bremsstrahlung} eletrostático. Nó mostramos que a presença da
+    (de Landau). No segundo trabalho, analizamos o até então ignorado efeito
+    de \emph{bremsstrahlung} eletrostático. Mostramos que a presença da
     emissão de \emph{bremsstrahlung} eletrostático modifica o espectro das ondas
     de Langmuir que, por sua vez, altera a forma da função de distribuição
     inicial dos elétrons, suposta Maxwelliana. Após um longo tempo de evolução
@@ -339,41 +339,37 @@ ought to be weak). Under such conditions, the time evolution of the
 system occurs in a time interval that is way longer than the oscillation
 period of the plasma waves being studied. In fact, there are studies that
 show that nonlinear effects keep acting in the system in a time-scale that
-goes far beyond than the saturation time of the quasilinear instability,
+goes far beyond the saturation time of the quasilinear instability,
 to the extent that an asymptotic analysis of the new quasi-equilibrium
 state of the turbulent process becomes relevant \cite{Yoon2012c,ZYGP14a,
   ZYGP14b,ZYSGP14c,ZYPGP15}.
 
-The hypothesis about the probable relevance of binary
-collisions in the nonlinear dynamics of the beam-plasma
-interaction was numerically tested in \cite{Tigik2016a}.
-In this work a linearized form of the Landau collision
-integral was added into the particle kinetic equation
-and the complete self-consistent set of electrostatic
-weak turbulence equations was numerically integrated in
-two-dimensions. It was shown that collisions indeed do
-affect the plasma dynamics in a time-scale that is very
-close to the time-scale of action of nonlinear effects.
-Beyond the purely theoretical conjecture, combining
-collective processes and collisional effects have some
-important applications in solar physics. In the solar
-hard X-ray analysis, for instance, the interpretation
-models that employ quasilinear/nonlinear oscillatory
-instabilities with some kind of collisional dissipation
-(collisional damping for the waves, binary collisions for
-the particles) are usually empirically adapted merely by
-adding an \emph{ad hoc} expression into the particles and wave
-kinetic equations to fit the observed data \cite{PK95,
-  Kohl1998,Veronig05,Brown2006,Kontar2011,KKDSSK11}, yet,
-there is no rigorous theory to compare or support such
-models. Moreover, though the formalism in \cite{Tigik2016a}
-makes use of the full Landau collision integral in the
-particle kinetic equation, it does not take into account
-collisional damping effects in the wave equation, which is
-widely used in these empirical models. The point is: until
-that moment, there was not a proper theoretical tool to deal
-with the combination of collective processes and collisional
-interaction.
+The hypothesis about the probable relevance of binary collisions in the
+nonlinear dynamics of the beam-plasma interaction was numerically tested
+in \cite{Tigik2016a} (see \autoref{master}). In this work, a linearized
+form of the Landau collision integral was added into the particle kinetic
+equation, and the weak turbulence theory's complete set of self-consistent,
+electrostatic equations was numerically integrated in two-dimensions.
+It was shown that collisions indeed do affect the plasma dynamics in a
+time-scale that is very close to the time-scale of action of nonlinear
+effects. Beyond the purely theoretical conjecture, combining collective
+processes and collisional effects have some important applications in
+solar physics. In the solar hard X-ray emission analysis, for instance, the
+models used for interpreting the spectra measured by the Reuven Ramaty High
+Energy Solar Spectroscopic Imager (RHESSI)\footnote{For more information
+ about the mission see: \url{https://hesperia.gsfc.nasa.gov/rhessi3/}.}
+that employ quasilinear/nonlinear wave instabilities with some kind of
+collisional dissipation (collisional damping for the waves, binary
+collisions for the particles) are usually empirically adapted merely by
+adding an \emph{ad hoc} expression into the particles and wave kinetic
+equations to fit the observed data \cite{PK95,Kohl1998,Veronig05,Brown2006,
+  Kontar2011,KKDSSK11}. However, there is no rigorous theory to compare
+and support such models. Moreover, though the formalism in \cite{Tigik2016a}
+makes use of the full Landau collision integral in the particle kinetic
+equation, it does not take into account collisional damping effects in the
+wave equation, which is widely used in these empirical models. The point
+is: until that moment, there was not a proper theoretical tool to deal
+with the combination of collective processes and collisional interaction.
 
 In a recent paper \cite{YZKS16}, it was presented the first rigorous
 theory that, starting from first principles, incorporates collisional
@@ -394,7 +390,7 @@ Considering the context presented above, the working proposal of
 this PhD Thesis is to put forward the first numerical analysis of
 the new weak turbulence theory for collisional plasmas \cite{YZKS16}
 and explore its applications in the solar physics scope. In
-\Cref{cha:theo-fram} and \Cref{cha:weak-turb}, we make a brief review
+\Cref{cha:kin-theo} and \Cref{cha:weak-turb}, we make a brief review
 of the basic plasma kinetic theory equations and the weak turbulence
 theory, respectively. In \Cref{noneigenmode}, we introduce the
 new generalization of the weak turbulence theory, which takes into
@@ -421,7 +417,7 @@ turbulent plasmas, in the presence of electrostatic oscillations.
 %%% I still have to list the last two appendixes in introduction
 
 \chapter{Kinetic theory of plasmas}
-\label{sec:kin-theo}
+\label{cha:kin-theo}
 The kinetic theory is the most fundamental description of the
 plasma dynamics. Based on the concepts and methods of statistical
 mechanics, together with the Maxwell equations, it provides a
@@ -604,7 +600,7 @@ and $a=e$ for electrons. For an overall neutral plasma, the number
 density of
 % LFZ180216: Sugestão "the number density of"
 % Sabrina: OK
-the ions and the electrons is the same $\hat n = \hat n_e = \hat n_i$.
+the ions and the electrons is the same, $\hat n = \hat n_e = \hat n_i$.
 
 Proceeding under the perturbative approach, we assume small
 fluctuations and write the velocity distribution function
@@ -622,7 +618,7 @@ $F_a$ is the equilibrium velocity distribution function.
 
 Substituting \eqref{pert-nl} in \eqref{vlasov-nl} we obtain
 \begin{equation} 
-  \frac{\partial F_a}{\partial t}-\frac{e_a}{m_a}\
+  \frac{\partial F_a}{\partial t}+\frac{e_a}{m_a}\
   \delta {\bf E \cdot} \frac{\partial F_a}{\partial \bf v}
 +\frac{\partial\ \delta f_a}{\partial t}+{\bf v \cdot \nabla} \delta f_a
   +\frac{e_a}{m_a}\ \delta {\bf E \cdot}
@@ -645,7 +641,7 @@ Subtracting \eqref{form_par} from \eqref{turb_ave_vlasov} we obtain
 an equation for the fluctuations
 \begin{equation}
 \frac{\partial\ \delta f_a}{\partial t}+{\bf v \cdot \nabla} \delta f_a
-+\frac{e_a}{m_a}\ \delta {\bf E \cdot} \frac{\partial F_a}{\partial t}
++\frac{e_a}{m_a}\ \delta {\bf E \cdot} \frac{\partial F_a}{\partial \bf v}
 +\frac{e_a}{m_a}\left[\delta {\bf E \cdot} \frac{\partial\ \delta f_a}{\partial \bf v}
 -\left< \delta {\bf E \cdot}
 \frac{\partial\ \delta f_a}{\partial \bf v}\right>\right]=0.
@@ -778,13 +774,13 @@ inserted into Eq. \eqref{poisson-flut}
 % LFZ180220: OK
 and,  under the assumption that there are random phases associated with
 the fluctuations, we take the appropriated ensembles averages. This
-procedure results in the nonlinear spectral balance equation.
-And is at this point, according to the two-time approximation, the
-slow time derivative is reintroduced \cite{YZKS16}. This procedure
-results in the nonlinear spectral balance equation\footnote{Equation
-  \eqref{nlebe} is not in the same form that appears in Refs.
-  \cite{Yoon00,Tigik2015}. The reason for this choice (see Eq. 2.59
-  of Ref. \cite{YZKS16}), will become clear in the next chapter.}
+procedure results in the nonlinear spectral balance equation. At this
+point, according to the two-time approximation, the slow time derivative
+is reintroduced \cite{YZKS16}. This procedure results in the nonlinear
+spectral balance equation\footnote{Equation \eqref{nlebe} is not in the
+  same form that appears in Refs. \cite{Yoon00,Tigik2015}. The reason
+  for this choice (see Eq. 2.59 of Ref. \cite{YZKS16}), will become
+  clear in the next chapter.}
 \begin{eqnarray}
   &&\frac{i}{2}\frac{\partial \epsilon({\bf k},\omega)}{\partial \omega}
   \frac{\partial \left<\delta E^2\right>_{{\bf k},\omega}}{\partial t}
@@ -1224,7 +1220,8 @@ F_a({\bf v})+\frac{I_{\bf k}^{\sigma\alpha}}{\mu_{\bf k}^\alpha}
 \end{equation}
 where $a=i$ for ions and $a=e$ for electrons, and $\alpha=L,S$.
 
-The following definitions were used to write the above equations
+The following approximations and definitions were used to write
+the above equations
 \begin{displaymath}
 \frac{1}{\epsilon '_\parallel({\bf k},\sigma\omega_{\bf k}^L)}
 =\frac{\sigma\mu_{\bf k}^L\,\omega_{\bf k}^L}{2},\qquad
@@ -1234,9 +1231,8 @@ The following definitions were used to write the above equations
 \begin{displaymath}
 \mu_{\bf k}^L=1,\qquad
 \mu_{\bf k}^S=|k|^3\lambda_{De}^3\biggl(\frac{m_e}{m_i}\biggr)^{1/2}
-\biggl(1+\frac{3T_i}{T_e}\biggr)^{1/2}.
+\biggl(1+\frac{3T_i}{T_e}\biggr)^{1/2},
 \end{displaymath}
-
 
 \chapter{Weak turbulence for collisional plasmas}
 \label{noneigenmode}
@@ -1257,21 +1253,17 @@ for the wave and particle kinetic equations.
 
 The generalized spectral energy density, which contains the noneigenmode
 contribution, is the central factor of this new kinetic turbulence theory
-for collisional plasmas. When
-% LFZ180216: Será que precisa essa vírgula depois de "When"?
-% Sabrina: definitivamente não. 
- it is substituted in the nonlinear terms of
-the nonlinear spectral balance equation, two new terms appear in the wave
-kinetic equation. The first term is a rigorous expression for the collisional
-damping rate of plasma waves. The second term is a hitherto unknown process
-of electrostatic radiation emission, in the eigenmode frequency range, due to
-particle scattering. This underlying electrostatic form of braking radiation
-% LFZ180216: "braking radiation" ?
-% Sabrina: OK
-was then called \emph{electrostatic bremsstrahlung} \cite{YZKS16}. For the
-particle kinetic equation, the application of this generalized expression is
-responsible for the arising of the Balescu-Lenard collision integral, without
-any \emph{ad hoc} addition.
+for collisional plasmas. When it is substituted in the nonlinear terms of
+the nonlinear spectral balance equation, three new terms appear in the wave
+kinetic equation. The first expression is an extension for the spontaneous
+scattering equation. The second term is a new, rigorous expression for the
+collisional damping rate of plasma waves. The third equation depicts a
+hitherto unknown process of electrostatic radiation emission, in the eigenmode
+frequency range, due to particle scattering. This underlying electrostatic
+form of braking radiation was then called \emph{electrostatic bremsstrahlung}
+\cite{YZKS16}. For the particle kinetic equation, the application of this
+generalized expression is responsible for the arising of the Balescu-Lenard
+collision integral, without any \emph{ad hoc} addition.
 
 In this chapter, we provide a basic outline of the elaborated demonstration
 imparted by the authors of \cite{YZKS16}. We start by showing how the
@@ -1299,7 +1291,7 @@ which corresponds to the left-hand side of Eq. \eqref{nlebe}
   \sum_a e^2_a\, \int d{\bf v}\,\delta(\omega-{\bf k \cdot v})f_a({\bf v}),
 \end{split}
 \end{equation}
-where dielectric constant is given by
+where the dielectric constant is given by
 \begin{equation}
   \label{dielec}
   \epsilon({\bf k},\omega)=\sum_a \frac{4\pi e^2_a}{m_ak^2}\int d{\bf v}\,
@@ -1602,8 +1594,8 @@ approximate the collision integral as
 \end{equation}
 where $\omega_{pe}=\sqrt{4 \pi n_e e^2/m_e}$ is the plasma frequency,
 $v_{Te}= \sqrt{2T_e/m_e}$ is the electron thermal velocity, and $T_e$
-and $T_i$ are the electron and ion temperature, respectively. This
-leads to
+and $T_i$ are, respectively, the electron and ion temperature expressed
+in units of energy. This leads to
 \begin{equation}
 \begin{split}
   \frac{\partial F_a({\bf v})}{\partial t}
@@ -1661,14 +1653,13 @@ become clear in the next subsection.
 
 \subsection{Noneigenmode contribution to nonlinear wave kinetic equation}
 For the nonlinear wave kinetic equation, the implementation is far more
-extensive and complicated than the two previous cases. 
-In this text, we provide a brief explanation of the method,
-which is not very different from the quasilinear case, though
-it is way more complex, and present some important remarks
-regarding the inclusion of noneigenmodes in the nonlinear wave
-equation. It is worth to mention again that the process of
-inclusion of the noneigenmode contribution in the wave and the
-particle kinetic equations can be seen in Ref. \cite{YZKS16}.
+extensive and complicated than the two previous cases. In this text, we
+provide a brief explanation of the method, which is not very different
+from the quasilinear case, though it is way more complex, and present some
+critical remarks regarding the inclusion of noneigenmodes in the nonlinear
+wave equation. It is worth to mention again, that a more detailed procedure
+of the inclusion of the noneigenmode contribution in the weak turbulence's
+equations can be seen in \cite{YZKS16}.
 
 Now, let us consider all terms in Eq. \eqref{nlebe}. On the
 left-hand side, we have the quasilinear equations that, as
@@ -1901,16 +1892,14 @@ which includes both the eigenmode and noneigenmode fluctuations:
 where the coefficient $A_{\alpha,\beta}({\bf k},{\bf k'})$ is given by
 Eq. \eqref{coef-esp}.
 
-Above, looking at the first noneigenmode term,
-(blue), one may notice the extreme similarity with its previous
-term, which describes the spontaneous scattering process. In fact, this
-term is nothing but a correction due to the noneigenmode fluctuations,
-to the spontaneous scattering process. Such effect, though, it is not
-relevant for this work and will not be analyzed here. However, we are
-interested in the last two corrections, the \emph{collisional damping}
-(in dark-green), and \emph{electrostatic bremsstrahlung} (in pink),
-respectively. The final expressions for the three new contributions
-to the wave kinetic equation are right below.
+Above, looking at the first noneigenmode term, in blue, one may notice
+the extreme similarity with its previous expression, which describes the
+spontaneous scattering process. In fact, this term is nothing but a
+\emph{correction} to the spontaneous scattering process. Colored in
+dark-green is the new, rigorous expression for the \emph{collisional
+  damping}. The pink equation in the end, depicts the so-far unknown
+\emph{electrostatic bremsstrahlung} process. The final expressions for
+the three new contributions to the wave kinetic equation are right below.
 
 \subsubsection{Correction for the spontaneous scattering}
 The blue term in Eq. \eqref{wave-gen}, which depicts the
