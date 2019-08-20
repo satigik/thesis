@@ -1899,7 +1899,7 @@ spontaneous scattering process. In fact, this term is nothing but a
 dark-green is the new, rigorous expression for the \emph{collisional
   damping}. The pink equation in the end, depicts the so-far unknown
 \emph{electrostatic bremsstrahlung} process. The final expressions for
-the three new contributions to the wave kinetic equation are right below.
+the three new contributions to the wave kinetic equation are given below.
 
 \subsubsection{Correction for the spontaneous scattering}
 The blue term in Eq. \eqref{wave-gen}, which depicts the
@@ -2224,26 +2224,38 @@ where the coefficient $W$ is given by Eq. \eqref{W}.
 \chapter{Weakly turbulent processes in the presence of
   collisional interactions}
 \label{main}
-The generalization introduced in \cite{YZKS16} and summarized
-in \Cref{noneigenmode}, is an innovative approach, in
-which the contribution of the usually neglected noneigenmode
-fluctuations is taken into account along with the well-known
-eigenmodes contribution. The outcome of this new formulation
-is a first principles theory that combines both collective
-and non-collective processes, assuming the propagation of
-electrostatic oscillations in unmagnetized plasmas, without
-any \emph{ad hoc} addition. Such theory is the basis of the
-present research, whose primary objective is performing
-numerical analysis of the generalized weak turbulence
-equations, and then investigate its applications on the
-description and interpretation of space plasma phenomena.
-More specifically, the solar plasma, where the results of
-the first two analysis \cite{Tigik2016b,Tigik2017a} have
-shown a promising perspective. In this chapter, we discuss
-some important aspects regarding the work that has been
-done until the moment and the employed methodology. Then,
-we present the results in the form of appended papers, in
-chronological order, in \Cref{coll-damp,sec:gen-supr}.
+The generalization introduced in \cite{YZKS16} and summarized in
+\Cref{noneigenmode}, is an innovative approach, in which the contribution
+of the usually neglected noneigenmode fluctuations is taken into account
+along with the well-known eigenmodes contribution. The outcome of this new
+formulation is a first principles theory that combines both collective
+and non-collective processes, assuming the propagation of electrostatic
+oscillations in unmagnetized plasmas, without any \emph{ad hoc} addition.
+Such theory is the basis of the present research, whose primary objective
+is performing numerical analysis of the generalized weak turbulence equations,
+and then investigate its applications on the description and interpretation
+of space plasma phenomena. More specifically, the solar plasma, where the
+results of the first two studies \cite{Tigik2016b,Tigik2017a} have shown a
+promising perspective. 
+
+From the three new terms presented in the last chapter, we analyzed two:
+the collisional damping \cite{Tigik2016b} and electrostatic bremsstrahlung
+\cite{Tigik2017a}. The third term is a correction for the spontaneous
+scattering effect, which is a nonlinear process. The first study, however,
+analyses only the intensity of the collisional damping spectrum for $L$ and
+$S$ waves by numerically integrating Eqs. \eqref{gammaL} and \eqref{gammaS},
+respectively. Regarding the second study, the time evolution analysis was
+made using quasilinear approximation, which does not involve nonlinear
+wave-particle interaction, like the scattering effect. Besides that, a
+small correction to a nonlinear term does not seem to justify a whole study
+dedicated only to it.
+
+In this chapter, we discuss some essential aspects regarding the results
+obtained in both studies mentioned above. The results are presented in the
+form of appended papers, using chronological order, in \Cref{coll-damp,sec:gen-supr}.
+
+
+
 
 \section{Collisional damping rates for plasma waves}
 \label{coll-damp}
@@ -2262,11 +2274,10 @@ Further, the insignificance of the collisional damping became even more
 evident when we compared its damping rate with the collisionless (Landau)
 damping rate in the same figure.
 
-The following paper is fairly self-sustained regarding the theory
-and methods applied. All important equations are there, including
-their normalized form and the normalization constants. Any doubt
-related to the origin of the new equations are filled by
-\Cref{noneigenmode}.
+The following paper is fairly self-sustained regarding the theory and
+methods applied. All important equations are there, including their
+normalized form and the normalization constants. 
+% Any doubt regarding the origin of the new equations is filled by \Cref{noneigenmode}.
 
 
 \includepdf[pages=2-6]{Tigik2016b.pdf}
@@ -2328,8 +2339,8 @@ by some important definitions
 \end{align*}
 where $g=1/[2^{3/2}\,(4\pi)^2\,\hat{n}\,\lambda_{De}^3]$ is the
 plasma parameter, $\lambda_{De}=T_e/(4\pi\hat{n}e^2)=v_e^2/(2\omega_{pe}^2)$,
-$v_e=(2T_e/m_e)^{1/2}$ is the electron thermal velocity and $T_e$ is
-electrons temperature.
+$v_e=(2T_e/m_e)^{1/2}$ is the electron thermal velocity and $T_e$ is the
+electron temperature.
 
 In terms of the normalized variables and quantities, the equations
 for $L$ and $S$ waves, including the contributions from non-eigenmode
@@ -2477,7 +2488,7 @@ $\Psi(x)\equiv\Phi(x)-x\Phi'(x)$ is an auxiliary function \cite{
 $\Gamma_{ab}$ is given by $\Gamma_{ab}=2\pi g Z_b^2 \ln\Lambda $,
 where $g=1/[2^{3/2}(4\pi)^2\hat n \lambda_{De}^3]$ is the plasma
 parameter, $\ln \Lambda$ is Coulomb logarithm, and $Z_{b=e,i}$ is
-the ion and electrons charge number, with $Z_e=1$.
+the charge number of ions and electrons, with $Z_e=1$.
 The dispersion relations for $L$ and $S$ waves in dimensionless
 form are given by
 \begin{eqnarray*}
@@ -2503,12 +2514,12 @@ with velocity range $0<v_{\perp}/v_e<16$ and $-16<v_{\parallel}/v_e<16$.
 
 \chapter{Final remarks}
 \label{cha:final}
-In this text, we have summarized the early results of the analysis of a new first
-principles theory, depicted in \Cref{noneigenmode}, which combines collective
-processes (eigenmodes) and collisional interactions (noneigenmodes), for Langmuir
-and ion-sound waves, without any \emph{ad hoc} addition. The importance of this
+In this thesis, we have presented the results of the first analysis of a new
+theory, depicted in \Cref{noneigenmode}, which combines collective processes
+(eigenmodes) and collisional interactions (noneigenmodes), for Langmuir and
+ion-sound waves, without any \emph{ad hoc} addition. The importance of this
 formalism, became clear right in the first study, presented in \Cref{coll-damp},
-where it was shown the collisional damping rate calculated with the heuristic
+where it was shown that the collisional damping rate calculated with the heuristic
 Spitzer formula, that is independent of the wave-number, is highly overestimated
 when compared with the rigorous expression, which has to be integrated in the
 wave-number space. The Spitzer approximation is largely applied to the modeling
@@ -2518,35 +2529,51 @@ emphasizes the necessity of the development of a mathematically rigorous
 theory able to describe hybrid situations involving collective oscillations
 and collisional interactions.
 
-The second study, discussed in \Cref{sec:gen-supr}, was focused on the
-consequences of taking into account the hitherto unknown effect of
-electrostatic bremsstrahlung. The outcome of such analysis revealed an
-underlying process, which takes the electron velocity distribution
-out of its initial equilibrium state and transforms it into a new
-quasi-equilibrium state that resembles a velocity distribution composed
-by a Maxwellian core with a suprathermal tail. Such velocity distributions
-are pervasively observed in space plasmas \cite{Parker1958a,Vasyliunas68,
-  Coroniti1974,FABMG75,Lin1998,Horne2005,Clark2015,Padovani2015,deSoria2016,
-  Padovani2017,Deca2017}. However, until these
-days, despite several attempts of explanations based on different models,
-no existing first principles approach is capable to self-consistently
-describe its origin and evolution. Again, the relevance of this research
-becomes evident. The ubiquity of inverse power-law velocity distribution
-in space plasmas indicates the action of a fundamental physical process on
-the plasma particles; this process may be the electrostatic bremsstrahlung.
-For instance, the possibility of the formation of a suprathermal electron
-distribution in a mildly collisional environment, as demonstrated in
-\cite{Tigik2017a}, is in accordance with the velocity filtration model,
-which rely on the existence of a high energy electron population in the
-transition region, located between the chromosphere and the solar corona,
-to explain the temperature inversion observed in the solar corona \cite{
-  Scudder92a,Scudder92b,Anderson94,Scudder94,Scudder96,DS99,DS03,Teles15}.
-Howsoever, the generality of the results of Ref. \cite{Tigik2017a} suggests
-that collisional interactions involving charged particles enfold physical
-processes that go beyond the Coulomb collisions effects, which might be
-connected to some unexplained phenomena in plasma. Therefore, it is in
-this context that the present doctoral working proposal is inserted.
+The second study, discussed in \Cref{sec:gen-supr}, focused on the
+consequences of including the hitherto unknown effect of electrostatic
+bremsstrahlung, in the time evolution of a Maxwellian electron velocity
+distribution, under the quasilinear regime. The unexpected outcome of this
+analysis revealed an underlying process responsible for taking the electron
+velocity distribution out of its initial equilibrium state, leading it to
+a new quasi-equilibrium state that is satisfied by a velocity distribution
+composed by a Maxwellian core with a suprathermal tail. Such velocity
+distributions are pervasively observed in space plasmas \cite{Parker1958a,
+  Vasyliunas68,Coroniti1974,FABMG75,Lin1998,Horne2005,Clark2015,Padovani2015,
+  deSoria2016,Padovani2017,Deca2017}. However, until these days, despite
+several attempts of explaining how they form and why space plasmas are
+particularly prone to develop a suprathermal tail while retaining the
+thermal core, no existing theory is capable of describing self-consistently
+its origin and evolution. Again, the relevance of this research becomes
+evident.
 
+The ubiquity of inverse power-law velocity distribution in space plasmas
+indicates the action of a fundamental physical process; this process may
+be the electrostatic bremsstrahlung. For instance, the possibility of the
+formation of suprathermal electron velocity distributions in a mildly
+collisional environment, as demonstrated in \cite{Tigik2017a}, has a positive
+correlation with the velocity filtration model, which rely on the existence
+of a high energy electron population in the transition region, located between
+the chromosphere and the solar corona, to explain the temperature inversion
+observed in the solar corona \cite{Scudder92a,Scudder92b,Anderson94,Scudder94,
+  Scudder96,DS99,DS03,Teles15}.
+
+As a final remark, we would like to emphasize the fundamental aspect of the
+theory presented in Ref. \cite{YZKS16}. The rigorous analysis performed during
+this doctoral research, suggest that collisional interactions involving charged
+particles enfold physical processes that go beyond the Coulomb collisions
+effects. An enthralling prospect of this study lies in the possibility of these
+underlying kinetic processes being connected to unexplained phenomena observed
+in space plasmas. On that regard...
+
+
+% It is time for new advances in the kinetic description of plasmas. For
+% a long time, space observations could only resolve physical phenomena occurring
+% in macroscopic scales, described by the magnetohydrodynamic (MHD) theory.  
+
+% A better understanding of the combined action of collective and collisional
+% plasma processes has some important impact on how observational data from
+% denser regions of the solar corona are analyzed. Now that the Parker solar
+% probe 
 % The prospects of this research are promising. Besides including the
 % new effects on the time evolution of nonlinear beam-plasma interaction,
 % we are planning the inclusion of effects due to non-homogeneous
