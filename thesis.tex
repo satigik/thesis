@@ -386,35 +386,44 @@ electrostatic radiation, in the eigenmode frequency range, caused by
 particle scattering. Since this is a form of braking radiation, the
 authors named it as \emph{electrostatic bremsstrahlung}.
 
-Considering the context presented above, the working proposal of
-this PhD Thesis is to put forward the first numerical analysis of
-the new weak turbulence theory for collisional plasmas \cite{YZKS16}
-and explore its applications in the solar physics scope. In
-\Cref{cha:kin-theo} and \Cref{cha:weak-turb}, we make a brief review
-of the basic plasma kinetic theory equations and the weak turbulence
-theory, respectively. In \Cref{noneigenmode}, we introduce the
-new generalization of the weak turbulence theory, which takes into
-account the contribution of noneigenmode fluctuations during the
-derivation of the particle and wave kinetic equations, resulting
-in three new terms. In \Cref{main}, we contextualize the present
-work regarding the theory discussed in the previous chapter and
-present the results obtained so far by appending the two papers
-published in this subject. In \Cref{cha:final}, we summarize the
-results and discuss the perspectives of the present research. Then,
-we propose a schedule for the remaining period until the thesis
-defense. In the end we have three appendices. \Cref{appA} shows
-an improved approximation for the second order susceptibility of
-the electrostatic bremsstrahlung for Langmuir waves. \Cref{appB}
-presents a discussion about the asymptotic equilibrium state of the
-Langmuir waves spectrum, considering a combination of a inverse
-power-law kappa distribution and a Maxwellian distribution, in the
-presence and in the absence of the electrostatic bremsstrahlung.
-The discussion in \Cref{appB} is related with the article appended
-in \Cref{appC}, which is a parallel research and is only slightly
-related with the main subject of this work, that is the study of the
-combined action of collective and collisional processes in weakly
-turbulent plasmas, in the presence of electrostatic oscillations.
-%%% I still have to list the last two appendixes in introduction
+Considering the context presented above, the working proposal of this PhD
+Thesis is to put forward the first numerical analysis of the new weak
+turbulence theory for collisional plasmas \cite{YZKS16} and explore its
+applications in the solar physics scope. In \Cref{cha:kin-theo}, we make
+a brief review of the basic plasma kinetic theory for electrostatic
+oscillations. \Cref{cha:weak-turb} revises the procedure for obtaining
+the weak turbulence equations for Langmuir and ion-sound waves and
+the quasilinear equation for the particle dynamics.
+
+The main subject of this thesis is discussed in \Cref{noneigenmode}. In
+\Cref{sec:inc-non} we show the methodology used in the formulation of this
+new generalization and the outcome of its inclusion in the quasilinear
+wave equation, and in the particle kinetic equation. \Cref{sec:non-non}
+describes the inclusion of the noneigenmode fluctuations in the nonlinear
+wave equations and the resulting terms, which are the main concern of
+the present analysis. In \Cref{main}, we contextualize the present work
+regarding the theory discussed in the previous chapter and present the
+results obtained in appended papers. \Cref{cha:final}, summarizes the
+results and presents a brief discussion on the and perspectives of this
+new generalized formalism, and its relevance for the next generation of
+solar physics research.
+
+In the end, we have five appendices. \Cref{appA} depicts an improved
+approximation for the second order susceptibility of the electrostatic
+bremsstrahlung for Langmuir waves. In \Cref{appB} we discuss the
+similarities of the asymptotic equilibrium state of the Langmuir waves
+spectrum, considering a combination of an inverse power-law kappa
+distribution and a Maxwellian distribution, in the presence and the
+absence of the electrostatic bremsstrahlung effect. The discussion in
+\Cref{appB} is related with to article appended in \Cref{appC}, which
+is parallel research and is only slightly related to the main subject
+of this work. \Cref{master} shows the paper that summarizes the results
+of my Master’s dissertation, which may be considered the starting point
+of this doctoral research. \Cref{appE} explores relevant aspects of
+current solar physics research and how they are connected to this work.
+It was written to be more like a light, informative reading, than a
+deep academic digression.
+
 
 \chapter{Kinetic theory of plasmas}
 \label{cha:kin-theo}
@@ -1276,6 +1285,7 @@ to the particle kinetic equation and the nonlinear particle kinetic equation.
 
 
 \section{Inclusion of noneigenmodes}
+\label{sec:inc-non}
 Let us start considering the linear part of the spectral balance equation,
 which corresponds to the left-hand side of Eq. \eqref{nlebe}
 \begin{equation}
@@ -1648,10 +1658,12 @@ here are not the equations, but it is this eigenmode/noneigenmode
 relationship with collective and collisional processes, respectively.
 The truly innovative outcome regarding new equations and the inclusion
 of noneigenmode fluctuations will appear in the wave dynamics, as will
-become clear in the next subsection.
+become clear in the next section.
 
 
-\subsection{Noneigenmode contribution to nonlinear wave kinetic equation}
+\section{Noneigenmode contribution to nonlinear wave
+  kinetic equation}
+\label{sec:non-non}
 For the nonlinear wave kinetic equation, the implementation is far more
 extensive and complicated than the two previous cases. In this text, we
 provide a brief explanation of the method, which is not very different
@@ -2127,7 +2139,7 @@ second order susceptibility for the $L$ and $S$ waves, we have
   \end{split}
 \end{equation}
 
-\subsubsection{Generalized wave kinetic equation for $L$ and $S$ waves}
+\subsection{Generalized wave kinetic equation for $L$ and $S$ waves}
 Adding Eqs. \eqref{gammaL} and \eqref{PkL} to Eq. \eqref{L,1},
 and Eqs. \eqref{gammaS} and \eqref{PkS} to Eq. \eqref{S,1}, and
 then substituting the spontaneous emission term of both equations
@@ -2531,7 +2543,7 @@ and collisional interactions.
 
 The second study, discussed in \Cref{sec:gen-supr}, focused on the
 consequences of including the hitherto unknown effect of electrostatic
-bremsstrahlung, in the time evolution of a Maxwellian electron velocity
+bremsstrahlung in the time evolution of a Maxwellian electron velocity
 distribution, under the quasilinear regime. The unexpected outcome of this
 analysis revealed an underlying process responsible for taking the electron
 velocity distribution out of its initial equilibrium state, leading it to
@@ -2573,7 +2585,7 @@ magnetic field.
 These efforts on improving the theoretical description of kinetic processes in
 plasmas and numerically analyzing the equations are just in time with current
 technological progress in the resolution capability of spacecraft measurement
-equipment. A great example of this new trend is the Magneto-spheric Multiscale
+equipment. A great example of this new trend is NASA's Magnetospheric Multiscale
 (MMS) mission that investigates the physics of magnetic reconnection in the
 Earth's magnetosphere. Equipped with high-precision instruments \cite{Pollock2016,
   Torbert2016}, MMS was capable of directly measure wave-particle energy
@@ -2590,39 +2602,51 @@ and comprehensive theory.
 \label{appA}
 \setcounter{equation}{0}
 \renewcommand{\theequation}{A\arabic{equation}}
-Let us start with an analysis of the approximation of the second order
-susceptibility used in \cite{YZKS16} for the bremsstrahlung equations.
-The expressions for $L$ and $S$ waves, in the above cited paper, are
-given by:
-\begin{eqnarray}
-\label{bremsst,L,1}
-P_{\bf k}^{\sigma L} &=& \frac{3e^2T_e}{16\pi^3m_e}
-\biggl(1-\frac{T_e^2}{T_i^2}\biggr)^2\frac{1}{k^2\lambda_{De}^2}
-\int d{\bf k}'\left(1+\frac{T_e}{T_i}
-+{k'}^2\lambda_{De}^2\right)^{-2}\left(1+\frac{T_e}{T_i}
-+({\bf k}-{\bf k}')^2\lambda_{De}^2\right)^{-2}
-\nonumber\\
-&& \times\int d{\bf v}\int d{\bf v}'\,
-\delta[\sigma\omega_{\bf k}^L-{\bf k}\bm{\cdot}{\bf v}
-+{\bf k}'\bm{\cdot}({\bf v}-{\bf v}')]
-\sum_aF_a({\bf v})\sum_bF_b({\bf v}'),
-\\
-\label{bremsst,S,1}
-P_{\bf k}^{\sigma S} &=& \mu_{\bf k}\frac{3e^2T_e}{16\pi^3m_e}
-\biggl(1-\frac{T_e^2}{T_i^2}\biggr)^2\frac{1}{k^2\lambda_{De}^2}
-\int d{\bf k}'\left(1+\frac{T_e}{T_i}
-+{k'}^2\lambda_{De}^2\right)^{-2}\left(1+\frac{T_e}{T_i}
-+({\bf k}-{\bf k}')^2\lambda_{De}^2\right)^{-2}
-\nonumber\\
-&& \times\int d{\bf v}\int d{\bf v}'\,
-\delta[\sigma\omega_{\bf k}^S-{\bf k}\bm{\cdot}{\bf v}
-+{\bf k}'\bm{\cdot}({\bf v}-{\bf v}')]
-\sum_aF_a({\bf v})\sum_bF_b({\bf v}').
-\end{eqnarray}
+In this appendix, we present two different approximations applied to the
+second-order susceptibility in the electrostatic bremsstrahlung equation
+for Langmuir waves. Initially, for comparison, we show the original
+simplification used in Ref.~\cite{YZKS16}. In the sequence, we introduce
+an improved approximation for the same expression, highlighting the main
+differences. This new version, though, is only suitable for fast-waves,
+which is the case of Langmuir oscillations, but the same does not apply
+to ion-sound waves. Moreover, the results for ion-sound waves are quite
+well behaved with the original approximation, which is the same that was
+initially used for  $L$ waves. Therefore, $S$ waves will take part only in
+\Cref{sec:orig-appr}, while \Cref{sec:alt-approx} will be directed solely
+the $L$ waves expression.
 
-Assuming that the most important contribution comes from the region
-where ${\bf k}\cdot {\bf v}\simeq 0$, ${\bf k'}\cdot{\bf v'}\simeq 0$,
-and ${\bf k'}\cdot {\bf v}\simeq 0$,
+\section{Original approximation}
+\label{sec:orig-appr}
+The initial expressions for $L$ and $S$ waves, still in terms of the
+second order susceptibility are given by:
+\begin{equation}
+\label{PkL-A}
+  \begin{split}
+    \frac{\partial I_{\bf k}^{\sigma L}}{\partial t}\biggr|_{\mbox{\tiny brem}}&=\sum_{a,b}
+\frac{12n_ee_a^2e_b^2\omega_{pe}^2}{\pi}\int d{\bf k}'\int d{\bf v}\int d{\bf v}'
+\,\frac{|\chi^{(2)}({\bf k}',0|{\bf k}-{\bf k}',0)|^2}{k'^2|{\bf k}-{\bf k}'|^2
+|\epsilon({\bf k}',0)|^2|\epsilon({\bf k}-{\bf k}',0)|^2}\\
+&\times\delta\left[\sigma\omega_{\bf k}^L-{\bf k}\cdot{\bf v}+{\bf k}'\cdot
+  ({\bf v}-{\bf v}')\right]F_a({\bf v})F({\bf v}'),
+\end{split}
+\end{equation}
+\begin{equation}
+     \label{PkS-A}
+  \begin{split}
+ \frac{\partial}{\partial t}
+\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}}\biggr|_{\mbox{\tiny brem}}&=\sum_{a,b}
+\frac{12n_ee_a^2e_b^2\omega_{pe}^2}{\pi}
+\int d{\bf k}'\int d{\bf v}\int d{\bf v}'
+\,\frac{|\chi^{(2)}({\bf k}',0|{\bf k}-{\bf k}',0)|^2}{k'^2|{\bf k}-{\bf k}'|^2
+|\epsilon({\bf k}',0)|^2|\epsilon({\bf k}-{\bf k}',0)|^2}\\
+&\times\delta\left[\sigma\omega_{\bf k}^S-{\bf k}\cdot{\bf v}+{\bf k}'\cdot
+  ({\bf v}-{\bf v}')\right]F_a({\bf v})F({\bf v}').
+  \end{split}
+\end{equation}
+
+Assuming that the most important contribution comes from the region where
+${\bf k}\cdot {\bf v}\simeq 0$, ${\bf k'}\cdot{\bf v'}\simeq 0$, and
+${\bf k'}\cdot {\bf v}\simeq 0$,
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
@@ -2674,22 +2698,23 @@ different way,
 &\times\int d{\bf v''}\,\left\{\frac{T_a}{m_a}
 \frac{{\bf k'}\cdot({\bf k-k'})}{{\bf k}\cdot{\bf v''}}
 \left[\frac{1}{({\bf k-k'})\cdot{\bf v''}} 
-+\frac{1}{({\bf k'})\cdot{\bf v''}}\right] 
-+ \frac{\bf k'\cdot v''}{\bf k\cdot v''} 
-+ \frac{({\bf k}-{\bf k'}){\bf \cdot v''}}{\bf k\cdot v''} 
+  +\frac{1}{({\bf k'})\cdot{\bf v''}}\right]
++\underbrace{ \frac{\bf k'\cdot v''}{\bf k\cdot v''} 
++ \frac{({\bf k}-{\bf k'}){\bf \cdot v''}}{\bf k\cdot v''}}_{=1}
 \right\} F_a({\bf v''}) + i\,{\rm Im}\chi^{(2)}
 \end{split}
 \end{equation}
 where we have used $f_a= \hat{n} F_a$.
 
-\begin{equation}
-\chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-\simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}
-\int d{\bf v''}\,\left[\frac{T_a}{m_a}
-\frac{{\bf k'}\cdot({\bf k-k'})}{{\bf k}\cdot{\bf v''}}
-\frac{{\bf k}\cdot {\bf v''}}{({\bf k-k'})\cdot{\bf v''}}+1
-\right] F_a({\bf v''}) 
-\end{equation}
+%%% Falta algo aqui, ver isso %%%
+% \begin{equation}
+% \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
+% \simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}
+% \int d{\bf v''}\,\left[\frac{T_a}{m_a}
+% \frac{{\bf k'}\cdot({\bf k-k'})}{{\bf k}\cdot{\bf v''}}
+% \frac{{\bf k}\cdot {\bf v''}}{({\bf k-k'})\cdot{\bf v''}}+1
+% \right] F_a({\bf v''}) 
+% \end{equation}
 \begin{equation}
 \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
 \simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}
@@ -2727,11 +2752,38 @@ Finally we have the original approximation:
 \begin{equation}
 \chi^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
 =i\frac{e}{2T_e}\frac{1}{k k'|{\bf k-k'}|\lambda_{De}^2}
-\left(1-\frac{T_e^2}{T_i^2}\right).
+\left(1-\frac{T_e^2}{T_i^2}\right),
 \end{equation}
+and the resulting equations
+\begin{eqnarray}
+\label{bremsstL-A}
+P_{\bf k}^{\sigma L} &=& \frac{3e^2T_e}{16\pi^3m_e}
+\biggl(1-\frac{T_e^2}{T_i^2}\biggr)^2\frac{1}{k^2\lambda_{De}^2}
+\int d{\bf k}'\left(1+\frac{T_e}{T_i}
++{k'}^2\lambda_{De}^2\right)^{-2}\left(1+\frac{T_e}{T_i}
++({\bf k}-{\bf k}')^2\lambda_{De}^2\right)^{-2}
+\nonumber\\
+&& \times\int d{\bf v}\int d{\bf v}'\,
+\delta[\sigma\omega_{\bf k}^L-{\bf k}\bm{\cdot}{\bf v}
++{\bf k}'\bm{\cdot}({\bf v}-{\bf v}')]
+\sum_aF_a({\bf v})\sum_bF_b({\bf v}'),
+\\
+\label{bremsstS-A}
+P_{\bf k}^{\sigma S} &=& \mu_{\bf k}\frac{3e^2T_e}{16\pi^3m_e}
+\biggl(1-\frac{T_e^2}{T_i^2}\biggr)^2\frac{1}{k^2\lambda_{De}^2}
+\int d{\bf k}'\left(1+\frac{T_e}{T_i}
++{k'}^2\lambda_{De}^2\right)^{-2}\left(1+\frac{T_e}{T_i}
++({\bf k}-{\bf k}')^2\lambda_{De}^2\right)^{-2}
+\nonumber\\
+&& \times\int d{\bf v}\int d{\bf v}'\,
+\delta[\sigma\omega_{\bf k}^S-{\bf k}\bm{\cdot}{\bf v}
++{\bf k}'\bm{\cdot}({\bf v}-{\bf v}')]
+\sum_aF_a({\bf v})\sum_bF_b({\bf v}').
+\end{eqnarray}
 
 \section{Alternative approach}
-From Eq.(4.24) in \cite{YZKS16} we have
+\label{sec:alt-approx}
+From Eq.(4.24) in Ref. \cite{YZKS16} we have
 \begin{eqnarray}
 \label{Eq4.24}
 &&
@@ -3020,6 +3072,24 @@ Defining $e_i=e$ and $e_e=-e$, and assuming $n_e=n_i=\overline{n}$, we have
 \left(1-\frac{m_e}{m_i}\frac{T_e}{T_i}\right)
 \end{equation}
 
+Therefore, the resulting equation for the electrostatic bremsstrahlung
+of $L$ waves in the new approximation is
+\begin{equation}
+  \label{PkL-A}
+  \begin{split}
+      P_{\bf k}^{\sigma L}
+  &= \frac{3e^2}{4\pi^3}\frac{1}{(\omega_\bk^L)^2}
+    \left(1-\frac{m_e}{m_i}\frac{T_e}{T_i}\right)^2\frac{v_e^4}{k^2}
+    \int d{\bf k}'k'^2|{\bf k- k'}|^2\left(1+\frac{T_e}{T_i}
+    +({\bf k}-{\bf k}')^2\lambda_D^2\right)^{-2}\\
+  &\times\left(1+\frac{T_e}{T_i}
+    +{k'}^2\lambda_D^2\right)^{-2} \int d{\bf v}\int d{\bf v}'\,
+    \delta[\sigma \omega_{\bf k}^L-{\bf k \cdot v}
+    +{\bf k'\cdot}({\bf v}-{\bf v}')]
+    \sum_aF_a({\bf v})\sum_bF_b({\bf v}')
+  \end{split}
+\end{equation}
+
 Since this approximation assumes that the dominant frequency range on
 the denominators is given by the dispersion relation of Langmuir waves
 (see Eq. \eqref{dom-freq}), which are high frequency oscillations
@@ -3257,7 +3327,7 @@ research.
 \includepdf[pages=-]{Tigik2016a.pdf}
 
 \chapter{Applications to astrophysical plasmas}
-\label{appD}
+\label{appE}
 Astrophysical plasmas are observed in a vast range of densities, temperatures,
 magnetic fields, ionization degree, and scale lengths\cite{peratt2014}. Starting
 in the outer layers of Earth's atmosphere, passing through the solar wind in the
