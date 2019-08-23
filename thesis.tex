@@ -234,7 +234,13 @@ of collisional dissipation can be neglected, what happens when the
 studied phenomenon evolves in a much shorter time-scale than the
 collisional relaxation time of the plasma in question \cite{akhi1967}.
 In such cases, the plasma dynamics may be described by the Vlasov-Maxwell
-system, a complex set of coupled equations which solution invariably will
+system, a complex set of coupled equations whose
+%which 
+% LFZ190822: Posso estar enganado, mas me parece que aqui seria mesmo
+% "whose", como estava antes, e não "which".
+% Sabrina: resolvi colocar "whose" de novo depois de uma rápida, mas
+% controversa, pesquisa no google
+solution invariably will
 depend on some degree of approximation. In the presence of small
 amplitude oscillations in a fully ionized plasma, we can make use
 of perturbation theory in order to solve such complicated system
@@ -271,12 +277,14 @@ obtained under the linear theory, except that now it depends on a
 time-dependent velocity distribution function, which must vary in a
 much slower time-scale than the period of the plasma oscillations.
 Under such condition, the gradual changing on the velocity space
-shape slowly modifies the wave spectrum, which new form will then
-alter the velocity distribution function and so on, until a new
-quasi-stationary equilibrium state is attained \cite{gurnett2017}.
-However, depending on the phenomenon being described this saturation
-state reached under the quasilinear approximation might keep on
-evolving if higher order nonlinearities are taken into account
+shape slowly modifies the shape of the wave spectrum, whose
+% LFZ190822: Não seria mesmo "whose"?
+% Sabrina: ok
+new form will alter the velocity distribution function and so
+on, until a new quasi-stationary equilibrium state is attained
+\cite{gurnett2017}. However, depending on the phenomenon being
+described this saturation state reached under the quasilinear
+approximation might keep on evolving if higher order nonlinearities are taken into account
 \cite{akhi2}. This kind of nonlinear analysis is given by the
 \emph{weak turbulence theory}, which is the next step in this chain
 of perturbative approximations.
@@ -404,9 +412,15 @@ wave equations and the resulting terms, which are the main concern of
 the present analysis. In \Cref{main}, we contextualize the present work
 regarding the theory discussed in the previous chapter and present the
 results obtained in appended papers. \Cref{cha:final}, summarizes the
-results and presents a brief discussion on the and perspectives of this
-new generalized formalism, and its relevance for the next generation of
+results and discuss some remarking conclusions obtained in this analysis.
+At the end of this chapter, we also deliberate the perspectives for this
+new generalized formalism and its relevance for the next generation of
 solar physics research.
+% LFZ190822: Suponho que aqui devia ser "... a brief discussion on the
+% conclusions obtained and on the perspectives ..." ?
+% Sabrina: Melhorou?
+% and its relevance for the next generation of solar physics research are
+% also deliberated.
 
 In the end, we have five appendices. \Cref{appA} depicts an improved
 approximation for the second order susceptibility of the electrostatic
@@ -785,7 +799,11 @@ and,  under the assumption that there are random phases associated with
 the fluctuations, we take the appropriated ensembles averages. This
 procedure results in the nonlinear spectral balance equation. At this
 point, according to the two-time approximation, the slow time derivative
-is reintroduced \cite{YZKS16}. This procedure results in the nonlinear
+is reintroduced \cite{YZKS16}. We then obtain the nonlinear
+% LFZ190822: Seria melhor evitar a repetição de "This procedure results".
+% Quem sabe aqui se escreve algo como "We then obtain the nonlinear
+% spectral balance equation\footnote{..." ?
+% Sabrina: Sim! Eu nem tinha percebido isso
 spectral balance equation\footnote{Equation \eqref{nlebe} is not in the
   same form that appears in Refs. \cite{Yoon00,Tigik2015}. The reason
   for this choice (see Eq. 2.59 of Ref. \cite{YZKS16}), will become
@@ -890,7 +908,10 @@ approach in plasma kinetic theory is to assume $|\mbox{Im}\
 \epsilon({\bf k},\omega)|\ll|\mbox{Re}\ \epsilon({\bf k},\omega)|$.
 Then, the imaginary part of \eqref{nlebe} leads to the wave kinetic
 equation, while the real part leads to the wave dispersion equation,
-which solutions are the wave dispersion relations.
+whose solutions 
+% LFZ190822: Não seria "whose solutions", como estava antes?
+%Sabrina: ok
+are the wave dispersion relations.
 
 For the generalized particle kinetic equation is used a similar
 procedure. In this work, however, we use only the quasilinear
@@ -1240,9 +1261,12 @@ the above equations
 \begin{displaymath}
 \mu_{\bf k}^L=1,\qquad
 \mu_{\bf k}^S=|k|^3\lambda_{De}^3\biggl(\frac{m_e}{m_i}\biggr)^{1/2}
-\biggl(1+\frac{3T_i}{T_e}\biggr)^{1/2},
+\biggl(1+\frac{3T_i}{T_e}\biggr)^{1/2}.
 \end{displaymath}
-
+% LFZ190822: Ao final da expressão acima havia um ponto "." e corrigistes
+% colocando uma vírgula. Mas acho que era para ser ponto mesmo, pois a frase
+% acaba ali.
+% Sabrina: ok
 \chapter{Weak turbulence for collisional plasmas}
 \label{noneigenmode}
 In \Cref{cha:weak-turb} we made a brief review of the standard weak
@@ -1252,7 +1276,11 @@ conventional approach claims that only frequencies $\omega=\omega_{\bf k}$
 that satisfy the dispersion relations are considered significant, even if
 the general electrostatic fluctuations $\left<\delta E^2\right>_{{\bf k},\omega}$
 are characterized by all ${\bf k}$ and $\omega$. Therefore, the fluctuations
-which $\omega \ne \omega_{\bf k}$, which characterize the noneigenmodes,
+with 
+% LFZ190822: Acho que aqui seria "with", não ''which" (i.e., "the fluctuations 
+% with $\omega\ne\omega_{\bf k}$, which characterize the ...")
+% Sabrina: de fato.
+$\omega \ne \omega_{\bf k}$, which characterize the noneigenmodes,
 are ignored. In Ref. \cite{YZKS16} the authors present a generalization
 of this customary approach, where, besides the traditional inclusion of
 the normal modes, it is also taken into account the contribution from the
@@ -1269,7 +1297,10 @@ scattering equation. The second term is a new, rigorous expression for the
 collisional damping rate of plasma waves. The third equation depicts a
 hitherto unknown process of electrostatic radiation emission, in the eigenmode
 frequency range, due to particle scattering. This underlying electrostatic
-form of braking radiation was then called \emph{electrostatic bremsstrahlung}
+form of braking radiation was
+% LFZ190822: Esse "then" me parece desnecessário.
+% Sabrina: ok
+called \emph{electrostatic bremsstrahlung}
 \cite{YZKS16}. For the particle kinetic equation, the application of this
 generalized expression is responsible for the arising of the Balescu-Lenard
 collision integral, without any \emph{ad hoc} addition.
@@ -1669,8 +1700,12 @@ extensive and complicated than the two previous cases. In this text, we
 provide a brief explanation of the method, which is not very different
 from the quasilinear case, though it is way more complex, and present some
 critical remarks regarding the inclusion of noneigenmodes in the nonlinear
-wave equation. It is worth to mention again, that a more detailed procedure
-of the inclusion of the noneigenmode contribution in the weak turbulence's
+wave equation. It is worth to mention again, that a more detailed description
+of the procedure
+% LFZ190822: Talvez fique melhor "... a more detailed description of the
+% procedures for inclusion of the ..."
+% Sabrina: ok
+for the inclusion of the noneigenmode contribution in the weak turbulence's
 equations can be seen in \cite{YZKS16}.
 
 Now, let us consider all terms in Eq. \eqref{nlebe}. On the
@@ -2243,7 +2278,10 @@ along with the well-known eigenmodes contribution. The outcome of this new
 formulation is a first principles theory that combines both collective
 and non-collective processes, assuming the propagation of electrostatic
 oscillations in unmagnetized plasmas, without any \emph{ad hoc} addition.
-Such theory is the basis of the present research, which primary objective
+Such theory is the basis of the present research, in which the
+% LFZ190822: Não seria "whose", como estava antes?
+% Sabrina: troquei para "in which"
+primary objective
 is performing numerical analysis of the generalized weak turbulence equations,
 and then investigate its applications on the description and interpretation
 of space plasma phenomena. More specifically, the solar plasma, where the
@@ -2271,7 +2309,13 @@ form of appended papers, using chronological order, in \Cref{coll-damp,sec:gen-s
 
 \section{Collisional damping rates for plasma waves}
 \label{coll-damp}
-In this first analysis, we have numerically integrated Eqs. \eqref{gammaL}
+In this first analysis, presented in Ref. \cite{Tigik2016b}, we have
+numerically integrated Eqs. \eqref{gammaL}
+% LFZ190822: O artigo está anexado, mas acho que mesmo assim vale dizer qual
+% é o artigo na lista de referências. Algo como
+% "In this first analysis, presented in Ref. \cite{Tigik...}, 
+% we have numerically integrated Eqs. \eqref{gammaL} for ..."
+% Sabrina: ok
 for $L$ waves, and \eqref{gammaS} for $S$ waves, considering Maxwellian
 velocity distribution function for the particles, without including the
 new effects in the time evolution subroutine. The main objective here
@@ -2526,7 +2570,11 @@ with velocity range $0<v_{\perp}/v_e<16$ and $-16<v_{\parallel}/v_e<16$.
 
 \chapter{Final remarks}
 \label{cha:final}
-In this thesis, we have presented the results of the first analysis of a new
+In this thesis, we have presented the results of the first analyses 
+% LFZ190822: Talvez seja mais correto dizer "of the first analyses ...", que
+% é plural, enquanto que "analysis" é singular.
+% Sabrina: ok
+of a new
 theory, depicted in \Cref{noneigenmode}, which combines collective processes
 (eigenmodes) and collisional interactions (noneigenmodes), for Langmuir and
 ion-sound waves, without any \emph{ad hoc} addition. The importance of this
@@ -2608,12 +2656,27 @@ for Langmuir waves. Initially, for comparison, we show the original
 simplification used in Ref.~\cite{YZKS16}. In the sequence, we introduce
 an improved approximation for the same expression, highlighting the main
 differences. This new version, though, is only suitable for fast-waves,
-which is the case of Langmuir oscillations, but the same does not apply
-to ion-sound waves. Moreover, the results for ion-sound waves are quite
+which is the case of Langmuir oscillations, but does not apply to the case
+% LFZ190822: Aqui me parece que ficaria melhor dizer This new version, though,
+% is only suitable for fast waves, which is the case of Langmuir oscillations,
+% but does not apply to the case of ion-sound waves. does not apply
+% Sabrina: ok
+of ion-sound waves. Moreover, the results for ion-sound waves are quite
 well behaved with the original approximation, which is the same that was
-initially used for  $L$ waves. Therefore, $S$ waves will take part only in
+initially used for $L$ waves in Ref.~\cite{YZKS16}.
+% LFZ190822: Acho que aqui cabe continuar dizendo "... for $L$ waves in
+% Ref.~\cite{YZKS16}."
+% Sabrina: ok
+Therefore, $S$ waves will be considered only in
+% LFZ190822: Acho melhor "will be considered", em vez de "will take part"
 \Cref{sec:orig-appr}, while \Cref{sec:alt-approx} will be directed solely
-the $L$ waves expression.
+% LFZ190822: Sugiro "... will be directed solely to the use in expressions
+% related to $L$ waves.", em lugar de "the $L$ waves expression."
+% Sabrina: acho que se eu usar "expressions" vai dar a impressão de que
+% essa aproximação vai ser usada em outra equação que não seja a do
+% electrostatic bremsstrahlung. Não lembro se a gente chegou a usar essa
+% aproximação na expressão do amortecimento colisional. Mas acho que não.
+to the  expression for $L$ waves.
 
 \section{Original approximation}
 \label{sec:orig-appr}
@@ -2693,35 +2756,27 @@ Simplifying, and writing the coefficient in front of the expression in a
 different way,
 \begin{equation}
 \begin{split}
-\chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
+\chi_a^{(2)}[{\bf k'},&{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
 \simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}\\
-&\times\int d{\bf v''}\,\left\{\frac{T_a}{m_a}
+&\times\int d{\bf v''}\,\biggl\{\frac{T_a}{m_a}
 \frac{{\bf k'}\cdot({\bf k-k'})}{{\bf k}\cdot{\bf v''}}
-\left[\frac{1}{({\bf k-k'})\cdot{\bf v''}} 
-  +\frac{1}{({\bf k'})\cdot{\bf v''}}\right]
-+\underbrace{ \frac{\bf k'\cdot v''}{\bf k\cdot v''} 
+\left[\frac{1}{({\bf k-k'})\cdot{\bf v''}}
++\frac{1}{({\bf k'})\cdot{\bf v''}}\right]\\
+&+\underbrace{ \frac{\bf k'\cdot v''}{\bf k\cdot v''} 
 + \frac{({\bf k}-{\bf k'}){\bf \cdot v''}}{\bf k\cdot v''}}_{=1}
-\right\} F_a({\bf v''}) + i\,{\rm Im}\chi^{(2)}
+\biggr\} F_a({\bf v''}) + i\,{\rm Im}\chi^{(2)},
+\end{split}
+\end{equation}
+\begin{equation}
+  \begin{split}
+\chi_a^{(2)}[{\bf k'},&{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
+\simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}\\
+&\times\int d{\bf v''}\,\left[\frac{T_a}{m_a}
+\frac{{\bf k'}\cdot({\bf k-k'})}{({\bf k-k'})\cdot{\bf v''}}+1
+\right] F_a({\bf v''})
 \end{split}
 \end{equation}
 where we have used $f_a= \hat{n} F_a$.
-
-%%% Falta algo aqui, ver isso %%%
-% \begin{equation}
-% \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-% \simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}
-% \int d{\bf v''}\,\left[\frac{T_a}{m_a}
-% \frac{{\bf k'}\cdot({\bf k-k'})}{{\bf k}\cdot{\bf v''}}
-% \frac{{\bf k}\cdot {\bf v''}}{({\bf k-k'})\cdot{\bf v''}}+1
-% \right] F_a({\bf v''}) 
-% \end{equation}
-\begin{equation}
-\chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-\simeq-i\frac{e_a}{T_a}\frac{\omega_{pa}^2}{k k'|{\bf k-k'}|}\frac{1}{v_{a}^2}
-\int d{\bf v''}\,\left[\frac{T_a}{m_a}
-\frac{{\bf k'}\cdot({\bf k-k'})}{({\bf k-k'})\cdot{\bf v''}}+1
-\right] F_a({\bf v''}) 
-\end{equation}
 
 The term containing ${\bf v''}$ vanishes, for distribution function which
 depends only on the absolute value of the velocity, like the Maxwellian 
@@ -3009,7 +3064,7 @@ dominant on the denominators,
   \end{split}
 \end{equation}
 
-Due its asymmetry, the terms which are linear in ${\bf v''}$ will vanish
+Due its asymmetry, the terms, which are linear in ${\bf v''}$, will vanish
 when integrated, remaining
 \begin{equation}
 \begin{split}
@@ -3093,7 +3148,9 @@ of $L$ waves in the new approximation is
 Since this approximation assumes that the dominant frequency range on
 the denominators is given by the dispersion relation of Langmuir waves
 (see Eq. \eqref{dom-freq}), which are high frequency oscillations
-near the electron plasma frequency, it is not suitable for use on
+near the electron plasma frequency, it is not suitable for use in
+% LFZ190822: "on", ou "in"?
+% Sabrina: ok
 the bremsstrahlung expression for $S$ waves.
 
 
@@ -3297,7 +3354,10 @@ plasma considering several values of kappa coefficient, were developed
 in parallel with another work, which slightly deviates from the
 main subject of this PhD research, but had a big contribution on the
 development of the work presented in Ref. \cite{Tigik2017a}. 
-The work in question, which title
+The work in question, whose title
+% LFZ190822: Como já comentado em outros lugares, não seria "whose", como 
+% estava antes?
+% Sabrina: ok
 is ``Weakly turbulent plasma processes in the presence of inverse
 power-law velocity tail population'' \cite{Tigik2017b}, investigates
 the modifications on the spectra of the Langmuir, ion-sound and
@@ -3319,11 +3379,18 @@ in \cite{Tigik2017b}.
 
 \includepdf[pages=-]{Tigik2017b.pdf}
 
-\chapter{Two-dimensional time evolution of beam-plasma instability in the
-  presence of binary collisions}
+\chapter{Two-dimensional time evolution of beam-plasma
+  instability in the presence of binary collisions}
 \label{master}
-Results of the Master's dissertation that led to the current doctoral
-research.
+The paper included in this appendix is the complete text of Ref.
+\cite{Tigik2016a}, which summarizes the outcomes of the Master's
+dissertation \cite{Tigik2015} that led to the current doctoral
+research. This text was included here with the intention to give
+the reader a complete view of the work developed during my graduate
+studies.
+
+
+
 \includepdf[pages=-]{Tigik2016a.pdf}
 
 \chapter{Applications to astrophysical plasmas}
