@@ -1,0 +1,872 @@
+\message{ !name(apres_quali.tex)}% Gerar um texto com o conteúdo da apresentação
+% \documentclass[class=article]{beamer}
+\documentclass[10pt,aspectratio=1610,lualatex]{beamer}
+\mode<presentation>
+%\documentclass[dvips]{beamer}
+%\documentclass[notes]{beamer}
+ \usepackage{beamerbaserequires}
+ \usepackage{beamerbaseoptions}
+% \usepackage{beamerbasearticle}
+\usepackage{appendixnumberbeamer}
+\usepackage[portuguese,brazil,brazilian]{babel}
+\usepackage[utf8]{luainputenc}
+%\usepackage{xunicode}% 
+%\usepackage{xltxtra}%
+%\usepackage{metalogo}%
+%\usepackage{xkeyval}%
+%\usepackage{polyglossia}
+%\usepackage{lmodern}
+\usepackage{ifluatex}
+%\usepackage{times}
+\usepackage{ae}
+%\usepackage{helvet}
+\usepackage{bm}
+\usepackage[no-math]{fontspec}
+\usepackage{pifont}
+\usepackage{FiraSans}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+% \usepackage{unicode-math}
+\usepackage{amsthm}
+%\usepackage{cmbright}
+%\usepackage{cmbright}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{animate}
+\usepackage{multimedia}
+\usepackage{media9}
+\usepackage{beamerthemesplit}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{hyperref}
+% \hypersetup{
+%   colorlinks=true,    % false: boxed links; true: colored links
+%   linkcolor=blue,     % color of internal links
+%   citecolor=blue,     % color of links to bibliography
+%   filecolor=magenta,  % color of file links
+%   urlcolor=blue,
+%   bookmarksdepth=4
+%   pdftitle={Mostra PG 2017}, 
+%   pdfauthor={Sabrina Tigik Ferr\~ao},
+%   pdfsubject={Mostra PG 2017},
+%   pdfkeywords={plasma}{plasma kinetic theory}{collisions}
+%   {quasilinear theory}{weak turbulence theory} 
+% }
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{ifxetex}
+\usepackage{xspace}
+\usepackage{xcolor}
+% short arrows
+\usepackage{stmaryrd}
+\usepackage{units}
+\usepackage{calc}
+\usepackage{tikz}
+\usepackage{etoolbox}
+\usepackage[scale=2]{ccicons}
+\usepackage{pgffor}
+\usepackage{pgfplots}
+\usepackage{pgfopts}
+\usepackage{pgfplotsthemetol}
+\usepgfplotslibrary{dateplot}
+\pgfplotsset{compat=newest}
+%\usefonttheme{professionalfonts}
+% \useinnertheme{metropolis}
+% \useoutertheme{metropolis}
+% \usefonttheme{metropolis}
+
+% \useoutertheme{progressbar}
+% \useinnertheme{progressbar}
+% \usefonttheme{progressbar}
+
+% \usetheme{AnnArbor}
+% \usetheme{Antibes}
+% \usetheme{Arkyenell}
+% \usetheme{bars}
+% \usetheme{Berlin}
+% \usetheme{BerlinFU}
+% \usetheme{Bergen}
+% \usetheme{Berkeley}
+% \usetheme{Boadilla}
+% \usetheme{boxes}
+% \usetheme{CambridgeUS}
+% \usetheme{classic}
+% \usetheme{Copenhagen}
+% \usetheme{Cuerna}
+% \usetheme{Darmstadt}
+% \usetheme{default}
+% \usetheme{DetlevCM}
+% \usetheme{Dresden}
+% \usetheme{epyt}
+% \usetheme{EastLansing}
+% \usetheme{Frankfurt}
+% \usetheme{Goettingen}
+% \usetheme{Hannover}
+% \usetheme{Ilmenau}
+% \usetheme{Jacobs}
+% \usetheme{JLTree}
+% \usetheme{JuanLesPins}
+% \usetheme{lankton-keynote}
+% \usetheme{lined}
+% \usetheme{Luebeck}
+% \usetheme{Madrid}
+% \usetheme{Malmoe}
+% \usetheme{Marburg}
+ \usetheme[progressbar=frametitle,numbering=fraction]{metropolis}
+% \usetheme{Montpellier}
+% \usetheme{PaloAlto}
+% \usetheme{PhnomPenh}
+% \usetheme{Pittsburgh}
+% \usetheme{progressbar}
+% \usetheme{Rochester}
+% \usetheme{shadow}
+% \usetheme{sidebar}
+% \usetheme{Singapore}
+% \usetheme{split}
+% \usetheme{Szeged}
+% \usetheme{TorinoTh} %não funciona direito
+% \usetheme{tree}
+% \usetheme{Warsaw}
+
+% \setbeamercovered{transparent}
+
+%% Color themes
+% \usecolortheme{Arkyenell}
+% \usecolortheme{beaver}
+% \usecolortheme{bluesimplex}
+% \usecolortheme{bluedawn}
+% \usecolortheme{crane}
+% \usecolortheme{dolphin}
+% \usecolortheme{dove}
+% \usecolortheme{ETII} % BR colors
+% \usecolortheme{fly}
+% \usecolortheme{goeagles}
+% \usecolortheme{hohenheim}
+% \usecolortheme{lily}
+% \usecolortheme{MedStarColors}
+% \usecolortheme{metropolis}
+% \usecolortheme{monarca}
+% \usecolortheme{orchid}
+% \usecolortheme{penn}
+  \usecolortheme{progressbar}
+% \usecolortheme[snowy]{owl}
+% \usecolortheme{rose}
+% \usecolortheme{seagull}
+% \usecolortheme{seahorse}
+% \usecolortheme{solarized}
+% \usecolortheme{spruce}
+% \usecolortheme{torinoth} 
+% \usecolortheme{whale}
+% \usecolortheme{wolverine}
+% %% dark color themes %%
+% \usecolortheme[overlystylish]{albatross}
+% \usecolortheme{albatross}
+% \usecolortheme{beetle}
+% \usecolortheme[cautious]{owl}
+% \usecolortheme{cormorant}
+% \usecolortheme{frigatebird}
+% \usecolortheme{magpie}
+% \usecolortheme[dark]{solarized}
+
+%% Fonte padrão do LaTeX para equações
+  \usefonttheme{professionalfonts}
+
+%  \usefonttheme{default}
+
+% Os arquivos .sty que definem a fonte e o esquema de cores usados
+% devem estar na mesma pasta deste arquivo.
+
+ %% Controla a espessura da linha de progresso
+ \makeatletter
+  \setbeamertemplate{progress bar in head/foot}{
+  \nointerlineskip
+  \setlength{\metropolis@progressinheadfoot}{%
+    \paperwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \begin{beamercolorbox}[wd=\paperwidth]{progress bar in head/foot}
+    \begin{tikzpicture}
+      \draw[bg, fill=bg] (0,0) rectangle (\paperwidth, 0.4pt);
+      \draw[fg, fill=fg] (0,0) rectangle (\metropolis@progressinheadfoot, 0.4pt);
+    \end{tikzpicture}%
+  \end{beamercolorbox}
+}
+
+\setbeamertemplate{progress bar in section page}{
+  \setlength{\metropolis@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \begin{tikzpicture}
+    \draw[bg, fill=bg] (0,0) rectangle (\textwidth, 0.4pt);
+    \draw[fg, fill=fg] (0,0) rectangle (\metropolis@progressonsectionpage, 0.4pt);
+  \end{tikzpicture}%
+}
+\makeatother
+
+\newcommand{\darken}[1]{%
+  \begingroup
+  \setbeamercolor{background canvas}{bg=normal text.fg}
+  \setbeamercolor{section title}{fg=normal text.bg}
+  #1\endgroup
+}
+
+%% Cor do texto:
+% \definecolor{fgblue}{rgb}{0, 0.349, 0.584} % cores da ufrgs
+% \definecolor{fgblue}{rgb}{0.2, 0.3, 0.5} %  cores do tema "Progress bar"
+% \setbeamercolor{normal text}{fg=fgblue}
+%  \setbeamercolor{tilte text}{fg=fgblue}
+
+%\input{titlepage}
+% Aqui é definido que as subseções (as bolinhas do Ilmenau) não
+% irão aparecer na headline
+% \setbeamertemplate{headline}
+% {%
+%   \begin{beamercolorbox}{section in head/foot}
+%   \vskip2pt\insertsectionnavigationhorizontal{\textwidth}{}{}\vskip2pt
+%   \end{beamercolorbox}
+% }
+% % O trecho abaixo foi inserido para que o tema usado (Ilmenau) mostre o
+% % slide atual/o número de slides, já que eu eliminei a barra de prgresso
+% % nativa do tema, por ocupar muito espaço.
+% \defbeamertemplate*{footline}{myminiframes theme}
+%   {%
+%     \begin{beamercolorbox}[colsep=1.5pt]{upper separation line foot}
+%     \end{beamercolorbox}
+%     \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+%       leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}%
+%       \leavevmode{\usebeamerfont{author in head/foot}\insertshortauthor}%
+%       \hfill%
+%       {\usebeamerfont{institute in head/foot}\usebeamercolor[fg]{institute in head/foot}\insertshortinstitute}%
+%     \end{beamercolorbox}%
+  %   \begin{beamercolorbox}[ht=2.5ex,dp=1.125ex,%
+  %     leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}%
+  %     {\usebeamerfont{title in head/foot}\insertshorttitle\hfill
+  %       \insertframenumber/\inserttotalframenumber}%<-here
+  %   \end{beamercolorbox}%
+  %   \begin{beamercolorbox}[colsep=1.5pt]{lower separation line foot}
+  %   \end{beamercolorbox}
+  % }
+  % \makeatother
+
+% % Isso não foi usado, mas serve para remover completamente a headline,
+% % para o caso de equações grandes, que extrapolam os limites da headline.
+% \makeatletter
+%     \newenvironment{withoutheadline}{
+%         \setbeamertemplate{headline}[default]
+%         \def\beamer@entrycode{\vspace*{-\headheight}}
+%     }{}
+% \makeatother
+
+%\setbeamertemplate{navigation symbols}{}
+%\logo{\includegraphics[scale=0.02]{images/tree04}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Evolução temporal de processos fracamente turbulentos
+  na presença de interações colisionais}
+\subtitle[]{Exame de Qualificação ao Doutorado} 
+\author[Sabrina Tigik Ferrão]{Doutoranda: Sabrina Tigik Ferrão\\
+  Orientador: Prof. Dr. Luiz Fernando Ziebell}
+\institute[IF-UFRGS]{Universidade Federal do Rio Grande do Sul\\
+  Instituto de Física, sala M206 \\ e-mail: sabrina.tigik@ufrgs.br}
+\titlegraphic{\vspace{5.5cm} \hfill
+  \includegraphics[width=0.3\textwidth]{ufrgs.png}}
+
+\begin{document}
+
+\message{ !name(apres_quali.tex) !offset(308) }
+\section{Teoria de turbulência fraca}
+% \begin{frame}
+%   \frametitle{Processos não lineares}
+%   \begin{itemize}
+%     \item Dependendo do tipo de fenômeno que se está estudando, o estado
+%     estacionário atingido pela aproximação quaselinear pode continuar
+%     evoluindo sob a ação de processos não lineares;
+%     \vspace{0.4cm}
+%     \item O formalismo responsável por essa análise não linear é conhecido
+%     como \emph{teoria de turbulência fraca};
+%     \vspace{0.4cm}
+%     \item Este é o próximo passo na cadeia de aproximações perturbativas para
+%     o estudo de instabilidades cinéticas em um plasma.
+%     %\vspace{0.4cm}    
+%  \end{itemize}
+% \end{frame}
+
+\begin{frame}
+  \frametitle{Teoria de turbulência fraca}
+  \begin{itemize}
+    \item Na presença de uma instabilidade, a intensidade do
+    campo elétrico é amplificada;
+    \vspace{0.3cm}
+    \item Com o aumento da amplitude dos campos perturbativos,
+    os processos que envolvem a interação entre as diferentes
+    oscilações presentes no plasma começam a ganhar importância;
+    \vspace{0.3cm}
+    \item Para descrever essas interações, é necessário que
+    incorporemos efeitos não lineares de segunda ordem na
+    descrição cinética do plasma;
+    \vspace{0.3cm}
+    \item Se a intensidade das instabilidades estiver dentro do
+    limite em que $\mathcal{E}_{fluc} \ll \mathcal{E}_{kin}$, a
+    condição de crescimento lento é satisfeita;
+    \vspace{0.3cm}
+    \item Nesse caso, a análise não linear ainda pode ser feita
+    através de um método perturbativo;
+    \vspace{0.3cm}
+    \item Este método é conhecido como \emph{teoria de turbulência
+      fraca}.
+  \end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Ponto de partida}
+  \begin{itemize}
+    \item Estamos interessados em descrever ondas eletrostáticas
+    propagando em um plasma
+    \begin{itemize}
+      \item homogêneo,
+      \item totalmente ionizado,
+      \item não magnetizado;
+      % \item e, no momento, sem interação colisional;
+    \end{itemize}
+    \vspace{0.3cm}
+    \item Na ausência de colisões, a equação de movimento é dada
+    pela equação de Vlasov
+    \begin{equation}
+  \label{vlasov-nl}
+  \frac{\partial f_a({\bf r}, {\bf v},t)}{\partial t}
+  +{\bf v \cdot \nabla}f_a({\bf r}, {\bf v},t)
+  +\frac{e_a}{m_a}{\bf E}({\bf r},t){\bf \cdot}
+  \frac{\partial f_a({\bf r},{\bf v},t)}{\partial \bf v}=0,
+    \end{equation}
+    onde o campo elétrico é dado pela forma diferencial da lei de Gauss
+    \begin{equation}
+   {\bf \nabla \cdot E}({\bf r},t)
+   =4\pi \hat n \sum_a e_a\int d^3 v f_a({\bf r}, {\bf v},t). 
+  \end{equation}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Abordagem perturbativa}
+  \begin{itemize}
+    \item Para oscilações de baixa amplitude, podemos escrever
+    \begin{equation*}
+      %\label{pert-nl}
+      \begin{split}
+	f_a({\bf r}, {\bf v},t)&=F_a({\bf v})
+	+\delta f_a({\bf r}, {\bf v},t),\\
+      {\bf E}({\bf r},t)&=\delta {\bf E}({\bf r},t);
+    \end{split}
+    \end{equation*}
+    \vspace{0.4cm}
+    \item Substituindo as expressões acima na equação de Vlasov
+    e levando em conta que $F_a$ é homogênea, ficamos com
+    \begin{equation}
+      \frac{\partial F_a}{\partial t}-\frac{e_a}{m_a}\
+      \delta {\bf E \cdot} \frac{\partial F_a}{\partial \bf v}
+      +\frac{\partial \delta f_a}{\partial t}+{\bf v \cdot}
+      \frac{\partial \delta f_a}{\partial {\bf r}}
+      +\frac{e_a}{m_a}\ \delta {\bf E \cdot}
+      \frac{\partial \delta f_a}{\partial \bf v}=0.
+      \label{turb_ave_vlasov}
+    \end{equation}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Formalismo não linear}
+  \begin{itemize}
+    \item Tomando a média da Eq. \eqref{turb_ave_vlasov}, obtemos uma
+    equação para a evolução de $F_a$
+    \begin{equation}
+      \frac{\partial F_a}{\partial t}
+      =-\frac{e_a}{m_a}\left< \delta {\bf E \cdot}
+      \frac{\partial \delta f_a}{\partial \bf v}\right>;
+      \label{form_par}
+    \end{equation}
+    \pause 
+    \item E, subtraindo \eqref{form_par} de \eqref{turb_ave_vlasov},
+    obtemos uma equação para as flutuações
+    \begin{equation}
+      \frac{\partial \delta f_a}{\partial t}
+      +{\bf v \cdot } \frac{\partial \delta f_a}{\partial {\bf r}}
+      +\frac{e_a}{m_a}\ \delta {\bf E \cdot}
+      \frac{\partial F_a}{\partial t}
+      +\frac{e_a}{m_a}\left[\delta {\bf E \cdot}
+      \frac{\partial \delta f_a}{\partial \bf v}
+      -\left< \delta {\bf E \cdot}
+      \frac{\partial \delta f_a}{\partial \bf v}\right>\right]=0;
+      \label{flut}
+    \end{equation}
+    %\vspace{0.2cm}
+    \item Os termos entre colchetes, na equação acima, são descartados
+    na teoria quaselinear;
+    \vspace{0.4cm}
+    \item No formalismo não linear, contudo, eles são mantidos.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Transformadas de Fourier-Laplace}
+  \begin{itemize}
+    \item O procedimento padrão consistem decompor as flutuações
+    em termos de suas transformadas de Fourier-Laplace, com relação
+    à escala de tempo rápida das oscilações, mas supondo lenta evolução
+    temporal para as amplitudes:
+    \begin{equation*}
+      \begin{split}
+	\delta f_a({\bf r}, {\bf v},t)
+	&=\int d^3k \int_L d \omega\,\delta f^a_{{\bf k}, \omega}({\bf v}, t)
+	e^{i({\bf k \cdot r}-\omega t)},\\
+	\delta f^a_{{\bf k}, \omega}({\bf v}, t)
+	&=\frac{1}{(2 \pi)^4}\int d^3r \int_0^{\infty} dt\,
+	\delta f_a({\bf r},{\bf v},t) e^{-i({\bf k \cdot r} - \omega t)},\\
+	\delta {\bf E}({\bf r},t)
+	&=\int d^3k \int_L d\omega\, \delta{\bf E}_{{\bf k},\omega}(t)
+	e^{i({\bf k \cdot r}-\omega t)},\\
+	\delta{\bf E}_{{\bf k},\omega}(t)
+	&=\frac{1}{(2 \pi)^4}\int d^3r\int_0^{\infty} dt\,
+	\delta{\bf  E}({\bf   r},t) e^{-i({\bf k \cdot r} - \omega t)};
+      \end{split}
+    \end{equation*}
+    % onde a integração se dá ao longo do caminho $L$, com um prolongamento
+    % de $\omega = -\infty +i\sigma$ até $\omega=\infty+i\sigma$, em que
+    % $\sigma >0$ e $\sigma \rightarrow 0$.
+    \item Para os termos não lineares, onde temos o produto de duas
+    funções, a transformada de Fourier-Laplace é dada pela convolução
+    dessas funções
+    \begin{equation*}
+      \frac{1}{(2\pi)^4}\int d^3r \int dt\,
+      \delta f_a({\bf r}, {\bf v},t)\,
+      \delta{\bf E}({\bf r},t)\, e^{-i({\bf k \cdot r}-\omega t)}
+      =\int d^3k' \int d\omega '\,\delta f^a_{{\bf k-k'},\omega-\omega '}\,
+      \delta{\bf E}_{{\bf k'},\omega '}.
+    \end{equation*}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Equações cinéticas não lineares}
+  \begin{itemize}
+    \item  Das transformadas, obtemos o conjunto de equações
+    hierárquicas da teoria de turbulência fraca;
+    \pause
+    \item Composto pela equação cinética formal para as
+    partículas do tipo $a$
+    \begin{equation}
+      \frac{\partial F_a}{\partial t}=-\frac{e_a}{m_a}
+      \frac{\partial}{\partial {\bf v}}
+      {\bf \cdot}\int d^3k \int d\omega \int d^3k'\int d\omega '\,
+      \left<\delta{\bf E}_{{\bf k'},\omega '}\,
+      \delta f^a_{{\bf k},\omega}\right>
+      e^{i({\bf k+k'}){\bf \cdot r}-i(\omega+\omega ')t};
+      \label{eq-cin-par}
+    \end{equation}
+    \pause
+    \item Pela equação para a evolução da função de distribuição
+    perturbativa das partículas
+    \begin{equation}
+      \begin{split}
+	\left(\omega-{\bf k \cdot v}+i\frac{\partial}{\partial t}\right)
+	\delta f^a_{{\bf k},\omega}
+	&=-i \frac{e_a}{m_a} \delta {\bf E}_{{\bf k},\omega}{\bf \cdot}
+	\frac{\partial F_a}{\partial \bf v}-i\frac{e_a}{m_a}
+	\frac{\partial}{\partial \bf v} {\bf \cdot} \int d^3k'
+	\int d\omega '\\
+	\times \bigr[\delta {\bf E}_{{\bf k'},\omega '}
+	&\delta f^a_{{\bf k-k'},\omega-\omega '}
+	-\left<\delta{\bf E}_{{\bf k'},\omega '}
+	\delta f^a_{{\bf k-k'},\omega-\omega '}\right>\bigr];
+      \end{split}
+   \label{ev-par-per}
+    \end{equation}
+  \pause
+  \item E pela forma diferencial da lei de Gauss para as
+  flutuações do campo elétrico
+  \begin{equation}
+    {\bf k \cdot}\delta{\bf E}_{{\bf k},\omega}=-4\pi \hat n i
+    \sum_a e_a\int d^3v\ \delta f^a_{{\bf k}, \omega}.
+    \label{poisson-flut}
+  \end{equation}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Aproximação de dois tempos}
+  \begin{itemize}
+      % \item Vemos que a derivada temporal de lenta escala de tempo,
+      % $i(\partial/\partial t)$, foi  mantida no lado esquerdo da
+      % equação (\ref{ev-par-per});
+      % \pause
+      \item Na aproximação de dois tempos, propomos que o fator
+      $i(\partial/\partial t)$ seja ``absorvido'' em uma nova
+      definição para a frequência angular, $\omega \rightarrow
+      \omega+i \partial/\partial t$;
+      \vspace{0.25cm}
+      \pause
+      \item Dessa forma, a equação para a evolução da função de
+      distribuição perturbativa pode ser resolvida iterativamente
+      até terceira ordem de $\delta {\bf E}_{{\bf k},\omega}$;
+      \vspace{0.25cm}
+      \pause
+      \item Uma vez obtida a solução iterativa desejada, ela é
+      inserida na Eq. \eqref{poisson-flut};
+      \vspace{0.25cm}
+      \pause
+      \item Por fim, são tomadas as médias de ensemble apropriadas,
+      supondo que existam fases aleatórias associadas com as flutuações;
+      \vspace{0.25cm}
+      \pause
+      \item Como resultado desse procedimento, obtemos a equação não
+      linear para o balanço espectral, que forma a base da teoria de
+      turbulência fraca.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}\vspace{-0.6cm}
+  % [noframenumbering]
+  % \frametitle{Equação do balanço espectral}
+  \begin{eqnarray}
+    &&\frac{i}{2}\frac{\partial \epsilon({\bf k},\omega)}{\partial \omega}
+       \frac{\partial \left<\delta E^2\right>_{{\bf k},\omega}}{\partial t}
+       +\mbox{Re}\,\epsilon({\bf k},\omega)\left<\delta E^2 \right>_{{\bf k},\omega}
+       +i\mbox{Im}\,\epsilon({\bf k},\omega)\left<\delta E^2 \right>_{{\bf k},\omega}
+       \nonumber\\
+    &&\qquad \qquad \qquad -\frac{2}{\pi}\frac{1}{k^2\epsilon^*({\bf k},\omega)}
+       \sum_ae_a^2\int d{\bf v}\,\delta(\omega-{k\cdot v})F_a({\bf v})
+       \nonumber\\
+    &&=-2\int d{\bf k'} \int d\omega '\
+       \biggl\{ \left[\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},
+       \omega-\omega ')\right]^2
+       \biggl[\frac{\left<\delta E^2\right>_{{\bf k - k'},\omega-\omega '}}
+       {\epsilon({\bf k'},\omega ')}
+       \nonumber\\
+    &&+\frac{\left<\delta E^2\right>_{{\bf k'},\omega '}}
+       {\epsilon({\bf k - k'},\omega-\omega ')}\biggr]
+       -\bar \chi^{(3)}({\bf k'},\omega|-{\bf k'},-\omega '|{\bf k},\omega)
+       \left<\delta E^2\right>_{{\bf k'},\omega'}\biggr\}
+       \left<\delta E^2\right>_{{\bf k},\omega}\nonumber\\
+    &&+2\int d{\bf k'} \int d\omega '
+       \frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+       {\epsilon^*({\bf k},\omega)}
+       \left<\delta E^2\right>_{{\bf k'},\omega '}
+       \left<\delta E^2\right>_{{\bf k-k'},\omega-\omega '}
+       \label{nlebe}\\
+    &&-\frac{4}{\pi}\int d{\bf k '} \int d\omega '\
+       \frac{1}{k^2|\epsilon({\bf k'},\omega ')|^2}
+       \biggl[ \frac{[\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')]^2}
+       {\epsilon({\bf k-k'},\omega-\omega ')}
+       \left<\delta E^2 \right>_{{\bf k},\omega}
+       \nonumber\\
+    &&-\frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+       {\epsilon^*({\bf k},\omega)}
+       \left<\delta E^2 \right>_{{\bf k-k'},\omega-\omega '}\biggr]
+       \sum_ae_a^2\int d{\bf v}\, \delta(\omega '-{\bf k \cdot v})F_a({\bf v})
+       \nonumber\\
+    &&-\frac{4}{\pi}\int d{\bf k '} \int d\omega '\
+       \frac{1}{|{\bf k - k'}|^2|\epsilon({\bf k-k'},\omega-\omega ')^2}
+       \biggl[ \frac{[\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')]^2}
+       {\epsilon({\bf k'},\omega ')}\left<\delta E^2 \right>_{{\bf k},\omega}
+       \nonumber\\
+    &&-\frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+       {\epsilon^*({\bf k},\omega)}
+       \left<\delta E^2 \right>_{{\bf k'},\omega '}\biggr]\sum_ae_a^2\int d{\bf v}\,
+       \delta(\omega-\omega '-{\bf (k-k')\cdot v})F_a({\bf v})
+       \nonumber
+  \end{eqnarray}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Na equação para o balanço espectral:}
+  \begin{itemize}
+    \item No lado esquerdo da equação estão as expressões que correspondem
+    à aproximação quaselinear e no lado esquerdo estão os termos não lineares;
+    \vspace{0.5cm}
+    \item Nos denominadores temos a função resposta dielétrica linear
+    $\epsilon({\bf k},\omega)$, que é dada por
+    \begin{equation*}
+      \epsilon({\bf k},\omega)=1+\sum_a\chi_a({\bf k},\omega);
+    \end{equation*}
+    %\vspace{0.1cm}
+    \item Sendo $\sum_a \chi_a({\bf k},\omega)$ a susceptibilidade dielétrica
+    linear, $\sum_a \chi_a^{(2)}({\bf k}_1,\omega_1|{\bf k}_2,\omega_2)$ a
+    susceptibilidade não linear de segunda ordem e
+    $\sum_a \bar \chi_a^{(3)}({\bf k}_1,\omega_1|{\bf k}_2,\omega_2|{\bf k}_3,\omega_3)$
+    a susceptibilidade não linear de terceira ordem.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Equação cinética generalizada para as partículas}
+  \begin{itemize}
+    \item Para a equação cinética das partículas, é usado um procedimento
+    similar ao aplicado para obter a equação para o balanço espectral, mas
+    com relação à Eq. \eqref{eq-cin-par};
+    \vspace{0.4cm}
+    \item Com isso pode-se chegar a uma equação cinética generalizada formal
+    para as partículas, composta por vários termos não lineares de acoplamento
+    entre as ondas;
+    \vspace{0.4cm}
+    \item Neste trabalho, no entanto, vamos usar apenas os termos correspondentes
+    à fricção e difusão quaselinear no espaço de velocidades:
+    \begin{equation*}
+      \begin{split}
+	\frac{\partial F_a}{\partial t}
+	&=\frac{\pi e_a^2}{m_a^2}\int d{\bf k}\,\int d\omega\,
+	\left( \frac{\bf k}{k}\cdot
+	  \frac{\partial}{\partial {\bf v}}\right)
+	\delta(\omega -{\bf k \cdot v})\\
+	&\times\left[\mbox{Im} \frac{m_a \epsilon({\bf k},\omega)}
+	  {2\pi^3k \left|\epsilon ({\bf k},\omega) \right|^2 } F_a
+	  +\left<\delta E^2\right>_{{\bf k},\omega}\left(\frac{\bf k}{k}
+	    \frac{\partial F_a}{\partial \bf v}\right)\right].
+      \end{split}
+   %\label{part}
+    \end{equation*}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Equação cinética das ondas para automodos lineares}
+  \begin{itemize}
+    \item O procedimento padrão para lidar com a expressão geral para
+    o balanço espectral e obter as equações cinéticas para os automodos,
+    consiste em supor amplificação lenta das ondas, ou seja:\,
+    $|\mbox{Im}\, \epsilon({\bf k},\omega)|\ll|\mbox{Re}\, \epsilon({\bf k},\omega)|$;
+    \vspace{0.2cm}
+    \item O que significa que o processo de crescimento das ondas não
+    interfere na dinâmica do plasma;
+    \vspace{0.2cm}
+    \item Dessa forma, a parte imaginária da Eq. \eqref{nlebe} leva à equação
+    cinética das ondas, enquanto a parte real leva à equação de dispersão
+    das ondas;
+    \vspace{0.2cm}
+    \item  Com isso, na forma generalizada, os modos normais de oscilação
+    são determinados pela resposta linear do plasma, enquanto as interações
+    onda-partícula e onda-onda são descritas pelas equações cinéticas não
+    lineares das ondas e das partículas;
+    \vspace{0.2cm}
+    \item Então, o que temos aqui é uma teoria que descreve interações
+    não lineares que envolvem os automodos lineares do plasma. 
+    % \item Lembrando que, no nosso caso, vamos usar a aproximação quaselinear
+    % para a equação cinética das partículas.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Modos normais de oscilação}
+  \begin{itemize}
+    \item As relações de dispersão lineares para os modos normais lineares
+    são as soluções da seguinte equação
+    \begin{equation}
+      0=\mbox{Re}\ \epsilon({\bf k},\omega)
+      \left<\delta E^2 \right>_{{\bf k},\omega};
+      \label{real-lin}
+    \end{equation}
+    \item Supondo que a solução da equação acima seja dada por
+    $\omega=\omega^{\alpha}_{{\bf k},\omega}$, onde $\alpha$ leva em
+    conta os diferentes modos normais de oscilação do plasma;
+    \vspace{0.2cm}
+    \item Com isso, podemos escrever a amplitude espectral das ondas:
+    \begin{equation}
+      \left<\delta E^2\right>_{{\bf k},\omega}
+      =\sum_{\alpha}\bigl[I^{+\alpha}_{\bf k}
+      \delta(\omega-\omega_{\bf k}^{\alpha})
+      +I^{-\alpha}_{\bf k} \delta(\omega+\omega_{\bf k}^{\alpha})\bigr],
+      \label{wave-dens}
+    \end{equation}
+    onde $\pm$ denota a direção de propagação de $\alpha$;
+    \vspace{0.2cm}
+    \item Sendo que os modos normais $\alpha$, são os modos de
+    oscilação que satisfazem
+    \begin{equation}
+      \label{eigenmode}
+      \epsilon({\bf k,\pm\, \omega_{{\bf k},\omega}^\alpha}) \approx 0.
+    \end{equation}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Equação cinética para ondas de Langmuir $(L)$}
+  \begin{itemize}
+    \item
+    \begin{equation}
+  \label{L}
+  \begin{split}
+\frac{\partial I_{\bf k}^{\sigma L}}{\partial t}
+&=\frac{\omega_{pe}^2}{k^2}\int d{\bf v}\;
+\delta(\sigma\omega_{\bf k}^L-{\bf k}\cdot{\bf v})
+\biggl(\hat{n}\,e^2\,F_e({\bf v})+\pi\,(\sigma\omega_{\bf k}^L)\,
+\;{\bf k}\cdot\frac{\partial F_e({\bf v})}{\partial{\bf v}}
+\,I_{\bf k}^{\sigma L}\biggr)\\
+&-\,\pi\sigma\,\omega_{\bf k}^L
+\,\frac{e^2}{2T_e^2}\sum_{\sigma ',\sigma ''}\int d{\bf k'}\;
+\frac{\mu_{{\bf k}-{\bf k}'}^S
+\,({\bf k}\cdot{\bf k}')^2}{k^2\,k'^2\,|{\bf k}-{\bf k}'|^2}
+\biggl(\sigma '\omega_{{\bf k}'}^L\,
+\frac{I_{{\bf k}-{\bf k}'}^{\sigma ''S}}{\mu_{{\bf k}-{\bf k}'}^S}
+I_{\bf k}^{\sigma L}\\
+&+\,\sigma ''\omega_{{\bf k}-{\bf k}'}^L
+\,I_{{\bf k}'}^{\sigma 'L}\,I_{\bf k}^{\sigma L}
+-\sigma\omega_{\bf k}^L I_{{\bf k}'}^{\sigma 'L}
+\frac{I_{{\bf k}-{\bf k}'}^{\sigma ''S}}
+{\mu_{{\bf k}-{\bf k}'}^S}\biggr)
+\;\delta(\sigma\omega_{\bf k}^L-\sigma '\omega_{{\bf k}'}^L
+-\sigma ''\omega_{{\bf k}-{\bf k}'}^S)\\
+&+\,\sigma\omega_{\bf k}^L\,\frac{e^2}{m_e^2\,\omega_{pe}^2}
+\sum_{\sigma '}\int d{\bf k'}\int d{\bf v}\;
+\frac{({\bf k}\cdot{\bf k}')^2}{k^2\,k'^2}\;\delta[\sigma\omega_{\bf k}^L
+-\sigma '\omega_{{\bf k}'}^L-({\bf k}-{\bf k}')\cdot{\bf v}]\\
+&\times\biggl[\frac{\hat{n}\,e^2}{\omega_{pe}^2}
+\bigl(\sigma\omega_{\bf k}^LI_{{\bf k}'}^{\sigma 'L}
+  -\sigma '\omega_{{\bf k}'}^L I_{\bf k}^{\sigma L}\bigr)
++\pi\,\frac{m_e}{m_i}\,I_{{\bf k}'}^{\sigma 'L}
+I_{\bf k}^{\sigma L}\;({\bf k}-{\bf k}')
+\cdot\frac{\partial F_i({\bf v})}{\partial{\bf v}}\biggr].
+  \end{split}
+\end{equation}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Equação cinética para ondas íon-acústicas $(S)$}
+  \vspace{-0.9cm}
+  % \begin{itemize}
+  %   \item 
+    \begin{equation}
+  \label{S}
+  \begin{split}
+\frac{\partial}{\partial t}\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}
+&=\mu_{\bf k}^S\,\frac{\omega_{pe}^2}{k^2}
+\int d{\bf v}\;\delta(\sigma\omega_{\bf k}^S-{\bf k}\cdot{\bf v})
+\biggl[\hat{n}\,e^2\,[F_e({\bf v})+F_i({\bf v})]\\
+&+\,\pi\,(\sigma\omega_{\bf k}^L)\,\biggl({\bf k}\cdot
+\frac{\partial F_e({\bf v})}{\partial{\bf v}}
++\frac{m_e}{m_i}\;{\bf k}\cdot
+\frac{\partial F_i({\bf v})}{\partial{\bf v}}\biggr)
+\,\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}\biggr]\\
+&-\,\pi\sigma\omega_{\bf k}^L\,\frac{e^2}{4T_e^2}
+\sum_{\sigma ',\sigma ''}\int d{\bf k'}\;
+\frac{\mu_{\bf k}^S[{\bf k}'\cdot({\bf k}-{\bf k}')]^2}{k^2k'^2|{\bf k}-{\bf k}'|^2}
+\biggl(\sigma '\omega_{{\bf k}'}^L\,
+I_{{\bf k}-{\bf k}'}^{\sigma ''L}
+\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}\\
+&+\,\sigma ''\omega_{{\bf k}-{\bf k}'}^L
+\,I_{{\bf k}'}^{\sigma 'L}\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}
+-\sigma\omega_{\bf k}^LI_{{\bf k}'}^{\sigma 'L}
+I_{{\bf k}-{\bf k}'}^{\sigma ''L}\biggr)
+\delta(\sigma\omega_{\bf k}^S-\sigma '\omega_{{\bf k}'}^L
+-\sigma ''\omega_{{\bf k}-{\bf k}'}^L)\\
+&+\frac{e^2}{m_e^2\omega_{pe}^2}\sigma\omega_{\bf k}^L\sum_{\sigma '}\int d{\bf k'}
+\frac{\mu_{\bf k}^S\mu_{{\bf k '}({\bf k}\cdot{\bf k}')^2}
+{\lambda_{De}^4k^4k'^4}\int d{\bf v}\;
+\delta[\sigma\omega_{\bf k}^S-\sigma '\omega_{{\bf k}'}^S
+-({\bf k}-{\bf k}')\cdot{\bf v}]\\
+&\times\,\biggl[\frac{\hat{n}\,e^2}{\omega_{pe}^2}W_{{\bf k},{\bf k}'}
+\biggl(\sigma\omega_{\bf k}^L\,\frac{I_{{\bf k}'}^{\sigma 'S}}{\mu_{{\bf k}'}^S}
+-\sigma '\omega_{{\bf k}'}^L\,\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}\biggr)
+\,[F_e({\bf v})+F_i({\bf v})]\\
+&+\frac{m_e}{m_i}\frac{\pi({\bf k}\cdot{\bf k}')^2}{k^2\,k'^2}
+\biggl(W_{{\bf k},{\bf k}'}+\sigma\,\sigma '\frac{k'}{k}\biggr)
+\,\frac{I_{{\bf k}'}^{\sigma 'S}}{\mu_{{\bf k}'}^S}
+\frac{I_{\bf k}^{\sigma S}}{\mu_{\bf k}^S}({\bf k}-{\bf k}')
+\cdot\frac{\partial F_i({\bf v})}{\partial{\bf v}}\biggr].
+\end{split}
+\end{equation}
+  % \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Evolução temporal das partículas}
+  \begin{equation*}
+  \begin{split}
+    \frac{\partial F_a({\bf v})}{\partial t}&=\frac{\pi e_a^2}{m_a^2}
+    \sum_\sigma\sum_{\alpha=L,S}\int d^3k\ \biggl(\frac{\bf k}{k}
+    \cdot\frac{\partial}{\partial{\bf v}}\biggr)\ \mu_{\bf k}^\alpha
+    \delta(\sigma\omega_{\bf k}^\alpha-{\bf k}\cdot{\bf v})\\
+    &\times\biggl(\frac{m_a}{4\pi^2}\frac{\sigma\omega_{\bf k}^L}{k}
+    F_a({\bf v})+\frac{I_{\bf k}^{\sigma\alpha}}{\mu_{\bf k}^\alpha}
+    \frac{\bf k}{k}\cdot\frac{\partial F_a({\bf v})}{\partial{\bf v}}\biggr);
+  \end{split}
+  \end{equation*}
+\end{frame}
+
+% \begin{frame}
+%   \frametitle{Evolução temporal das ondas de Langmuir}
+% \end{frame}
+
+\begin{frame}\vspace{-0.6cm}
+  \begin{displaymath}
+    \begin{split}
+        \mbox{NL}
+ =&-2\int d{\bf k'} \int d\omega '\
+     \biggl\{ \left[\chi^{(2)}({\bf k'},\omega '|{\bf k - k'},
+     \omega-\omega ')\right]^2\\
+  &\times\biggl[\frac{\left< \delta E^2 \right>_{{\bf k-k'},\omega-\omega '}^0
+     +\sum_{\sigma ''}\sum_{\gamma} I_{\bf k -k'}^{\sigma '' \gamma}
+     \delta(\omega-\omega ' -\sigma '' \omega_{\bf k -k'}^\gamma)}
+     {\epsilon({\bf k'},\omega ')}\\
+  &+\frac{\left< \delta E^2 \right>_{{\bf k'},\omega '}^0
+  +\sum_{\sigma '}\sum_{\beta}
+  I_{\bf k'}^{\sigma ' \beta}\delta(\omega '-\sigma ' \omega_{\bf k'}^\beta)}
+     {\epsilon({\bf k-k'},\omega-\omega ')}\biggr]
+     -\bar \chi^{(3)}({\bf k'},\omega|-{\bf k'},-\omega '|{\bf k},\omega)\\
+     &\times\biggl[ \left< \delta E^2 \right>_{{\bf k'},\omega '}^0
+	+\sum_{\sigma '}\sum_{\beta}I_{\bf k'}^{\sigma ' \beta}
+	\delta(\omega '-\sigma ' \omega_{\bf k'}^\beta) \biggr]\biggr\}
+	\sum_{\sigma}\sum_{\alpha}
+  I_{\bf k}^{\sigma \alpha}\delta(\omega-\sigma \omega_{\bf k}^\alpha)\\
+  &+2\int d{\bf k'} \int d\omega '
+  \frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+     {\epsilon^*({\bf k},\omega)}\biggl[ \left< \delta E^2 \right>_{{\bf k'},\omega '}^0
+  +\sum_{\sigma '}\sum_{\beta}
+     I_{\bf k'}^{\sigma ' \beta}\delta(\omega '-\sigma ' \omega_{\bf k'}^\beta) \biggr]\\
+  &\times \biggl[ \left< \delta E^2 \right>_{{\bf k - k'},\omega-\omega '}^0
+     +\sum_{\sigma ''}\sum_{\gamma} I_{\bf k -k'}^{\sigma '' \gamma}
+     \delta(\omega-\omega ' -\sigma '' \omega_{\bf k -k'}^\gamma) \biggr]
+    \end{split}
+  \end{displaymath}
+ \end{frame}
+
+\begin{frame}[noframenumbering]
+   \begin{displaymath}
+     \begin{split}
+&-\frac{4}{\pi}\int d{\bf k '} \int d\omega '\
+\frac{1}{k^2|\epsilon({\bf k'},\omega ')|^2}
+\biggl\{ \frac{[\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')]^2}
+{\epsilon({\bf k - k'},\omega-\omega ')}\sum_{\sigma}\sum_{\alpha}
+   I_{\bf k}^{\sigma \alpha}\delta(\omega-\sigma \omega_{\bf k}^\alpha)\\
+  &-\frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+   {\epsilon^*({\bf k},\omega)}
+     \biggl[ \left< \delta E^2 \right>_{{\bf k - k'},\omega-\omega '}^0
+     +\sum_{\sigma ''}\sum_{\gamma}I_{\bf k -k'}^{\sigma '' \gamma}
+     \delta(\omega-\omega ' -\sigma '' \omega_{\bf k -k'}^\gamma)\biggr]\biggr\}\\
+     &\times\sum_ae_a^2\int d{\bf v}\,
+     \delta(\omega '-{\bf k \cdot v})F_a({\bf v})\\
+-&\frac{4}{\pi}\int d{\bf k '} \int d\omega '\
+\frac{1}{|{\bf k - k'}|^2|\epsilon({\bf k-k'},\omega-\omega ')^2}
+\biggl\{ \frac{[\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')]^2}
+   {\epsilon({\bf k'},\omega ')}\\
+  &\times\sum_{\sigma}\sum_{\alpha}
+  I_{\bf k}^{\sigma \alpha}\delta(\omega-\sigma \omega_{\bf k}^\alpha)
+-\frac{|\chi^{(2)}({\bf k'},\omega '|{\bf k-k'},\omega-\omega ')|^2}
+{\epsilon^*({\bf k},\omega)}\\
+&\times \biggl[\left< \delta E^2 \right>_{{\bf k'},\omega '}^0
+   +\sum_{\sigma '}\sum_{\beta}I_{\bf k'}^{\sigma ' \beta}
+   \delta(\omega '-\sigma ' \omega_{\bf k'}^\beta)\biggr]\biggr\}
+   \sum_a e_a^2\int d{\bf v}\,
+   \delta(\omega-\omega '-{\bf (k-k')\cdot v})F_a({\bf v}).
+     \end{split}
+   \end{displaymath}
+ \end{frame}
+
+
+\message{ !name(apres_quali.tex) !offset(736) }
+
+\end{document}
