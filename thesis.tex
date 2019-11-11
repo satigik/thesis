@@ -119,8 +119,8 @@
 \input{pagtit}
 \pagenumbering{gobble}
 %\input{folhadeaprovacao}
-\input{ty}
-\input{epi}
+% \input{ty}
+% \input{epi}
 %\input{resumo}
 %\input{param}{\pagestyle{empty}}
 %\pagenumbering{none}
@@ -441,6 +441,8 @@ deep academic digression.
 
 \chapter{Kinetic theory of plasmas}
 \label{cha:kin-theo}
+
+
 The kinetic theory is the most fundamental description of the
 plasma dynamics. Based on the concepts and methods of statistical
 mechanics, together with the Maxwell equations, it provides a
@@ -458,7 +460,7 @@ $t$ \cite{klimo,klimon}.
 
 As mentioned before, in the absence of collisions, the plasma
 dynamics is given by the Vlasov-Maxwell system, which is composed
-by the Vlasov movement equation
+of the Vlasov movement equation
 \begin{equation}
   \label{eq:vlasov}
   \frac{\partial f_{\alpha}({\bf r},{\bf v},t)}{\partial t}
@@ -481,7 +483,7 @@ where the fields are described by the Maxwell equations
     +\frac{1}{c}\frac{\partial{\bf E}}{\partial t},
 \end{eqnarray}
 here given in cgs units, as commonly used in the
-plasma physics literature.
+;plasma physics literature.
 
 
 In a statistical description, the charge density $\rho$
@@ -1349,7 +1351,7 @@ Then, taking the real part of \eqref{lin}, we have
   f_a({\bf v})\right]=0.
 \end{equation}
 
-In the above equation we have two possibilities to the wave-number
+In the above equation we have two possibilities for the wave-number
 frequency space. If one is interested in the region of $({\bf k},\omega)$
 in which $|\epsilon({\bf k},\omega)|^2\ne 0$, then the left- and right-hand
 sides of \eqref{real} may be balanced by writing
@@ -3171,7 +3173,7 @@ bremsstrahlung, in addition to the spontaneous and induced emission processes,
   z_{\bf q}^L-{\bf q}\cdot{\bf u})\biggl(g\,\Phi_e({\bf u})
   +\sigma z_{\bf q}^L\,{\cal E}_{\bf q}^{\sigma L}
   \,{\bf q}\cdot\frac{\partial \Phi_e}{\partial{\bf u}}\biggr)
-  +P_{\bf q}^{\sigma L}+2\gamma_{\bf q}^{\sigma L}\calE_{\bf q}^{\sigma L}\approx 0,
+  +P_{\bf q}^{\sigma L}+2\gamma_{\bf q}^{\sigma L}{\cal E}_{\bf q}^{\sigma L}\approx 0,
   \label{asymp}
 \end{equation}
 
@@ -3564,6 +3566,38 @@ wind, are formed\footnote{The generation of suprathermal electrons in the lower
 \end{figure}
 
 %% Eu acho que ainda tenho que escrever algo aqui. Vou pensar ainda a respeito.
+
+\chapter{Microscopic equations for a fully ionized plasma}
+\label{appF}
+Plasmas are ionized gases that exhibit collective behavior. Usually composed
+of positive and negative charges and neutral particles, a plasma is said to
+be \emph{neutral} when the quantity of particles with opposite charges is the
+same~\cite{klimo}, and \emph{nonneutral} when it is constituted - or have a
+significant excess - of one kind of charge~\cite{DavidsonNonNeutral}. In this
+work, it will be considered a fully ionized hydrogen plasma, which is overall
+neutral, with the number of protons and electrons being the same.
+
+Electrons and ions are sources of electric and magnetic fields. Due to the
+long-range nature of these fields, particles can interact simultaneously, at
+distance, with several other particles in the system. The effective range of
+the interactions among charges is determined by the \emph{Debye length}
+\begin{equation}
+  \label{debye}
+  \lambda_{De}=\sqrt{\frac{T_a}{4\pi n_a e_a^2}},
+\end{equation}
+where $a=i$ for ions and $a=e$ for electrons. This means that a specific charge
+will interact effectively only with other charges that are inside of a virtual
+sphere with radius given by $\lambda_{De}$, being almost completely shielded
+from the influence of particles outside the \emph{Debye sphere}. I say almost
+because there are small fluctuations in the \emph{Debye shielding}; they are
+behind the complex self-consistent collective behavior of plasmas.
+
+Such characteristic ads a layer of complexity in the plasma dynamics, that does
+not exists in the description of neutral gases. For instance, the microscopic
+state of a plasma is not 
+
+
+
 
 \end{appendix}
 
