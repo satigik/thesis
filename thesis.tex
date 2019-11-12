@@ -441,16 +441,37 @@ deep academic digression.
 
 \chapter{Kinetic theory of plasmas}
 \label{cha:kin-theo}
+Plasmas are ionized gases that exhibit collective behavior. Usually composed
+of positive and negative charges and neutral particles, a plasma is said to
+be \emph{neutral} when the quantity of particles with opposite charges is the
+same~\cite{klimo}, and \emph{nonneutral} when it is constituted - or have a
+significant excess - of one kind of charge~\cite{DavidsonNonNeutral}. In this
+work, it will be considered a fully ionized hydrogen plasma, which is overall
+neutral. In such case, the density of protons and electrons per volume unity
+is the same, therefore $n_e=n_i=n$.
 
+Electrons and ions are sources of electric and magnetic fields. Due to the
+long-range nature of these fields, particles can interact simultaneously, at
+distance, with several other particles in the system. The effective range of
+the interactions among charges is determined by the \emph{Debye length}
+\begin{equation}
+  \label{debye}
+  \lambda_{De}=\sqrt{\frac{k_BT_e}{4\pi n e^2}},
+\end{equation}
+where $T_e$ is the electron temperature, $k_B$ the Boltzmann constant, $n$
+the plasma density and $e$ the charge. This means that a specific charge
+will interact effectively only with other charges that are inside of a
+virtual sphere with radius given by $\lambda_{De}$, being almost completely
+shielded from the influence of particles outside the \emph{Debye sphere}.
+ 
 
-The kinetic theory is the most fundamental description of the
-plasma dynamics. Based on the concepts and methods of statistical
-mechanics, together with the Maxwell equations, it provides a
-formal self-consistent evolution of the plasma processes. This
-formalism takes into account the variations of the velocity
-distribution function $f({\bf r},{\bf v},t)$ in the phase-space
-for each particle species. Statistically, this means that the
-product between the distribution function and the volume element
+The kinetic theory is the most fundamental description of the plasma
+dynamics. Based on the concepts and methods of statistical mechanics,
+together with the Maxwell equations, it provides a formal self-consistent
+evolution of the plasma processes. This formalism takes into account the
+variations of the velocity distribution function $f({\bf r},{\bf v},t)$
+in the phase-space for each particle species. Statistically, this means
+that the product between the distribution function and the volume element
 in the hexa-dimensional phase-space $f_\alpha({\bf r},{\bf v},t)d^3r d^3v$
 represents the probability of finding a particle of species
 $\alpha$ in a volume element $d^3r$ around ${\bf r}$ and in a
@@ -3575,7 +3596,8 @@ be \emph{neutral} when the quantity of particles with opposite charges is the
 same~\cite{klimo}, and \emph{nonneutral} when it is constituted - or have a
 significant excess - of one kind of charge~\cite{DavidsonNonNeutral}. In this
 work, it will be considered a fully ionized hydrogen plasma, which is overall
-neutral, with the number of protons and electrons being the same.
+neutral, with the density of protons and electrons being the same, therefore
+$n_e=n_i=n$.
 
 Electrons and ions are sources of electric and magnetic fields. Due to the
 long-range nature of these fields, particles can interact simultaneously, at
@@ -3583,18 +3605,15 @@ distance, with several other particles in the system. The effective range of
 the interactions among charges is determined by the \emph{Debye length}
 \begin{equation}
   \label{debye}
-  \lambda_{De}=\sqrt{\frac{T_a}{4\pi n_a e_a^2}},
+  \lambda_{De}=\sqrt{\frac{k_BT_e}{4\pi n e^2}},
 \end{equation}
-where $a=i$ for ions and $a=e$ for electrons. This means that a specific charge
-will interact effectively only with other charges that are inside of a virtual
-sphere with radius given by $\lambda_{De}$, being almost completely shielded
-from the influence of particles outside the \emph{Debye sphere}. I say almost
-because there are small fluctuations in the \emph{Debye shielding}; they are
-behind the complex self-consistent collective behavior of plasmas.
+where $T_e$ is the electron temperature, $k_B$ the Boltzmann constant, $n$
+the plasma density and $e$ the charge. This means that a specific charge
+will interact effectively only with other charges that are inside of a
+virtual sphere with radius given by $\lambda_{De}$, being almost completely
+shielded from the influence of particles outside the \emph{Debye sphere}.
 
-Such characteristic ads a layer of complexity in the plasma dynamics, that does
-not exists in the description of neutral gases. For instance, the microscopic
-state of a plasma is not 
+
 
 
 
