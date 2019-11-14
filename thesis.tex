@@ -234,14 +234,8 @@ of collisional dissipation can be neglected, what happens when the
 studied phenomenon evolves in a much shorter time-scale than the
 collisional relaxation time of the plasma in question \cite{akhi1967}.
 In such cases, the plasma dynamics may be described by the Vlasov-Maxwell
-system, a complex set of coupled equations whose
-%which 
-% LFZ190822: Posso estar enganado, mas me parece que aqui seria mesmo
-% "whose", como estava antes, e não "which".
-% Sabrina: resolvi colocar "whose" de novo depois de uma rápida, mas
-% controversa, pesquisa no google
-solution invariably will
-depend on some degree of approximation. In the presence of small
+system, a complex set of coupled equations whose solution invariably
+will depend on some degree of approximation. In the presence of small
 amplitude oscillations in a fully ionized plasma, we can make use
 of perturbation theory in order to solve such complicated system
 \cite{klimo}. From this method, one may obtain simpler approximations
@@ -277,15 +271,13 @@ obtained under the linear theory, except that now it depends on a
 time-dependent velocity distribution function, which must vary in a
 much slower time-scale than the period of the plasma oscillations.
 Under such condition, the gradual changing on the velocity space
-shape slowly modifies the shape of the wave spectrum, whose
-% LFZ190822: Não seria mesmo "whose"?
-% Sabrina: ok
-new form will alter the velocity distribution function and so
-on, until a new quasi-stationary equilibrium state is attained
-\cite{gurnett2017}. However, depending on the phenomenon being
-described this saturation state reached under the quasilinear
-approximation might keep on evolving if higher order nonlinearities are taken into account
-\cite{akhi2}. This kind of nonlinear analysis is given by the
+shape slowly modifies the shape of the wave spectrum, whose new form
+will alter the velocity distribution function and so on, until a new
+quasi-stationary equilibrium state is attained \cite{gurnett2017}.
+However, depending on the phenomenon being described this saturation
+state reached under the quasilinear approximation might keep on evolving
+if higher order nonlinearities are taken into account \cite{akhi2}.
+This kind of nonlinear analysis is given by the
 \emph{weak turbulence theory}, which is the next step in this chain
 of perturbative approximations.
 
@@ -441,29 +433,49 @@ deep academic digression.
 
 \chapter{Kinetic theory of plasmas}
 \label{cha:kin-theo}
-Plasmas are ionized gases that exhibit collective behavior. Usually composed
-of positive and negative charges and neutral particles, a plasma is said to
-be \emph{neutral} when the quantity of particles with opposite charges is the
-same~\cite{klimo}, and \emph{nonneutral} when it is constituted - or have a
-significant excess - of one kind of charge~\cite{DavidsonNonNeutral}. In this
-work, it will be considered a fully ionized hydrogen plasma, which is overall
-neutral. In such case, the density of protons and electrons per volume unity
-is the same, therefore $n_e=n_i=n$.
+Plasmas are ionized gases that exhibit collective behavior. Composed of
+positive and negative charges and neutral particles, a plasma is said to
+be \emph{neutral} when the quantity of particles with opposite charges is
+the same~\cite{klimon}, and \emph{nonneutral} when it is constituted - or
+have a significant excess - of one kind of charge~\cite{DavidsonNonNeutral}.
+For the present work, we assume a fully ionized hydrogen plasma, which is
+overall neutral and does not contain any neutral particle. In such a case,
+half the total number of particles is given by protons and the other half
+by electrons.
 
 Electrons and ions are sources of electric and magnetic fields. Due to the
 long-range nature of these fields, particles can interact simultaneously, at
 distance, with several other particles in the system. The effective range of
-the interactions among charges is determined by the \emph{Debye length}
+these interactions is determined by the \emph{Debye length}
 \begin{equation}
   \label{debye}
   \lambda_{De}=\sqrt{\frac{k_BT_e}{4\pi n e^2}},
 \end{equation}
 where $T_e$ is the electron temperature, $k_B$ the Boltzmann constant, $n$
-the plasma density and $e$ the charge. This means that a specific charge
-will interact effectively only with other charges that are inside of a
+the plasma density and $e$ the electron charge. This means that a specific
+charge will interact effectively only with other charges that are inside of a
 virtual sphere with radius given by $\lambda_{De}$, being almost completely
 shielded from the influence of particles outside the \emph{Debye sphere}.
- 
+The self-consistent interaction between charged particles and electric and
+magnetic fields, creates fluctuations in the local neutrality of the plasma,
+giving rise to the series of oscillations and complex wave phenomena that
+characterize the plasma’s collective behavior~\cite{chen}.
+
+Describing the precise state of a plasma, in a given time, would require
+the knowledge of the $6N$ phase-space coordinates of each particle, and also
+the microscopic amplitudes of the electric and magnetic fields at each point
+in space. Such exact representation is clearly a non-practical approach for
+a many-body system like the plasma. However, this microscopic formulation
+can be approximated to a macroscopic description by taking the average of
+the microscopic quantities and making suitable assumptions to truncate the
+correlation functions at an appropriate point~\cite{klimon}. This will lead
+to the plasma kinetic equations, which is the first of a hierarchy of
+approximations that also includes the multi-fluid and magnetohydrodynamic
+theories. The application of each one of these formulations will depend on
+the context and the scale of the phenomena being described~\cite{chen}.
+In this work we are interested in small-scale processes that depend on
+velocity-space properties, requiring a kinetic description of the plasma.
+
 
 The kinetic theory is the most fundamental description of the plasma
 dynamics. Based on the concepts and methods of statistical mechanics,
@@ -473,10 +485,20 @@ variations of the velocity distribution function $f({\bf r},{\bf v},t)$
 in the phase-space for each particle species. Statistically, this means
 that the product between the distribution function and the volume element
 in the hexa-dimensional phase-space $f_\alpha({\bf r},{\bf v},t)d^3r d^3v$
-represents the probability of finding a particle of species
-$\alpha$ in a volume element $d^3r$ around ${\bf r}$ and in a
-velocity volume element $d^3v$ around ${\bf v}$, at the instant
-$t$ \cite{klimo,klimon}.
+represents the probability of finding a particle of species $\alpha$ in a
+volume element $d^3r$ around ${\bf r}$ and in a velocity volume element
+$d^3v$ around ${\bf v}$, at the instant $t$ \cite{klimon}.
+
+In a first approximation, the plasma dynamics is described by the
+Boltzmann equation
+\begin{equation}
+\frac{\partial f_\alpha({\bf r},{\bf v},t)}{\partial t}
++{\bf v \cdot \nabla_r}f_\alpha({\bf r},{\bf v},t)
+ +\frac{{\bf F}}{m_\alpha} {\bf\cdot \nabla_v}f_\alpha({\bf r},{\bf v},t)
+=\left(\frac{\partial f_\alpha ({\bf r},{\bf v},t)}{\partial t}\right)_{coll}.
+\label{boltz}
+\end{equation}
+
 
 
 As mentioned before, in the absence of collisions, the plasma
@@ -597,12 +619,12 @@ instabilities, we must assure that these fluctuations are still inside
 the weak turbulence limit, i.e., if the turbulence is weak enough to be
 treated by a perturbative method. Such boundary is defined by a comparison
 between the averaged kinetic energy of the particles per volume unity
-$\calE_{kin}=\bar n m<v^2>/2$, and the energy density $\calE_f$, which
+${\cal E}_{kin}=\bar n m<v^2>/2$, and the energy density ${\cal E}_f$, which
 is associated with the fluctuations of the perturbative electric field.
 Thus, by ``weak turbulence'' we mean
 \begin{equation}
   \label{eq:weak}
-  \calE_f \ll \calE_{kin},
+  {\cal E}_f \ll {\cal E}_{kin},
 \end{equation}
 that is,
 % LFZ180216: Não fica melhor com vírgula depois de "that is"?
@@ -3588,30 +3610,6 @@ wind, are formed\footnote{The generation of suprathermal electrons in the lower
 
 %% Eu acho que ainda tenho que escrever algo aqui. Vou pensar ainda a respeito.
 
-\chapter{Microscopic equations for a fully ionized plasma}
-\label{appF}
-Plasmas are ionized gases that exhibit collective behavior. Usually composed
-of positive and negative charges and neutral particles, a plasma is said to
-be \emph{neutral} when the quantity of particles with opposite charges is the
-same~\cite{klimo}, and \emph{nonneutral} when it is constituted - or have a
-significant excess - of one kind of charge~\cite{DavidsonNonNeutral}. In this
-work, it will be considered a fully ionized hydrogen plasma, which is overall
-neutral, with the density of protons and electrons being the same, therefore
-$n_e=n_i=n$.
-
-Electrons and ions are sources of electric and magnetic fields. Due to the
-long-range nature of these fields, particles can interact simultaneously, at
-distance, with several other particles in the system. The effective range of
-the interactions among charges is determined by the \emph{Debye length}
-\begin{equation}
-  \label{debye}
-  \lambda_{De}=\sqrt{\frac{k_BT_e}{4\pi n e^2}},
-\end{equation}
-where $T_e$ is the electron temperature, $k_B$ the Boltzmann constant, $n$
-the plasma density and $e$ the charge. This means that a specific charge
-will interact effectively only with other charges that are inside of a
-virtual sphere with radius given by $\lambda_{De}$, being almost completely
-shielded from the influence of particles outside the \emph{Debye sphere}.
 
 
 
