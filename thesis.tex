@@ -476,19 +476,18 @@ the context and the scale of the phenomena being described~\cite{chen}.
 In this work we are interested in small-scale processes that depend on
 velocity-space properties, requiring a kinetic description of the plasma.
 
-
 Based on the concepts and methods of statistical mechanics, together with the
 Maxwell equations, the kinetic theory is the most fundamental description of
 the plasma dynamics, providing a formal, self-consistent evolution of plasma
 processes. As in the case of neutral gases, the kinetic formalism of plasmas
 takes into account the variations of the velocity distribution function
 $f({\bf r},{\bf v},t)$ in the phase-space, for each particle species.
-Statistically, this means
-that the product between the distribution function and the volume element
-in the hexa-dimensional phase-space $f_\alpha({\bf r},{\bf v},t)d^3r d^3v$
-represents the probability of finding a particle of species $\alpha$ in a
-volume element $d^3r$ around ${\bf r}$ and in a velocity volume element
-$d^3v$ around ${\bf v}$, at the instant $t$ \cite{klimon}.
+Statistically, this means that the product between the distribution function
+and the volume element in the hexa-dimensional phase-space
+$f_\alpha({\bf r},{\bf v},t)d^3r d^3v$ represents the probability of finding
+a particle of species $\alpha$ in a volume element $d^3r$ around ${\bf r}$
+and in a velocity volume element $d^3v$ around ${\bf v}$, at the instant $t$
+\cite{klimon}.
 
 In a first approximation, the plasma dynamics is described by the
 Boltzmann equation
@@ -499,6 +498,35 @@ Boltzmann equation
 =\left(\frac{\partial f_\alpha ({\bf r},{\bf v},t)}{\partial t}\right)_{coll}.
 \label{boltz}
 \end{equation}
+
+Above, in the left-hand side, the differential vector operators $\nabla_{\bf r}$
+and $\nabla_{\bf v}$ represent, respectively, gradients in space ($x,y,z$) and
+velocity ($v_x, v_y,v_z$) coordinates. The quantity ${\bf F}$ is the acting
+force in the system, and  $m_{\alpha}$ is the mass of the particles of kind
+$\alpha$, which in a fully ionized plasma can assume two values: electrons
+$\alpha=e$  and ions  $\alpha=i$. The right-hand side depicts the temporal
+variation of the velocity distribution function due to collisional interactions
+between the system's particles.
+
+For plasmas, in the general case, the acting force in Eq. \eqref{boltz}, is
+given by the Lorentz force added by an external force, which, at kinetic scales,
+is also of electromagnetic nature. Therefore, in \emph{cgs} units\footnote{The
+  use of cgs units will be consistent trough all this work.}, ${\bf F}$ has the
+following form
+\begin{equation}
+  {\bf F}=\sum_{\alpha}q_{\alpha}\left[{\bf E}({\bf r},t)
+    +\frac{1}{c}{\bf v \times B}({\bf r},t)\right]
+  +{\bf F_{ext}},
+  \label{florentz}
+\end{equation}
+where $q_{\alpha}$ is the charge of the particles of kind $\alpha$, ${\bf E}$
+and ${\bf B}$ are the electric and magnetic fields, respectively, and $c$ is
+the speed of light.
+
+\section{The Vlasov approach}
+\label{vlasov-appr}
+
+
 
 
 
