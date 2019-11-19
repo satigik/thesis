@@ -495,15 +495,15 @@ Boltzmann equation
 \frac{\partial f_\alpha({\bf r},{\bf v},t)}{\partial t}
 +{\bf v \cdot \nabla_r}f_\alpha({\bf r},{\bf v},t)
  +\frac{{\bf F}}{m_\alpha} {\bf\cdot \nabla_v}f_\alpha({\bf r},{\bf v},t)
-=\left(\frac{\partial f_\alpha ({\bf r},{\bf v},t)}{\partial t}\right)_{coll}.
+=\left(\frac{\partial f_\alpha ({\bf r},{\bf v},t)}{\partial t}\right)_{\rm coll}.
 \label{boltz}
 \end{equation}
 
-Above, in the left-hand side, the differential vector operators $\nabla_{\bf r}$
-and $\nabla_{\bf v}$ represent, respectively, gradients in space ($x,y,z$) and
-velocity ($v_x, v_y,v_z$) coordinates. The quantity ${\bf F}$ is the acting
+Above, on the left-hand side, the differential vector operators $\nabla_{\bf r}$
+and $\nabla_{\bf v}$ represent, respectively, the gradients in ($x,y,z$) space
+and ($v_x, v_y,v_z$) velocity coordinates. The quantity ${\bf F}$ is the acting
 force in the system, and  $m_{\alpha}$ is the mass of the particles of kind
-$\alpha$, which in a fully ionized plasma can assume two values: electrons
+$\alpha$, which, in a fully ionized plasma, can assume two values: electrons
 $\alpha=e$  and ions  $\alpha=i$. The right-hand side depicts the temporal
 variation of the velocity distribution function due to collisional interactions
 between the system's particles.
@@ -519,20 +519,25 @@ following form
   +{\bf F_{ext}},
   \label{florentz}
 \end{equation}
-where $q_{\alpha}$ is the charge of the particles of kind $\alpha$, ${\bf E}$
-and ${\bf B}$ are the electric and magnetic fields, respectively, and $c$ is
-the speed of light.
+where $q_{\alpha}$ is the charge of the particles of kind $\alpha$, $c$ is
+the speed of light, and ${\bf E}({\bf r},t)$ and ${\bf B}({\bf r},t)$ are
+the electric and magnetic fields, respectively.
 
-\section{The Vlasov approach}
-\label{vlasov-appr}
+Collisional interactions can be neglected when the time necessary for
+the plasma to establish statistical equilibrium - the relaxation time
+$\tau_{\rm rel}$ - is much greater than the characteristic time $\tau$
+of the process being studied~\cite{klimon,Tigik2015}.
+% The relaxation time of a plasma is defined
+% as follows $\tau_{\rm rel}=\lambda_{De}/v_{th}g$, where $\lambda_{De}$ is
+% given by Eq. \eqref{debye}, $v_{th}$ is the thermal velocity, and $g$
+% is the plasma parameter.
 
 
 
-
-
-As mentioned before, in the absence of collisions, the plasma
-dynamics is given by the Vlasov-Maxwell system, which is composed
-of the Vlasov movement equation
+\section{Vlasov-Maxwell system of equations}
+\label{vlasov-maxwell}
+As mentioned before, in the absence of collisions, the plasma dynamics is given
+by the Vlasov-Maxwell system, which is composed of the Vlasov movement equation
 \begin{equation}
   \label{eq:vlasov}
   \frac{\partial f_{\alpha}({\bf r},{\bf v},t)}{\partial t}
@@ -552,10 +557,9 @@ where the fields are described by the Maxwell equations
    \frac{\partial {\bf B}}{\partial t}\\
   \label{max4}
     {\bf \nabla \times B}&=& \frac{4\pi}{c}{\bf J}
-    +\frac{1}{c}\frac{\partial{\bf E}}{\partial t},
+    +\frac{1}{c}\frac{\partial{\bf E}}{\partial t}.
 \end{eqnarray}
-here given in cgs units, as commonly used in the
-;plasma physics literature.
+% here given in cgs units, as commonly used in the plasma physics literature.
 
 
 In a statistical description, the charge density $\rho$
