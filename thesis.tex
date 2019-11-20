@@ -505,11 +505,59 @@ and ($v_x, v_y,v_z$) velocity coordinates. The quantity ${\bf F}$ is the acting
 force in the system, and  $m_{\alpha}$ is the mass of the particles of kind
 $\alpha$, which, in a fully ionized plasma, can assume two values: electrons
 $\alpha=e$  and ions  $\alpha=i$. The right-hand side depicts the temporal
-variation of the velocity distribution function due to collisional interactions
-between the system's particles.
+variation of the velocity distribution function due to collisions between the
+system's particles.
 
-For plasmas, in the general case, the acting force in Eq. \eqref{boltz}, is
-given by the Lorentz force added by an external force, which, at kinetic scales,
+Collisional interactions are the central point of the present thesis.
+However, the formalism presented in \Cref{noneigenmode}, departs from
+the weak turbulence equations, which are the nonlinear approximation of
+the kinetic equations for low-amplitude instabilities in a collisionless
+plasma. The contribution of the correlations between \emph{source}
+fluctuations, that account for collisional interactions  (see.~\cite{
+  klimon,Tigik2015}), are then retrieved by the inclusion of noneigenmode
+contribution in both wave and particle kinetic equations. The difference
+of this new approach is that 
+
+
+
+%% ~\cite{klimon,Tigik2015}
+
+\section{The Vlasov approach}
+\label{vlasov-appro}
+Collisional interactions can be neglected when the time necessary for
+the plasma to establish statistical equilibrium is much greater than the
+characteristic time of the process being studied. In this section, we
+present a brief discussion about the necessary set of assumptions that
+allow us to disregard the effect of collisions in dilute plasmas. In the
+sequence we present the complete set of self-consistent equations for
+a collisionless plasma.
+
+
+
+% Let $\tau_{\rm rel}$ be the time necessary for the plasma to establish
+% statistical equilibrium, i.e, the relaxation time. 
+
+the relaxation time $\tau_{\rm rel}$ 
+% The relaxation time of a plasma is defined
+% as follows $\tau_{\rm rel}=\lambda_{De}/v_{th}g$, where $\lambda_{De}$ is
+% given by Eq. \eqref{debye}, $v_{th}$ is the thermal velocity, and $g$
+% is the plasma parameter.
+
+
+
+
+As mentioned before, in the absence of collisions, the plasma dynamics is given
+by the Vlasov-Maxwell system, which is composed of the Vlasov movement equation
+\begin{equation}
+  \label{eq:vlasov}
+  \frac{\partial f_{\alpha}({\bf r},{\bf v},t)}{\partial t}
+  +{\bf v \cdot \nabla_r}f_{\alpha}({\bf r},{\bf v},t)
+  +\frac{\bf F}{m_{\alpha}}
+  {\bf \cdot \nabla_v}f_{\alpha}({\bf r},{\bf v},t)=0.
+\end{equation}
+
+In the general case, the acting force in Eqs. \eqref{boltz} and \eqref{eq:vlasov},
+is given by the Lorentz force added by an external force, which, at kinetic scales,
 is also of electromagnetic nature. Therefore, in \emph{cgs} units\footnote{The
   use of cgs units will be consistent trough all this work.}, ${\bf F}$ has the
 following form
@@ -519,34 +567,10 @@ following form
   +{\bf F_{ext}},
   \label{florentz}
 \end{equation}
-where $q_{\alpha}$ is the charge of the particles of kind $\alpha$, $c$ is
-the speed of light, and ${\bf E}({\bf r},t)$ and ${\bf B}({\bf r},t)$ are
-the electric and magnetic fields, respectively.
-
-Collisional interactions can be neglected when the time necessary for
-the plasma to establish statistical equilibrium - the relaxation time
-$\tau_{\rm rel}$ - is much greater than the characteristic time $\tau$
-of the process being studied~\cite{klimon,Tigik2015}.
-% The relaxation time of a plasma is defined
-% as follows $\tau_{\rm rel}=\lambda_{De}/v_{th}g$, where $\lambda_{De}$ is
-% given by Eq. \eqref{debye}, $v_{th}$ is the thermal velocity, and $g$
-% is the plasma parameter.
-
-
-
-\section{Vlasov-Maxwell system of equations}
-\label{vlasov-maxwell}
-As mentioned before, in the absence of collisions, the plasma dynamics is given
-by the Vlasov-Maxwell system, which is composed of the Vlasov movement equation
-\begin{equation}
-  \label{eq:vlasov}
-  \frac{\partial f_{\alpha}({\bf r},{\bf v},t)}{\partial t}
-  +{\bf v \cdot \nabla_r}f_{\alpha}({\bf r},{\bf v},t)
-  +\frac{q_{\alpha}}{m_{\alpha}}
-  \left({\bf E}({\bf r},t)+\frac{1}{c}{\bf v}\times {\bf B}({\bf r},t) \right)
-  {\bf \cdot \nabla_v}f_{\alpha}({\bf r},{\bf v},t)=0,
-\end{equation}
-where the fields are described by the Maxwell equations
+where $q_{\alpha}$ is the charge of the particles of kind $\alpha$, and $c$ is
+the speed of light. The quantities ${\bf E}({\bf r},t)$ and ${\bf B}({\bf r},t)$
+are, respectively, the electric and magnetic fields, which are described by the
+Maxwell equations
 \begin{eqnarray}
   \label{max1}
   {\bf \nabla \cdot E}&=& 4\pi\rho\\
@@ -559,12 +583,9 @@ where the fields are described by the Maxwell equations
     {\bf \nabla \times B}&=& \frac{4\pi}{c}{\bf J}
     +\frac{1}{c}\frac{\partial{\bf E}}{\partial t}.
 \end{eqnarray}
-% here given in cgs units, as commonly used in the plasma physics literature.
 
-
-In a statistical description, the charge density $\rho$
-and the current density ${\bf J}$ depend on the velocity
-distribution function
+In a statistical description, the charge density $\rho$ and the current
+density ${\bf J}$ depend on the velocity distribution function
 \begin{eqnarray}
   \label{qdensity}
     \rho({\bf r},t)
@@ -573,11 +594,40 @@ distribution function
 \label{jdensity}
   {\bf J}({\bf r},t)
   &=&\sum_{\alpha}q_{\alpha}\int_v{\bf v}
-  f_{\alpha}({\bf r},{\bf v},t) d^3v,
+  f_{\alpha}({\bf r},{\bf v},t) d^3v.
 \end{eqnarray}
-where $\alpha$ accounts for all charged species that constitute
-the plasma. In a fully ionized hydrogen plasma, $\alpha=i$ for
-ions and $\alpha=e$ for electrons.
+% where the fields are described by the Maxwell equations
+% \begin{eqnarray}
+%   \label{max1}
+%   {\bf \nabla \cdot E}&=& 4\pi\rho\\
+%   \label{max2}
+%   {\bf \nabla \cdot B}&=& 0\\
+%   \label{max3}
+%     {\bf \nabla \times E}&=& -\frac{1}{c}
+%    \frac{\partial {\bf B}}{\partial t}\\
+%   \label{max4}
+%     {\bf \nabla \times B}&=& \frac{4\pi}{c}{\bf J}
+%     +\frac{1}{c}\frac{\partial{\bf E}}{\partial t}.
+% \end{eqnarray}
+% here given in cgs units, as commonly used in the plasma physics literature.
+
+
+% In a statistical description, the charge density $\rho$
+% and the current density ${\bf J}$ depend on the velocity
+% distribution function
+% \begin{eqnarray}
+%   \label{qdensity}
+%     \rho({\bf r},t)
+%   &=&\sum_{\alpha}q_{\alpha}\int_v
+%     f_{\alpha}({\bf r},{\bf v},t)d^3v\\
+% \label{jdensity}
+%   {\bf J}({\bf r},t)
+%   &=&\sum_{\alpha}q_{\alpha}\int_v{\bf v}
+%   f_{\alpha}({\bf r},{\bf v},t) d^3v,
+% \end{eqnarray}
+% where $\alpha$ accounts for all charged species that constitute
+% the plasma. In a fully ionized hydrogen plasma, $\alpha=i$ for
+% ions and $\alpha=e$ for electrons.
 
 Together, the expressions \eqref{eq:vlasov}, \eqref{max1},
 \eqref{max2}, \eqref{max3}, \eqref{max4}, \eqref{qdensity}
