@@ -509,13 +509,13 @@ variation of the velocity distribution function due to collisions between the
 system's particles.
 
 Collisional interactions are the central point of the present thesis.
-However, the formalism presented in \Cref{noneigenmode}, departs from
-the weak turbulence equations, which are the nonlinear approximation of
-the kinetic equations for low-amplitude instabilities in a collisionless
-plasma. The contribution of the correlations between \emph{source}
-fluctuations, that account for collisional interactions  (see.~\cite{
-  klimon,Tigik2015}), are then retrieved by the inclusion of noneigenmode
-contribution in both wave and particle kinetic equations. The difference
+However, the formalism presented in \Cref{noneigenmode}, departs from the
+weak turbulence equations, which are the nonlinear approximation of the
+kinetic equations for low-amplitude instabilities in a collisionless plasma.
+The contribution of the correlations between \emph{source} fluctuations,
+which account for collisional interactions  (see.~\cite{klimon,Tigik2015}),
+are then retrieved with the inclusion of noneigenmode contribution.
+in both wave and particle kinetic equations. The difference
 of this new approach is that 
 
 
@@ -3692,6 +3692,36 @@ wind, are formed\footnote{The generation of suprathermal electrons in the lower
 \end{figure}
 
 %% Eu acho que ainda tenho que escrever algo aqui. Vou pensar ainda a respeito.
+
+\chapter{Klimontovich formalism}
+\label{app-klimo}
+% The Klimontovich formalism is the basis of 
+% This appendix has the objective to complement important concepts discussed in
+% \Cref{noneigenmode}. 
+% In this appendix I present the standard approach that leads to the well known
+% Balescu-Lenard collision integral. The objective here is to put the formalism
+% presented in this thesis in a context where it can be compared with the usual
+% text-book method that employs the Klimontovich statistical formulation. The
+% derivation shown here is basically a version of Chapter 4
+
+\section{Micorscopic equations for a fully ionized plasma}
+\label{mic-eq}
+Let us consider a fully ionized hydrogen plasma, where $e_a$ and $m_a$ are,
+respectively the charge and the mass of the particles of species $a$, that
+can be or electrons $e_e\equiv -e$ or protons (ions) $e_i\equiv e$. Denoting
+$N_a$ as the total number of particles of species $a$ in the plasma, the
+neutrality condition of a plasma is given by
+\begin{equation}
+  \sum_ae_aN_a=0.  
+\end{equation}
+
+The probability distribution function for a N-body system in phase-space,
+$x\equiv({\bf r, v})$, is given by the Klimontovich function
+\begin{equation}
+N_a(x,t)=N_a({\bf r, v}, t)=\sum_{i=1}^{N_a}
+\delta[{\bf r}-{\bf r}_{ia}(t)]
+\delta[{\bf v}-{\bf v}_{ia}(t)].
+\end{equation}
 
 
 
