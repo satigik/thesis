@@ -508,46 +508,58 @@ $\alpha=e$  and ions  $\alpha=i$. The right-hand side depicts the temporal
 variation of the velocity distribution function due to collisions between the
 system's particles.
 
-Collisional interactions are the central point of the present thesis.
-However, the formalism presented in \Cref{noneigenmode}, departs from the
-weak turbulence equations, which are the nonlinear approximation of the
-kinetic equations for low-amplitude instabilities in a collisionless plasma.
-The contribution of the correlations between \emph{source} fluctuations,
-which account for collisional interactions  (see.~\cite{klimon,Tigik2015}),
-are then retrieved with the inclusion of noneigenmode contribution.
-in both wave and particle kinetic equations. The difference
-of this new approach is that 
-
-
+Collisional interactions are the central point of the present thesis. However,
+the formalism presented in \Cref{noneigenmode}, departs from the weak turbulence
+equations, which are the kinetic description of nonlinear, low-amplitude
+instabilities in a collisionless plasma. The contribution of the correlations
+between \emph{source} fluctuations, which account for collisional interactions
+(see.~\cite{klimon,Tigik2015}), are then retrieved with the inclusion of
+noneigenmode contributions in the wave and particle kinetic equations\footnote{
+  For instance, in \Cref{sec:inc-non}, it will be shown that including the
+  noneigenmode fluctuations in the weak turbulence's formal particle kinetic
+  equation leads to an expression that accounts for the collisional interactions
+  that appear on the right-hand side of equation~\eqref{boltz}.}. Therefore,
+at this point, it will be assumed that collisions can be neglected.
 
 %% ~\cite{klimon,Tigik2015}
+\section{The Vlasov-Maxwell system of equations}
+% \label{vlasov-appro}
+% When the time necessary for the plasma to establish statistical equilibrium
+% is much greater than the characteristic time of the process being studied,
+% collisions can be neglected. In this section, is presented a brief discussion
+% about the necessary set of assumptions that allow us to disregard the effect
+% of collisions in dilute plasmas. In the sequence we present the complete set
+% of self-consistent equations for a collisionless plasma.
 
-\section{The Vlasov approach}
-\label{vlasov-appro}
-Collisional interactions can be neglected when the time necessary for
-the plasma to establish statistical equilibrium is much greater than the
-characteristic time of the process being studied. In this section, we
-present a brief discussion about the necessary set of assumptions that
-allow us to disregard the effect of collisions in dilute plasmas. In the
-sequence we present the complete set of self-consistent equations for
-a collisionless plasma.
+% \subsection{Plasma parameter and relaxation time}
+% \label{plasma-param-relax}
+% A plasma is considered diluted when the plasma parameter $g\ll 1$, which
+% has the following form
+% \begin{equation}
+%   \label{ppar}
+%   g=\frac{1}{n\lambda_{De}^3},
+% \end{equation}
+% where $n$ is the number of charges inside the Debye sphere, and $\lambda_{De}$
+% is the Debye length, given by Eq. \eqref{debye}. At priory, the inequality
+% $g\ll 1$ seems counter intuitive, since it means that you must have a large
+% number of charged particles in the Debye sphere. However, if one substitutes
+% $\lambda_{De}$ with its expression,
+% \begin{align}
+%   g&=\frac{4\pi n e^2}{n T_e}\sqrt{\frac{4\pi n e^2}{T_e}}\\
+%    &=\frac{4\pi e^2}{T_e}\sqrt{\frac{4\pi n e^2}{T_e}}
+% \end{align}
 
+% % Let $\tau_{\rm rel}$ be the time necessary for the plasma to establish
+% % statistical equilibrium, i.e, the relaxation time. 
 
-
-% Let $\tau_{\rm rel}$ be the time necessary for the plasma to establish
-% statistical equilibrium, i.e, the relaxation time. 
-
-the relaxation time $\tau_{\rm rel}$ 
+% the relaxation time $\tau_{\rm rel}$ 
 % The relaxation time of a plasma is defined
 % as follows $\tau_{\rm rel}=\lambda_{De}/v_{th}g$, where $\lambda_{De}$ is
 % given by Eq. \eqref{debye}, $v_{th}$ is the thermal velocity, and $g$
 % is the plasma parameter.
 
-
-
-
-As mentioned before, in the absence of collisions, the plasma dynamics is given
-by the Vlasov-Maxwell system, which is composed of the Vlasov movement equation
+In the absence of collisions, the plasma dynamics is given by the Vlasov-Maxwell
+system, which is composed of the Vlasov movement equation
 \begin{equation}
   \label{eq:vlasov}
   \frac{\partial f_{\alpha}({\bf r},{\bf v},t)}{\partial t}
@@ -3693,36 +3705,37 @@ wind, are formed\footnote{The generation of suprathermal electrons in the lower
 
 %% Eu acho que ainda tenho que escrever algo aqui. Vou pensar ainda a respeito.
 
-\chapter{Klimontovich formalism}
-\label{app-klimo}
-% The Klimontovich formalism is the basis of 
-% This appendix has the objective to complement important concepts discussed in
-% \Cref{noneigenmode}. 
-% In this appendix I present the standard approach that leads to the well known
-% Balescu-Lenard collision integral. The objective here is to put the formalism
-% presented in this thesis in a context where it can be compared with the usual
-% text-book method that employs the Klimontovich statistical formulation. The
-% derivation shown here is basically a version of Chapter 4
+% \chapter{Klimontovich formalism}
+% \label{app-klimo}
+% % The Klimontovich formalism is the basis of 
+% % This appendix has the objective to complement important concepts discussed in
+% % \Cref{noneigenmode}. 
+% % In this appendix I present the standard approach that leads to the well known
+% % Balescu-Lenard collision integral. The objective here is to put the formalism
+% % presented in this thesis in a context where it can be compared with the usual
+% % text-book method that employs the Klimontovich statistical formulation. The
+% % derivation shown here is basically a version of Chapter 4
 
-\section{Micorscopic equations for a fully ionized plasma}
-\label{mic-eq}
-Let us consider a fully ionized hydrogen plasma, where $e_a$ and $m_a$ are,
-respectively the charge and the mass of the particles of species $a$, that
-can be or electrons $e_e\equiv -e$ or protons (ions) $e_i\equiv e$. Denoting
-$N_a$ as the total number of particles of species $a$ in the plasma, the
-neutrality condition of a plasma is given by
-\begin{equation}
-  \sum_ae_aN_a=0.  
-\end{equation}
+% \chapter{Microscopic equations for a fully ionized plasma}
+% \label{mic-eq}
+% Let us consider a fully ionized hydrogen plasma, where $e_a$ and $m_a$ are,
+% respectively the charge and the mass of the particles of species $a$, that
+% can be or electrons $e_e\equiv -e$ or protons (ions) $e_i\equiv e$. Denoting
+% $N_a$ as the total number of particles of species $a$ in the plasma, the
+% neutrality condition of a plasma is given by
+% \begin{equation}
+%   \sum_ae_aN_a=0.  
+% \end{equation}
 
-The probability distribution function for a N-body system in phase-space,
-$x\equiv({\bf r, v})$, is given by the Klimontovich function
-\begin{equation}
-N_a(x,t)=N_a({\bf r, v}, t)=\sum_{i=1}^{N_a}
-\delta[{\bf r}-{\bf r}_{ia}(t)]
-\delta[{\bf v}-{\bf v}_{ia}(t)].
-\end{equation}
-
+% The probability distribution function for a N-body system in phase-space,
+% $({\bf r, v})$, is given by the Klimontovich function
+% \begin{equation}
+% N_a({\bf r, v}, t)=\sum_{i=1}^{N_a}
+% \delta[{\bf r}-{\bf r}_i^a(t)]
+% \delta[{\bf v}-{\bf v}_i^a(t)],
+% \end{equation}
+% where ${\bf r}_i^a$ is the exact position and ${\bf v}_i^a$ the exact velocity
+% of the $i\unit{th}$ particle of species $a$, in a given time $t$.
 
 
 
