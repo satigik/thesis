@@ -395,6 +395,178 @@ oscillations. \Cref{cha:weak-turb} revises the procedure for obtaining
 the weak turbulence equations for Langmuir and ion-sound waves and
 the quasilinear equation for the particle dynamics.
 
+\section{Applications to astrophysical plasmas}
+\label{appE}
+Astrophysical plasmas are observed in a vast range of densities, temperatures,
+magnetic fields, ionization degree, and scale lengths\cite{peratt2014}. Starting
+in the outer layers of Earth's atmosphere, passing through the solar wind in the
+interplanetary space, to the stellar interiors and atmospheres, accretion disks
+and molecular clouds, it is estimated that something around $99 \sim 99.9\%$ of the
+observable matter in the universe is in the plasma state. Under cosmic conditions,
+even the weakly ionized gas of the neutral hydrogen regions around galaxies or in
+the atmosphere of cold stars have a strong reaction to electromagnetic fields,
+exhibiting the characteristic collective behavior of plasmas and, therefore, are
+also considered plasmas\cite{tsypa,may,peratt2014}.
+
+As soon as the pervasiveness of the plasma state in space came as a fact,
+plasma physics began to be recognized as an essential component in the
+multidisciplinary framework of astrophysics \cite{Alfven1950,Parker1956,
+  Alfven1961,Gailitis1964,Alfven1971}. At the same time, the analysis and
+interpretation of observational data started to have increasing relevance
+in the progress of theoretical, computational, and experimental plasma
+physics research \cite{YZKS16,Donnert2014,Pezzi2018,Howes2018,Peterson2019}.
+In this context of mutual collaboration, the solar and interplanetary
+plasma research has a pivotal contribution. The accessibility to direct,
+in situ measurements, highly resolved remote sensing and high-resolution
+spectroscopy, turned the solar system into a space plasma laboratory.
+Processes like magnetic reconnection, particle acceleration, shocks, and
+turbulence can be closely observed by space probes, and the understanding
+acquired may be extended or adapted to address similar phenomena observed
+in remote astrophysical environments \cite{NAP10477}. 
+
+The theory developed during this graduate research analyses the combined
+action of nonlinear kinetic instabilities and collisional processes in
+the context of solar physics. To contextualize our work within the solar
+plasma research, in \autoref{sec:solar-physics} we present a brief review
+of the current research in solar and space physics and the phenomena
+related to this work. The corresponding paper is pointed in a footnote.
+
+\subsection{Solar and space physics}
+\label{sec:solar-physics}
+The domain of solar and space physics is the \emph{heliosphere}, a cavity
+in the interstellar medium, created by the constant supersonic flow of solar
+plasma that permeates the interplanetary space. This region encloses the
+solar system and extends for approximately $140\unit{AU}$\footnote{An AU
+  (astronomical unit) is defined as the mean distance between the Sun and
+  Earth, $1\unit{AU}\approx 150\times 10^6\unit{km}$.} in the surrounding
+galactic space. Its outer limit is the \emph{heliopause}, an interface
+zone where the outgoing pressure of the solar plasma balances the incoming
+pressure from the interstellar medium. This comet-shaped plasma bubble
+\cite{Dialynas2017}, also has an inner boundary, the \emph{termination shock},
+which delimits the sphere of absolute influence of the solar plasma. Beyond
+the termination shock, at roughly $100\unit{AU}$ from the Sun, extending
+out to the heliopause, lies the \emph{heliosheath}. In this region, the
+solar wind particles start being subjected to increasing external pressure,
+transitioning to a subsonic, turbulent flow that blends and interacts
+directly with the matter in the local interstellar medium \cite{NAP13060}.
+In \autoref{figE1}, we have a depiction of the regions and boundaries
+described above, and the current location of both Voyager missions, that
+are already outside the heliosphere, in the interstellar space.
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=0.892\textwidth]{solar_system_env.png}
+    \caption{Main boundaries of the heliosphere and the location of both
+      Voyager missions.}
+      {\footnotesize Credit:}
+      \href{https://voyager.jpl.nasa.gov/news/details.php?article_id=112}
+      {\footnotesize NASA/JPL-Caltech}{\footnotesize , accessed at 08/08/2019.}
+    \label{figE1}
+  \end{center}
+\end{figure}
+
+
+The ultimate goal of heliophysics can be summarized as the search for a
+better understanding of the solar dynamics and how it affects the Earth,
+other planetary bodies, and the interstellar medium. The heliosphere is
+a coupled system, where different interacting elements that might look
+unrelated at first sight are connected by underlying plasma processes
+\cite{NAP13060}. A great example of this interconnection is the relation
+between the appearance of sunspots and the occurrence of non-recurrent
+geomagnetic storms, which are the most intense space weather disturbances.
+Evidence of such relationship started to appear at the end of the $19$th
+century. However, the correct hypothesis supporting this correlation
+(coronal mass ejections associated with solar flares), which depended
+on advances in plasma physics theory, came along only in $1929$
+\cite{chapman1929cosmical,Koskinen2011}.
+
+\subsection{The Sun and the near-Earth environment}
+\label{sec:sun}
+A better comprehension of the Sun and the dynamic space around our planet
+goes beyond the pure scientific curiosity. This accessible space physics
+laboratory can indeed lead to discoveries that can be applied and extended
+to remote cosmic systems. However, the primary reason behind the international
+effort (see Figures \ref{nasa} and
+\ref{esa}) on understanding the complex physics of the Sun and interplanetary
+space is to unlock means of predicting the occurrence and intensity of solar
+activity, and anticipate how the near-Earth environment will be affected.
+Reliable forecasting of the space weather is essential for protecting
+electronic equipment, radio communications, GPS signal and humans in space
+from the effects of the interaction between the dense, magnetized plasma of
+coronal mass ejections with the geomagnetic field, and also from the
+energetic radiation emitted by solar flares\footnote{The emission of hard X-rays
+  and type III radio bursts, both generated during solar flares, are addressed in
+  \cite{Tigik2016a} (see \autoref{master}).}. Extreme coronal mass ejections
+can also cause stronger geomagnetic disturbances that may affect terrestrial
+infrastructure such as electric power grids \cite{NAP13060}.
+\begin{figure}[hb]
+  \begin{center}
+    \includegraphics[width=0.892\textwidth]{hso_fleet_chart_april_2019.pdf}
+    \caption{NASA's present and future heliophysics system observatory. The number
+      between parenthesis under the probe's name is the total number of spacecrafts
+      that compose the mission.}
+      {\footnotesize Credit:}
+      \href{https://science.nasa.gov/heliophysics}
+      {\footnotesize NASA}{\footnotesize , accessed at 10/08/2019.}
+    \label{nasa}
+  \end{center}
+\end{figure}
+\begin{figure}[ht]
+  \begin{center}
+    \includegraphics[width=0.892\textwidth]{ESA_s_fleet_of_Solar_System_explorers_2019.jpg}
+    \caption{ESA's past, present, and future science missions for studying the solar system.}
+      {\footnotesize Credit:}
+      \href{https://www.esa.int/spaceinimages/Images/2019/02/ESA_s_fleet_of_Solar_System_explorers}
+      {\footnotesize ESA}{\footnotesize , accessed at 10/08/2019.}
+    \label{esa}
+  \end{center}
+\end{figure}
+
+\subsection{The solar corona}
+\label{sec:corona}
+The source of the tenuous magnetized plasma permeating the heliosphere, and
+also the origin of solar particles and radiation that may cause disruptive
+space weather around Earth, is the outermost layer of the Sun: the solar
+corona \cite{Cranmer2017,Klein2017}. The solar corona can be easily recognized
+as the bright halo that appears around the hidden Sun during solar eclipses.
+\autoref{corona} shows two beautiful photographs of the corona, taken in two
+different solar eclipses, August 21 $2017$ and July 2 $2019$. In both pictures,
+one can see the moon covering the bright photosphere, allowing us to have a
+glimpse of the thin, but ultra-hot coronal plasma.
+
+Counter-intuitively, the solar corona is, at the same time, the most tenuous
+and the hottest outer layer of the Sun. At the top of the chromosphere, where
+the temperature might reach $20,000\,\unit{K}$, in a relatively narrow interface,
+the \emph{solar transition region}, the plasma temperature rises abruptly to
+$\sim 10^6\,\unit{K}$ \cite{BenzA2002}. It has been almost eighty years since
+the extreme coronal temperature came as the only reasonable explanation for the
+origin of the spectral lines observed in the solar corona \cite{Hunter1942},
+in a classical case of an answer that brings a more troublesome question. 
+Since then, several mechanisms have been proposed \cite{Parker1988,Scudder92b,
+  Vinas2000,PP14}, not only to comprehend the heating of the solar corona,
+but also the acceleration of the solar wind. Another unsolved problem that is
+directly connected to the inverted temperature profile of the solar corona and
+particle acceleration in the Sun, is regarding where and how the non-Maxwellian
+velocity distribution functions with suprathermal tails, observed in the solar
+wind, are formed\footnote{The generation of suprathermal electrons in the lower
+  corona and its consequences to the coronal heating problem are tackled in
+  \cite{Tigik2017a} (see \autoref{sec:gen-supr}).}.
+\begin{figure}
+  \begin{center}
+    \includegraphics[width=0.892\textwidth]{corona2017.png}
+    \includegraphics[width=0.892\textwidth]{corona2019.png}
+    \caption{Solar corona captured during the total solar eclipse of 2017 (top panel)
+      and 2019 (lower panel). The reddish contour at some regions is the chromosphere,
+      and the reddish arcs are solar prominences, chromospheric plasma structures that
+      penetrate the coronal region.
+      {\footnotesize Credit:}
+      \href{https://hdr-astrophotography.com}
+      {\footnotesize Nicolas Lefaudeux}{\footnotesize , accessed at 15/08/2019}.}
+    \label{corona}
+  \end{center}
+\end{figure}
+
+\section{Thesis organization}
+\label{sec:thesis-organization}
 The main subject of this thesis is discussed in \Cref{noneigenmode}. In
 \Cref{sec:inc-non} we show the methodology used in the formulation of this
 new generalization and the outcome of its inclusion in the quasilinear
@@ -414,7 +586,7 @@ solar physics research.
 % and its relevance for the next generation of solar physics research are
 % also deliberated.
 
-In the end, we have five appendices. \Cref{appA} depicts an improved
+In the end, we have four appendices. \Cref{appA} depicts an improved
 approximation for the second order susceptibility of the electrostatic
 bremsstrahlung for Langmuir waves. In \Cref{appB} we discuss the
 similarities of the asymptotic equilibrium state of the Langmuir waves
@@ -425,10 +597,10 @@ absence of the electrostatic bremsstrahlung effect. The discussion in
 is parallel research and is only slightly related to the main subject
 of this work. \Cref{master} shows the paper that summarizes the results
 of my Master’s dissertation, which may be considered the starting point
-of this doctoral research. \Cref{appE} explores relevant aspects of
-current solar physics research and how they are connected to this work.
-It was written to be more like a light, informative reading, than a
-deep academic digression.
+of this doctoral research. % \Cref{appE} explores relevant aspects of
+% current solar physics research and how they are connected to this work.
+% It was written to be more like a light, informative reading, than a
+% deep academic digression.
 
 
 \chapter{Kinetic theory of plasmas}
@@ -3533,175 +3705,7 @@ studies.
 
 \includepdf[pages=-]{Tigik2016a.pdf}
 
-\chapter{Applications to astrophysical plasmas}
-\label{appE}
-Astrophysical plasmas are observed in a vast range of densities, temperatures,
-magnetic fields, ionization degree, and scale lengths\cite{peratt2014}. Starting
-in the outer layers of Earth's atmosphere, passing through the solar wind in the
-interplanetary space, to the stellar interiors and atmospheres, accretion disks
-and molecular clouds, it is estimated that something around $99 \sim 99.9\%$ of the
-observable matter in the universe is in the plasma state. Under cosmic conditions,
-even the weakly ionized gas of the neutral hydrogen regions around galaxies or in
-the atmosphere of cold stars have a strong reaction to electromagnetic fields,
-exhibiting the characteristic collective behavior of plasmas and, therefore, are
-also considered plasmas\cite{tsypa,may,peratt2014}.
 
-As soon as the pervasiveness of the plasma state in space came as a fact,
-plasma physics began to be recognized as an essential component in the
-multidisciplinary framework of astrophysics \cite{Alfven1950,Parker1956,
-  Alfven1961,Gailitis1964,Alfven1971}. At the same time, the analysis and
-interpretation of observational data started to have increasing relevance
-in the progress of theoretical, computational, and experimental plasma
-physics research \cite{YZKS16,Donnert2014,Pezzi2018,Howes2018,Peterson2019}.
-In this context of mutual collaboration, the solar and interplanetary
-plasma research has a pivotal contribution. The accessibility to direct,
-in situ measurements, highly resolved remote sensing and high-resolution
-spectroscopy, turned the solar system into a space plasma laboratory.
-Processes like magnetic reconnection, particle acceleration, shocks, and
-turbulence can be closely observed by space probes, and the understanding
-acquired may be extended or adapted to address similar phenomena observed
-in remote astrophysical environments \cite{NAP10477}. 
-
-The theory developed during this graduate research analyses the combined
-action of nonlinear kinetic instabilities and collisional processes in
-the context of solar physics. To contextualize our work within the solar
-plasma research, in \autoref{sec:solar-physics} we present a brief review
-of the current research in solar and space physics and the phenomena
-related to this work. The corresponding paper is pointed in a footnote.
-
-\section{Solar and space physics}
-\label{sec:solar-physics}
-The domain of solar and space physics is the \emph{heliosphere}, a cavity
-in the interstellar medium, created by the constant supersonic flow of solar
-plasma that permeates the interplanetary space. This region encloses the
-solar system and extends for approximately $140\unit{AU}$\footnote{An AU
-  (astronomical unit) is defined as the mean distance between the Sun and
-  Earth, $1\unit{AU}\approx 150\times 10^6\unit{km}$.} in the surrounding
-galactic space. Its outer limit is the \emph{heliopause}, an interface
-zone where the outgoing pressure of the solar plasma balances the incoming
-pressure from the interstellar medium. This comet-shaped plasma bubble
-\cite{Dialynas2017}, also has an inner boundary, the \emph{termination shock},
-which delimits the sphere of absolute influence of the solar plasma. Beyond
-the termination shock, at roughly $100\unit{AU}$ from the Sun, extending
-out to the heliopause, lies the \emph{heliosheath}. In this region, the
-solar wind particles start being subjected to increasing external pressure,
-transitioning to a subsonic, turbulent flow that blends and interacts
-directly with the matter in the local interstellar medium \cite{NAP13060}.
-In \autoref{figE1}, we have a depiction of the regions and boundaries
-described above, and the current location of both Voyager missions, that
-are already outside the heliosphere, in the interstellar space.
-\begin{figure}[h]
-  \begin{center}
-    \includegraphics[width=0.892\textwidth]{solar_system_env.png}
-    \caption{Main boundaries of the heliosphere and the location of both
-      Voyager missions.}
-      {\footnotesize Credit:}
-      \href{https://voyager.jpl.nasa.gov/news/details.php?article_id=112}
-      {\footnotesize NASA/JPL-Caltech}{\footnotesize , accessed at 08/08/2019.}
-    \label{figE1}
-  \end{center}
-\end{figure}
-
-
-The ultimate goal of heliophysics can be summarized as the search for a
-better understanding of the solar dynamics and how it affects the Earth,
-other planetary bodies, and the interstellar medium. The heliosphere is
-a coupled system, where different interacting elements that might look
-unrelated at first sight are connected by underlying plasma processes
-\cite{NAP13060}. A great example of this interconnection is the relation
-between the appearance of sunspots and the occurrence of non-recurrent
-geomagnetic storms, which are the most intense space weather disturbances.
-Evidence of such relationship started to appear at the end of the $19$th
-century. However, the correct hypothesis supporting this correlation
-(coronal mass ejections associated with solar flares), which depended
-on advances in plasma physics theory, came along only in $1929$
-\cite{chapman1929cosmical,Koskinen2011}.
-
-\subsection{The Sun and the near-Earth environment}
-\label{sec:sun}
-A better comprehension of the Sun and the dynamic space around our planet
-goes beyond the pure scientific curiosity. This accessible space physics
-laboratory can indeed lead to discoveries that can be applied and extended
-to remote cosmic systems. However, the primary reason behind the international
-effort (see Figures \ref{nasa} and
-\ref{esa}) on understanding the complex physics of the Sun and interplanetary
-space is to unlock means of predicting the occurrence and intensity of solar
-activity, and anticipate how the near-Earth environment will be affected.
-Reliable forecasting of the space weather is essential for protecting
-electronic equipment, radio communications, GPS signal and humans in space
-from the effects of the interaction between the dense, magnetized plasma of
-coronal mass ejections with the geomagnetic field, and also from the
-energetic radiation emitted by solar flares\footnote{The emission of hard X-rays
-  and type III radio bursts, both generated during solar flares, are addressed in
-  \cite{Tigik2016a} (see \autoref{master}).}. Extreme coronal mass ejections
-can also cause stronger geomagnetic disturbances that may affect terrestrial
-infrastructure such as electric power grids \cite{NAP13060}.
-\begin{figure}[hb]
-  \begin{center}
-    \includegraphics[width=0.892\textwidth]{hso_fleet_chart_april_2019.pdf}
-    \caption{NASA's present and future heliophysics system observatory. The number
-      between parenthesis under the probe's name is the total number of spacecrafts
-      that compose the mission.}
-      {\footnotesize Credit:}
-      \href{https://science.nasa.gov/heliophysics}
-      {\footnotesize NASA}{\footnotesize , accessed at 10/08/2019.}
-    \label{nasa}
-  \end{center}
-\end{figure}
-\begin{figure}[ht]
-  \begin{center}
-    \includegraphics[width=0.892\textwidth]{ESA_s_fleet_of_Solar_System_explorers_2019.jpg}
-    \caption{ESA's past, present, and future science missions for studying the solar system.}
-      {\footnotesize Credit:}
-      \href{https://www.esa.int/spaceinimages/Images/2019/02/ESA_s_fleet_of_Solar_System_explorers}
-      {\footnotesize ESA}{\footnotesize , accessed at 10/08/2019.}
-    \label{esa}
-  \end{center}
-\end{figure}
-
-\subsection{The solar corona}
-\label{sec:corona}
-The source of the tenuous magnetized plasma permeating the heliosphere, and
-also the origin of solar particles and radiation that may cause disruptive
-space weather around Earth, is the outermost layer of the Sun: the solar
-corona \cite{Cranmer2017,Klein2017}. The solar corona can be easily recognized
-as the bright halo that appears around the hidden Sun during solar eclipses.
-\autoref{corona} shows two beautiful photographs of the corona, taken in two
-different solar eclipses, August 21 $2017$ and July 2 $2019$. In both pictures,
-one can see the moon covering the bright photosphere, allowing us to have a
-glimpse of the thin, but ultra-hot coronal plasma.
-
-Counter-intuitively, the solar corona is, at the same time, the most tenuous
-and the hottest outer layer of the Sun. At the top of the chromosphere, where
-the temperature might reach $20,000\,\unit{K}$, in a relatively narrow interface,
-the \emph{solar transition region}, the plasma temperature rises abruptly to
-$\sim 10^6\,\unit{K}$ \cite{BenzA2002}. It has been almost eighty years since
-the extreme coronal temperature came as the only reasonable explanation for the
-origin of the spectral lines observed in the solar corona \cite{Hunter1942},
-in a classical case of an answer that brings a more troublesome question. 
-Since then, several mechanisms have been proposed \cite{Parker1988,Scudder92b,
-  Vinas2000,PP14}, not only to comprehend the heating of the solar corona,
-but also the acceleration of the solar wind. Another unsolved problem that is
-directly connected to the inverted temperature profile of the solar corona and
-particle acceleration in the Sun, is regarding where and how the non-Maxwellian
-velocity distribution functions with suprathermal tails, observed in the solar
-wind, are formed\footnote{The generation of suprathermal electrons in the lower
-  corona and its consequences to the coronal heating problem are tackled in
-  \cite{Tigik2017a} (see \autoref{sec:gen-supr}).}.
-\begin{figure}
-  \begin{center}
-    \includegraphics[width=0.892\textwidth]{corona2017.png}
-    \includegraphics[width=0.892\textwidth]{corona2019.png}
-    \caption{Solar corona captured during the total solar eclipse of 2017 (top panel)
-      and 2019 (lower panel). The reddish contour at some regions is the chromosphere,
-      and the reddish arcs are solar prominences, chromospheric plasma structures that
-      penetrate the coronal region.
-      {\footnotesize Credit:}
-      \href{https://hdr-astrophotography.com}
-      {\footnotesize Nicolas Lefaudeux}{\footnotesize , accessed at 15/08/2019}.}
-    \label{corona}
-  \end{center}
-\end{figure}
 
 %% Eu acho que ainda tenho que escrever algo aqui. Vou pensar ainda a respeito.
 
