@@ -58,6 +58,7 @@
 % }
 \usepackage{url}
 \usepackage{graphicx}
+\usepackage{pdfpages} 
 \usepackage{caption}
 \usepackage{ifxetex}
 \usepackage{xspace}
@@ -117,7 +118,7 @@
 % \usetheme{Madrid}
 % \usetheme{Malmoe}
 % \usetheme{Marburg}
- \usetheme[progressbar=frametitle,numbering=fraction,sectionpage=progressbar,subsectionpage=progressbar]{metropolis}
+\usetheme[progressbar=frametitle,numbering=fraction,sectionpage=progressbar,subsectionpage=progressbar]{metropolis}
 % \usetheme{Montpellier}
 % \usetheme{PaloAlto}
 % \usetheme{PhnomPenh}
@@ -2164,7 +2165,7 @@
 \end{frame}
 
 \section*{Amortecimento colisional para ondas de plasma}
-\subsection{Amortecimento colisional para ondas de plasma}
+% \subsection{Amortecimento colisional para ondas de plasma}
 \begin{frame}
   \frametitle{Análise da intensidade do amortecimento colisional das
     ondas de plasma}
@@ -2389,8 +2390,8 @@
 
 \section*{Geração de elétrons supratérmicos por processos
   coletivos em plasmas colisionais}
-\subsection{Geração de elétrons supratérmicos por processos
-  coletivos em plasmas colisionais}
+% \subsection{Geração de elétrons supratérmicos por processos
+%   coletivos em plasmas colisionais}
 \begin{frame}
   \frametitle{Geração de elétrons supratérmicos e o processo de
     bremsstrahlung eletrostático}
@@ -2646,6 +2647,44 @@
   \end{itemize}
 \end{frame}
 
+\section*{Estado assintótico}
+\begin{frame}\frametitle{Equação para o estado assintótico das ondas $L$}
+  \begin{itemize}
+  \item A equação para o estado assintótico das ondas $\alpha$,
+    incluindo os novos efeitos, é dada por
+  \end{itemize}
+  \begin{equation}
+    {\cal E}_{\bf q}^{\sigma {\alpha}}(0)
+    =-\frac{S_{\bf q}^{\alpha} + P_{\bf q}^{\alpha}}{\hspace{0.60cm}\gamma_{\bf q}^{\alpha} 
+  +2\gamma_{\bf q}^{{\alpha}\mbox{\tiny (coll)}}}.
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Estados assintóticos com bremsstrahlung
+  eletrostático}
+  \begin{figure}
+    \centering\includegraphics[width=0.5\textwidth,angle=270]{IL1D_005kvar}
+    \caption*{Estado assintótico do espectro das ondas de Langmuir com o
+      efeito de bremsstrahlung eletrostático incluído, para uma função de
+      distribuição Maxwelliana e para diversos índices $\kappa$.}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Estados assintóticos sem bremsstrahlung
+    eletrostático}
+  \begin{figure}
+    \centering\includegraphics[width=0.5\textwidth,angle=270]{IL1D_005kvarno-brem}
+    \caption*{Estado assintótico do espectro das ondas de Langmuir sem o
+      efeito de bremsstrahlung eletrostático incluído, para uma função de
+      distribuição Maxwelliana e para diversos índices $\kappa$.}
+  \end{figure}
+\end{frame}
+
+
+
 \section{Publicação extra}
 \begin{frame}
   \frametitle{Processos fracamente turbulentos na presença de
@@ -2668,8 +2707,8 @@
     \vspace{0.2cm}
     \pause
     \item Contudo, este trabalho não envolve nenhum tipo de interação
-    colisional, enquanto o estudo recém apresentado considera apenas
-    ondas eletrostáticas e função de distribuição Maxwelliana;
+      colisional, enquanto o estudo apresentado até o momento considera
+      apenas ondas eletrostáticas e função de distribuição Maxwelliana;
     \vspace{0.2cm}
     \pause
     \item Os resultados deste trabalho mostram que, mesmo a presença de
@@ -2679,64 +2718,41 @@
   \end{itemize}
 \end{frame}
 
+\section*{Entre a entrega da tese e a defesa um artigo foi aceito}
+% \subsection*{\emph{Bremsstrahlung} eletrostático e amortecimento
+%   colisional como processos inversos}
 \begin{frame}
-  \frametitle{Estados assintóticos sem bremsstrahlung
-    eletrostático}
+  \frametitle{Emissão de \emph{bremsstrahlung} e amortecimento colisional
+    para ondas de Langmuir}
   \begin{figure}
-    \centering\includegraphics[width=0.5\textwidth,angle=270]{IL1D_005kvarno-brem}
-    \caption*{Estado assintótico do espectro das ondas de Langmuir sem o
-      efeito de bremsstrahlung eletrostático incluído, para uma função de
-      distribuição Maxwelliana e para diversos índices $\kappa$.}
+    \centering \includegraphics[width=0.82\textwidth]{print_Tigik2019.png}
+   \caption*{Artigo Submetido à revista \emph{Plasma Physics and Controlled
+      Fusion (PPCF)}.}
   \end{figure}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Estados assintóticos com bremsstrahlung
-  eletrostático}
-  \begin{figure}
-    \centering\includegraphics[width=0.5\textwidth,angle=270]{IL1D_005kvar}
-    \caption*{Estado assintótico do espectro das ondas de Langmuir com o
-      efeito de bremsstrahlung eletrostático incluído, para uma função de
-      distribuição Maxwelliana e para diversos índices $\kappa$.}
-  \end{figure}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Cronograma}
+  \frametitle{Processos inversos}
   \begin{itemize}
-    \item O cronograma esperado para o restante do doutorado
-    é o seguinte:
-    \vspace{0.25cm}
-    \begin{itemize}
-      \item \textbf{Março a julho 2018:}
-      dar continuidade à pesquisa com a análise da inclusão dos
-      novos efeitos na evolução temporal da interação feixe plasma,
-      implementação de um código para a inclusão dos efeitos de
-      não homogeneidade no plasma;
-      \vspace{0.2cm}
-      \item \textbf{Agosto 2018 a fevereiro 2019:}
-      período de estágio de doutorado sanduíche na Universidade de
-      Maryland;
-      \vspace{0.2cm}
-      \item \textbf{Março a agosto 2019:} elaboração da tese.
-    \end{itemize}
+  \item As equações para a emissão de \emph{bremsstrahulng} eletrostático
+    e para o amortecimento colisional são processos inversos na 
   \end{itemize}
 \end{frame}
 
 \begin{frame}
   \frametitle{Fim}
-  \vspace{1.5cm}
+  \vspace{1.2cm}
   \centering {\Huge{\bf Obrigada!}} %$\bigstar$
 
-  \vspace{1.5cm}
+  \vspace{1.2cm}
 
   \begin{figure}
     \caption*{Financiamento:}
     \centering
     \includegraphics[width=0.22\textwidth]{cnpq.png}
+    \hspace{1cm} \includegraphics[width=0.13\textwidth]{capes.png}
   \end{figure}
 \end{frame}
-
 
 \begin{frame}[noframenumbering]
   \frametitle{Equações microscópicas de Klimontovich}
