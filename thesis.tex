@@ -119,8 +119,8 @@
 \input{pagtit}
 \pagenumbering{gobble}
 %\input{folhadeaprovacao}
-% \input{ty}
-% \input{epi}
+\input{ty}
+\input{epi}
 %\input{resumo}
 %\input{param}{\pagestyle{empty}}
 %\pagenumbering{none}
@@ -627,30 +627,33 @@ these interactions is determined by the \emph{Debye length}
   \label{debye}
   \lambda_{De}=\sqrt{\frac{k_BT_e}{4\pi n e^2}},
 \end{equation}
-where $T_e$ is the electron temperature, $k_B$ the Boltzmann constant, $n$
-the plasma density and $e$ the electron charge. This means that a specific
-charge will interact effectively only with other charges that are inside of a
-virtual sphere with radius given by $\lambda_{De}$, being almost completely
-shielded from the influence of particles outside the \emph{Debye sphere}.
-The self-consistent interaction between charged particles and electric and
-magnetic fields, creates fluctuations in the local neutrality of the plasma,
-giving rise to the series of oscillations and complex wave phenomena that
-characterize the plasma’s collective behavior~\cite{chen}.
-
-Describing the precise state of a plasma, in a given time, would require
-the knowledge of the $6N$ phase-space coordinates of each particle, and also
-the microscopic amplitudes of the electric and magnetic fields at each point
-in space. Such exact representation is clearly a non-practical approach for
-a many-body system like the plasma. However, this microscopic formulation
-can be approximated to a macroscopic description by taking the average of
-the microscopic quantities and making suitable assumptions to truncate the
-correlation functions at an appropriate point~\cite{klimon}. This will lead
-to the plasma kinetic equations, which is the first of a hierarchy of
-approximations that also includes the multi-fluid and magnetohydrodynamic
-theories. The application of each one of these formulations will depend on
-the context and the scale of the phenomena being described~\cite{chen}.
-In this work we are interested in small-scale processes that depend on
-velocity-space properties, requiring a kinetic description of the plasma.
+where $T_e$ is the electron temperature\footnote{Due to the high mobility,
+  electrons are the main responsible for maintaining the Debye shielding.
+  There are specific situations where this is not true~\cite{chen}, but
+  they are outside of the scope of the current study.}, $k_B$ the Boltzmann
+constant, $n$ the plasma density and $e$ the electron charge. This means
+that a specific charge will interact effectively only with other charges
+that are inside of a virtual sphere with radius given by $\lambda_{De}$,
+being almost completely shielded from the influence of particles outside
+the \emph{Debye sphere}. The self-consistent interaction between charged
+particles and electric and magnetic fields, creates fluctuations in the
+local neutrality of the plasma, giving rise to the series of oscillations
+and complex wave phenomena that characterize the plasma’s collective
+behavior~\cite{chen}. Describing the precise state of a plasma, in a given
+time, requires the knowledge of the $6N$ phase-space coordinates of each
+particle, and also the microscopic amplitudes of the electric and magnetic
+fields at each point in space~\cite{klimon}. Such exact representation is
+clearly a non-practical approach for a many-body system like the plasma.
+However, this microscopic formulation can be approximated to a macroscopic
+description by taking the average of the microscopic quantities and making
+suitable assumptions to truncate the correlation functions at an appropriate
+point~\cite{klimon}. This will lead to the plasma kinetic equations, which is
+the first of a hierarchy of approximations that also includes the multi-fluid
+and magnetohydrodynamic theories. The application of each one of these
+formulations will depend on the context and the scale of the phenomena being
+described~\cite{chen}. In this work we are interested in small-scale processes
+that depend on velocity-space properties, requiring a kinetic description of
+the plasma.
 
 Based on the concepts and methods of statistical mechanics, together with the
 Maxwell equations, the kinetic theory is the most fundamental description of
@@ -665,8 +668,8 @@ a particle of species $\alpha$ in a volume element $d^3r$ around ${\bf r}$
 and in a velocity volume element $d^3v$ around ${\bf v}$, at the instant $t$
 \cite{klimon}.
 
-In a first approximation, the plasma dynamics is described by the
-Boltzmann equation
+Like non-ionized gases, the statistical description of the plasma dynamics
+is given by the Boltzmann equation
 \begin{equation}
 \frac{\partial f_\alpha({\bf r},{\bf v},t)}{\partial t}
 +{\bf v \cdot \nabla_r}f_\alpha({\bf r},{\bf v},t)
@@ -993,8 +996,8 @@ quasilinear approximation.
 % LFZ180216: Sugiro "are precisely the same as those leading to the
 % quasilinear approximation."
 % Sabrina: OK
-Thus, at this point, one must choose whether the quasilinear approach
-is enough, or if a nonlinear formulation is necessary. In the first case
+Thus, at this point, one must choose if the quasilinear approach is
+enough, or if a nonlinear formulation is necessary. In the first case
 all terms proportional to $\delta {\bf E} \delta f_a$ are neglected in
 the equation for the fluctuations\footnote{See subsection 3.1.2 of
   \cite{Tigik2015}.}. We shall keep these terms and proceed with the
