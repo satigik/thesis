@@ -1612,9 +1612,9 @@ The generalized spectral energy density, which contains the noneigenmode
 contribution, is the central factor of this new kinetic turbulence theory
 for collisional plasmas. When it is substituted in the nonlinear terms of
 the nonlinear spectral balance equation, three new terms appear in the wave
-kinetic equation. The first expression is an extension for the spontaneous
+kinetic equation. The first term is an extension for the spontaneous
 scattering equation. The second term is a new, rigorous expression for the
-collisional damping rate of plasma waves. The third equation depicts a
+collisional damping rate of plasma waves. The third term depicts a
 hitherto unknown process of electrostatic radiation emission, in the eigenmode
 frequency range, due to particle scattering. This underlying electrostatic
 form of braking radiation was
@@ -1699,12 +1699,12 @@ of the dispersion relations, calculated in the vicinity of the zeros of
 $\mbox{Re}\,\epsilon({\bf k},\omega)$.
 
 
-Therefore, we have two distinct situations. In the first case,
-when collective modes are not important, the electric field energy
-can be expressed by Eq. \eqref{balance} with the electric field fluctuation
-$\left< \delta E^2 \right>_{{\bf k},\omega}^0$ given by \eqref{field-fluc},
-and the standard situation, in which collective modes are important,
-then the wave electric field is determined by
+Therefore, we have two distinct situations. One is the situation in which
+collective modes are not important, and the electric field energy can be
+expressed by Eq. \eqref{balance} with the electric field fluctuation
+$\left< \delta E^2 \right>_{{\bf k},\omega}^0$ given by \eqref{field-fluc}.
+The other is standard situation, in which collective modes are important,
+and the wave electric field is determined by
 \begin{equation}
   \label{collective}
   \begin{split}
@@ -1745,10 +1745,11 @@ with the eigenvalue $\sigma \omega_{\bf k}^\alpha$ satisfying
   \mbox{Re}\, \epsilon({\bf k},\sigma\omega_{\bf k}^\alpha)=0.
 \end{equation}
 
-This procedure encompasses these two situations by taking into account
-the collective modes that satisfy the eigenmode condition, and the
-non eigenmode contribution by generalizing Eq. \eqref{wave-dens},
-as follows
+The procedure described above encompasses the two possibilities under
+analysis in this work by generalizing Eq.~\eqref{wave-dens} to take into
+account the noneigenmode contribution, given by Eq.~\eqref{field-fluc},
+along with Eq.~\eqref{Psi-eigen} for the collective modes that satisfy
+the eigenmode condition, resulting in the following expression
 \begin{equation}
   \label{gen-dens}
   \left< \delta E^2 \right>_{{\bf k},\omega}
@@ -1849,14 +1850,12 @@ And, rearranging Eq. \eqref{eigenmode-ql}, we obtain
   \sum_a e^2_a\, \int d{\bf v}\,\delta(\omega-{\bf k \cdot v})f_a({\bf v}),
 \end{split}
 \end{equation}
-that is equivalent to the first term of Eq. \eqref{wave-lin},
-plus the term of spontaneous emission, which is absent in
-\eqref{wave-lin}, but has the exact same form of the second
-right-hand term in Eq. \eqref{eigenmode-ql2} (see Eq. 3.8 of
- Ref. \cite{YZKS16}). These two processes are determined by
- linear wave-particle resonance conditions
+that is equivalent to the first two terms of Eq.~\eqref{wave-lin},
+which describe the effects of spontaneous and induced emissions,
+respectively. Both processes are determined by the linear
+ wave-particle resonance conditions
  $\sigma \omega_{\bf k}^\alpha-{\bf k\cdot v}=0$.
-So we may conclude that noneigenmodes do not alter the
+Therefore, we may conclude that noneigenmodes do not alter the
 quasilinear wave kinetic equation.
 
 \subsection{Noneigenmode contribution to particle kinetic equation}
@@ -2497,7 +2496,7 @@ second order susceptibility for the $L$ and $S$ waves, we have
 \subsection{Generalized wave kinetic equation for $L$ and $S$ waves}
 Adding Eqs. \eqref{gammaL} and \eqref{PkL} to Eq. \eqref{L,1},
 and Eqs. \eqref{gammaS} and \eqref{PkS} to Eq. \eqref{S,1}, and
-then substituting the spontaneous emission term of both equations
+then substituting the spontaneous scattering term of both equations
 with their respective corrected expressions, \eqref{corrL} and
 \eqref{corrS}, we obtain the following generalized wave kinetic
 equations for $L$ and $S$ waves, respectively:
@@ -2639,10 +2638,10 @@ numerically integrated Eqs. \eqref{gammaL}
 for $L$ waves, and \eqref{gammaS} for $S$ waves, considering Maxwellian
 velocity distribution function for the particles, without including the
 new effects in the time evolution subroutine. The main objective here
-was to comprehend important aspects of this so-far unknown expression,
-how it relates to other equivalent plasma processes and with the
+was to comprehend important aspects of this so-far unknown expressions,
+how they relate to other equivalent plasma processes and with the
 heuristic Spitzer formula, for collisional damping. The main question
-was: ``Are they equivalent?'', more specifically, ``Are their intensities,
+was: ``Are they equivalent?'', more specifically, ``Are their magnitudes,
 at least, in the same order of magnitude?''. The answer was no. We found
 out that the Spitzer formula overestimates the collisional damping effect
 in several orders of magnitude in comparison with the new expression.
