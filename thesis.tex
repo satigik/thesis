@@ -2748,8 +2748,10 @@ fluctuations, become
 \end{split}
  \label{EpsS}
 \end{equation}
-where $\gamma_{\bf q}^{\sigma L}$ and $\gamma_{\bf q}^{\sigma S}$ describe
-the collisional damping rate for $L$ and $S$ waves, respectively
+where $\gamma_{\bf q}^{\sigma L}$ and $\gamma_{\bf q}^{\sigma S}$ are the
+dimensionless form of Eqs. \eqref{gammaL} and \eqref{gammaS}, which
+describe the collisional damping rate for $L$ and $S$ waves,
+respectively
 \begin{equation}
   \label{GqL}
   \begin{split}
@@ -2776,11 +2778,13 @@ the collisional damping rate for $L$ and $S$ waves, respectively
     \cdot\frac{\partial}{\partial {\bf u}}
     \left(\Phi_e({\bf u})+\frac{m_e}{m_i}
     \Phi_i({\bf u})\right)\delta(z_{\bf q}^S
-    -{\bf q'}\cdot{\bf u}),
+    -{\bf q'}\cdot{\bf u}).
   \end{split}
 \end{equation}
-and $P_{\bf q}^{\sigma L}$ and $P_{\bf q}^{\sigma S}$ terms depict the
-normalized electrostatic bremsstrahlung equations, given by
+The terms $P_{\bf q}^{\sigma L}$ and $P_{\bf q}^{\sigma S}$ are the
+normalized versions of Eqs. \eqref{PkL} and \eqref{PkS}, that depict
+the electrostatic bremsstrahlung effect for $L$ and $S$ waves, and
+are respectively given by
 \begin{equation}
   \begin{split}
     P_{\bf q}^{\sigma L}
@@ -3198,7 +3202,7 @@ Therefore, using Eq. \eqref{alpha2} in Eq. \eqref{chi2,1},
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=&-\frac{4\pi ie_a}{k k'|{\bf k-k'}|}\frac{1}{2}\int d{\bf v''}\,\biggl[
+=&-\frac{4\pi i e_a}{k k'|{\bf k-k'}|}\frac{1}{2}\int d{\bf v''}\,\biggl[
 ({\bf k'}\cdot
 {\bf g}_{{\bf k},{\bf k'}\cdot {\bf v'}+({\bf k-k'})\cdot {\bf v}}^a)
 (({\bf k-k'})\cdot 
@@ -3215,7 +3219,7 @@ By using Eq. \eqref{goper},
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\int d{\bf v''}\\
+=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\int d{\bf v''}\\
 &\times\left\{[\frac{{\bf k'}\cdot \partial_{\bf v''}}
 {[{\bf k'\cdot v'}+({\bf k-k'})\cdot{\bf v}-{\bf k}\cdot{\bf v''}+i0]}
 \frac{({\bf k-k'})\cdot \partial_{\bf v''}}
@@ -3232,7 +3236,7 @@ By using Eq. \eqref{goper},
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\int d{\bf v''}\\
+=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\int d{\bf v''}\\
 &\times\left\{\frac{
 {\bf k'}\cdot({\bf k-k'})}
 {[{\bf k'\cdot v'}+({\bf k-k'})\cdot{\bf v}-{\bf k}\cdot{\bf v''}+i0]}
@@ -3301,7 +3305,7 @@ at the same point in the previous approach:
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2} \int d{\bf v''}\\
+=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2} \int d{\bf v''}\\
 &\times\left\{-\frac{T_a}{m_a}\frac{{\bf k'}\cdot({\bf k-k'})}
 {[\sigma\omega_{\bf k}^\alpha-{\bf k}\cdot{\bf v''}+i0]}
 \frac{({\bf k-k'})\cdot{\bf v''}}
@@ -3336,7 +3340,7 @@ and ${\bf k'}\cdot {\bf v}\simeq 0$, then
 \begin{split}
 \label{chi2,2b}
 \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}\int d{\bf v''}\\
+=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}\int d{\bf v''}\\
 &\times \left\{-\frac{T_a}{m_a}\frac{{\bf k'}\cdot({\bf k-k'})}
 {[\sigma\omega_{\bf k}^\alpha-{\bf k}\cdot{\bf v''}+i0]}
 \frac{({\bf k-k'})\cdot{\bf v''}}
@@ -3366,7 +3370,7 @@ dominant on the denominators,
 \begin{equation}
   \begin{split}
     \chi_a^{(2)}&[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-    =-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}\int d{\bf v''}\\
+    =-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}\int d{\bf v''}\\
     &\times\left[-\frac{T_a}{m_a}[{\bf k'}\cdot({\bf k-k'})]
       \frac{({\bf k-k'})\cdot{\bf v''}}
       {(\sigma\omega_{\bf k}^L)^3}+ \frac{({\bf k'}\cdot{\bf v''})
@@ -3388,7 +3392,7 @@ when integrated, remaining
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}
+=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}
 \int d{\bf v''}\,\left[2\frac{({\bf k'}\cdot{\bf v''})
 (({\bf k-k'})\cdot{\bf v''})}
 {(\sigma\omega_{\bf k}^L)^2} 
@@ -3400,10 +3404,10 @@ As an approximation, we write
 \begin{equation}
 \begin{split}
 \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
-&=-\frac{2\pi ie_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}
+&=-\frac{2\pi i e_a^3}{k k'|{\bf k-k'}|m_a^2}\frac{m_a^2}{T_a^2}
 2\frac{k'|{\bf k-k'}|}{(\sigma\omega_{\bf k}^L)^2} 
 \int d{\bf v''}\,|{\bf v''}|^2 f_a({\bf v''})\\
-&=-\frac{2\pi ie_a^3}{k m_a^2}\frac{m_a^2}{T_a^2}
+&=-\frac{2\pi i e_a^3}{k m_a^2}\frac{m_a^2}{T_a^2}
 \frac{2}{(\sigma\omega_{\bf k}^L)^2} \frac{2T_a}{m_a}\overline{n}\\
 &=-i\frac{e_a}{m_a}\frac{\omega_{pa}^2}{k(\sigma\omega_{\bf k}^L)^2} 
 \frac{m_a^2}{T_a^2}\frac{2T_a}{m_a}\nonumber
@@ -3414,7 +3418,7 @@ which leads to
 \label{chi2,3}
 \chi_a^{(2)}[{\bf k'},{\bf k'\cdot v'}|{\bf k-k'},({\bf k-k'})\cdot{\bf v}]
 \simeq -i4\frac{e_a}{m_a}\frac{\omega_{pa}^2}{(\omega_{\bf k}^L)^2} 
-\frac{1}{kv_{a}^2}
+\frac{1}{k v_{a}^2}
 \end{equation}
 
 Defining $e_i=e$ and $e_e=-e$, and assuming $n_e=n_i=\overline{n}$, we have
