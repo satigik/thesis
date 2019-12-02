@@ -2837,34 +2837,34 @@ following form
   \end{split}
 \end{equation}
 where $\theta_{ab}(\Phi_a,\Phi_b)$ is the linearized Landau
-collision integral, given by
+collision integral, which, for $a=e$, is given by
 \begin{equation}
   \begin{split}
-     \theta_{ab}(\Phi_a,\Phi_b) &= \Gamma_{ab}\left\{
-     \frac{\partial}{\partial{\bf u}_a}\cdot
-     \left(2\frac{m_a}{m_b}\Psi(u_{ab})
-     \frac{{\bf u}_a}{u^3_a}\Phi_a\right)\right.\\
-  &+\frac{\partial}{\partial{\bf u}_a}\cdot
-     \left\{\left[\left(\Phi(u_{ab})
-     -\frac{1}{2 u_{ab}^2}\Psi(u_{ab})\right)
-     \frac{\partial^2u_a}{\partial{\bf u}_a
-     \partial{\bf u}_a}\right]\cdot
-     \frac{\partial \Phi_a}{\partial{\bf u}_a}\right\}
+    \sum_b\theta_{eb}(\Phi_e,\Phi_b) &= \sum_b \Gamma_{eb}
+    \left\{\frac{\partial}{\partial{\bf u}}\cdot
+     \left(2\frac{m_e}{m_b}\Psi(u_{eb})
+     \frac{{\bf u}}{u^3}\Phi_e\right)\right.\\
+  &+\frac{\partial}{\partial{\bf u}}\cdot
+     \left\{\left[\left(\Phi(u_{eb})
+     -\frac{1}{2 u_{eb}^2}\Psi(u_{eb})\right)
+     \frac{\partial^2u}{\partial{\bf u}
+     \partial{\bf u}}\right]\cdot
+     \frac{\partial \Phi_e}{\partial{\bf u}}\right\}
     \label{eq:coll-lin} \\
-  &+\left. \frac{\partial}{\partial{\bf u}_a}\cdot
-     \left[\left(\frac{1}{u_{ab}^2}\Psi(u_{ab})
-     \frac{{\bf u}_a{\bf u}_a}{u_a^3}\right)\cdot
-   \frac{\partial \Phi_a}{\partial{\bf u}_a}\right]\right\},
+  &+\left. \frac{\partial}{\partial{\bf u}}\cdot
+     \left[\left(\frac{1}{u_{eb}^2}\Psi(u_{eb})
+     \frac{{\bf u}{\bf u}}{u^3}\right)\cdot
+   \frac{\partial \Phi_e}{\partial{\bf u}}\right]\right\},
 \end{split}
 \end{equation}
-where $u_{ab}\equiv u_a (v_{T_a}/v_{T_b})$, $u_a=v_a/v_{T_a}$,
-with $v_{T_a}$ and $v_{T_b}$ representing the thermal velocity of
-the particles of species $a$ and $b$, respectively. The quantity
-$\Psi(x)\equiv\Phi(x)-x\Phi'(x)$ is an auxiliary function \cite{
-  Gaffey1976}, in which $\Phi(x) \equiv \frac{2}{\sqrt{\pi}}
+where $u_{eb}\equiv u (v_{t_e}/v_{t_b})$, $u=v/v_{t_e}$,
+with $v_{t_e}$ and $v_{t_b}$ representing the thermal velocity of
+electrons and the particles of species $b$, with $b=e,i$. The
+quantity $\Psi(x)\equiv\Phi(x)-x\Phi'(x)$ is an auxiliary function
+\cite{Gaffey1976}, in which $\Phi(x) \equiv \frac{2}{\sqrt{\pi}}
 \int_0^x e^{-t^2}dt$ is the error function and $\Phi'(x)=
 \frac{2}{\sqrt{\pi}}e^{-x^2}$ is its derivative. The factor
-$\Gamma_{ab}$ is given by $\Gamma_{ab}=2\pi g Z_b^2 \ln\Lambda $,
+$\Gamma_{eb}$ is given by $\Gamma_{eb}=2\pi g Z_b^2 \ln\Lambda $,
 where $g=1/[2^{3/2}(4\pi)^2\hat n \lambda_{De}^3]$ is the plasma
 parameter, $\ln \Lambda$ is Coulomb logarithm, and $Z_{b=e,i}$ is
 the charge number of ions and electrons, with $Z_e=1$.
